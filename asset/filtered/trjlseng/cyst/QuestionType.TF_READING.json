@@ -1,0 +1,146 @@
+{
+    "question_sets": [
+        {
+            "type": "Reading-Comprehension-With-True-or-False",
+            "context": "Good news for all Chinese middle school students in the countryside. They don’t have to pay for school anymore. 51-year-old Ren Yuqi is even happier than the students. It was Ren who suggested the idea to the government about this.\n   Ren is not a government official but the boss of a big company in Hunan. He talks to the government as a deputy (代表) of the National People’s Congress (人民代表大会). He is in Beijing for the NPC’s yearly meeting.\n   “This year I have 20 suggestions for making farmers’ lives and the environment better. They all come from studying country people’s lives,” said Ren.\n   Ren went to several provinces to find out about how people live in the countryside. He saw that many children dropped out of school because they are poor. So at the last NPC meeting he suggested the government spend more money in helping kids get back to school. Most of the NPC deputies agreed to it, the government adopted and make it law.\n   The Chinese people elect Ren, just like they do the other 2,977 NPC members. The lower-level (较低级别的) deputies choose the upper-level ones.\n   At NPC meetings deputies also take part in making and changing laws. They help decide on State leaders and public policies (政策) as well.",
+            "questions": [
+                {
+                    "text": "Many poor kids from the countryside can go back to school because Ren Yuqi’s idea to help poor children from the countryside has been adopted by the government.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "T",
+                    "is_answer_provided": true,
+                    "explanation": "According to the passage, Ren Yuqi’s idea to help poor children from the countryside has been adopted by the government, so many poor kids from the countryside can go back to school.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The underlined word “adopted” mean “按照” in Chinese.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "The underlined word “adopted” means “采纳” in Chinese.",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary"
+                },
+                {
+                    "text": "The government chooses the deputies.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "The Chinese people elect Ren.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "2979 deputies are there altogether according to the passage.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "2,977 NPC members",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "“They all come from studying country people’s lives”. “They” refers to (指) suggestions.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "T",
+                    "is_answer_provided": true,
+                    "explanation": "They refers to suggestions.",
+                    "test_point": "Reading Comprehension; Reference Words"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-True-or-False",
+            "context": "Joan worked in a hospital as a nurse. One evening there was a big dance at the hospital. Most of the doctors and nurses would be there, but of course somebody had to be left to look after the sick children, and Joan was not of the lucky ones. She liked dancing very much, so when she had to start work that evening while her friends were getting ready to go to the dance, she felt very sorry for herself.\nShe went to each sick child one after another and said good-night, until she came to one little boy, Dick. He was eleven years old, but he was already able to talk like an adult. Poor Dick had a very serious illness, and now he was hardly to move any part of his body except his hands. Joan knew he would never get any better, but he was always happy and always thinking about other people instead of himself.\nDick knew that Joan loved dancing. So when she came to say good-night to him, he greeted her with the words, “I’m very sorry that you have to miss the dance because of us. But we are going to have a party for you. If you look in my drawer (抽屉), you find a piece of cake. I saved it from my supper today, so it is quite fresh. And there is also a dollar there. You can buy something to drink with that. And I’ll get up and dance with you myself if I was able to,” he added.\nSuddenly the hospital dance seemed very far away and not at all important to Joan.",
+            "questions": [
+                {
+                    "text": "Joan felt unlucky that evening mainly because she would lose the chance to go to the big dance at the hospital.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "T",
+                    "is_answer_provided": true,
+                    "explanation": "The first paragraph indicates Joan felt sorry for herself for missing the dance.",
+                    "test_point": "Reading Comprehension; Main Idea Identification; Inference Skills"
+                },
+                {
+                    "text": "Poor Dick was clever at talking though he was very young.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "T",
+                    "is_answer_provided": true,
+                    "explanation": "The second paragraph states that Dick was already able to talk like an adult.",
+                    "test_point": "Reading Comprehension; Supporting Details; Inference Skills"
+                },
+                {
+                    "text": "Dick was lovely because he could foresee (预知) that he would never get better .",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "Dick was lovely because he was always happy and thinking about other people.",
+                    "test_point": "Reading Comprehension; Fact vs. Opinion; Inference Skills"
+                },
+                {
+                    "text": "Dick rose up to greet Joan when she came.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "The second paragraph states that Dick was hardly able to move any part of his body except his hands.",
+                    "test_point": "Reading Comprehension; Supporting Details; Inference Skills"
+                },
+                {
+                    "text": "At that party arranged for Joan, Dick probably lost the dollar which he was going to give Joan.",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "The passage doesn't state that Dick lost the dollar.",
+                    "test_point": "Reading Comprehension; Inference Skills; Implicit Information"
+                }
+            ]
+        }
+    ]
+}

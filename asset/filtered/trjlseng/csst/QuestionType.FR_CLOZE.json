@@ -1,0 +1,268 @@
+{
+    "question_sets": [
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "In China, a lot of food is wasted every year and the waste food is enough for <blank> of people. The food <blank> in restaurants, at home and in schools, etc.\nIn restaurants or <blank> home, people often order or cook too much food. But they can’t eat it up. When they go out of the restaurant, they never look back at the uneaten food at the table again.\nIn schools, we can often see a lot of students throw food <blank> after meals and they only eat <blank> they like.\nEveryone is supposed to have enough food to eat. <blank>, in some places, the food is so little <blank> a lot of people died from hunger. Although China has tried hard to solve the problem of hunger over the past 30 years, the job is not finished yet. Food is <blank> to us. We can’t live without food. So it is necessary for us <blank> up everything on <blank> plates. When we eat in restaurants, we should pack up the leftovers（剩菜剩饭）. We also need to tell other people to stop wasting food as soon as possible.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "millions",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence discusses the large amount of food wasted and its potential to feed many people, suggesting 'millions' as a fitting quantity.",
+                    "test_point": "Countable & Uncountable Nouns; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "waste",
+                    "is_answer_provided": false,
+                    "explanation": "The paragraph is about wasted food, so the noun 'waste' is appropriate here.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "at",
+                    "is_answer_provided": false,
+                    "explanation": "The correct preposition to use with 'home' in this context is 'at'.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "away",
+                    "is_answer_provided": false,
+                    "explanation": "'Throw away' is a phrasal verb meaning to discard something.",
+                    "test_point": "Phrasal Verbs; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "what",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence means they only eat the food 'what' they like.",
+                    "test_point": "Relative Clauses; Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "However",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence introduces a contrast, so 'However' is a suitable connector.",
+                    "test_point": "Logical Connectors; Transition Words"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "that",
+                    "is_answer_provided": false,
+                    "explanation": "The structure 'so little that' is used to express a consequence.",
+                    "test_point": "Conjunctions; Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "important",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence emphasizes the significance of food, so 'important' is the appropriate adjective.",
+                    "test_point": "Word Formation; Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "to eat",
+                    "is_answer_provided": false,
+                    "explanation": "The infinitive 'to eat' is needed after 'necessary' to express the purpose.",
+                    "test_point": "Gerunds & Infinitives; Sentence Structure"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "our",
+                    "is_answer_provided": false,
+                    "explanation": "The possessive pronoun 'our' is needed to refer to 'we'.",
+                    "test_point": "Pronouns; Determiners"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "自我管理是青少年成长路上必要的一课。\n你校英语俱乐部正在举办一场关于\"自我管理\"的讨论。假如你是李华, 请你用英语写一篇短文投稿, 讲述一次你独自在家的经历, 你是如何进行自我管理的, 并谈谈你从中领悟到了什么。\n提示词语：time, plan, cook, manage, realize, life skills\n提示问题：\n● What was your home alone experience？\n● What did you learn？\nI once had a home alone experience. \n<blank>",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "My parents needed to travel for a week. So I had to be at home by myself. Although there was no parental restraint, I made a plan every day. 【高分句型一】I went to bed on time. I got up early in the morning. I made my own breakfast, and then I went to school by bus. After school, I made supper first. After supper, I began to do my homework. Then I had to clean up. （如何进行自我管理的）Through this experience, I realized the importance of self-management and learned some life skills. 【高分句型二】（领悟到了什么）",
+                    "is_answer_provided": true,
+                    "explanation": "The answer is provided in the text.",
+                    "test_point": "Content Completion; Writing Skills; Vocabulary Application"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "一滴水能够反射出太阳的光辉，一个美好的瞬间能够留下永恒的回忆。学会去发现身边的美好，乐观面对这个世界。\n假如你是李华，你校英语社团计划开展以“Beautiful Moment”为主题的分享会(Sharing Party)。班上的交换生 Peter 要来参加这个分享会，请你给他写封邮件，告知他分享会的时间、地点，分享的方式以及参加分享会的建议。\n提示词语：speech, photos, attractive, prepare, confident\n提示问题：● When and where will the Sharing Party be held?\n● How can Peter share his “Beautiful Moment”?\n● What advice can you give him?\nDear Peter,\nHow is it going?\nI’m writing to tell you about the Sharing Party “Beautiful Moment”.<blank>.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": " It will be held in our school hall at 3 p.m. next Monday. You can share your favorite “moment of the year” by giving a speech and making a poster. We believe the party will be an unforgettable experience for all of us. If you want listeners to be interested in your speech, you should prepare well. Each person will be given around five minutes to share, so your speech should be brief and well-organized.",
+                    "is_answer_provided": true,
+                    "explanation": "The answer is provided in the text.",
+                    "test_point": "Email Writing; Event Invitation; Providing Details"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "“自我悦纳”指个体能够正确评价和接受自己，并在此基础上不断改进、完善，取得更好的发展。它既是一种处世态度，也是一种处理困境的方式。\n某英文网站正在开展以“Self-acceptance”为主题的征文活动。假如你是李华， 请用英语写一篇短文投稿，分享一段你的经历。在这段经历中，你认识到自己的缺憾或不足，勇敢面对，积极改进，并最终取得进步，完善了自我。\n提示词语：difficult, realize, accept, improve\n提示问题: ● What challenge have you ever met?\nWhat did you do to deal with it?\nWhat have you learnt from the experience?\n<blank>\n<blank>\n",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "When I was in Grade 4, I didn’t like being with my classmates. Instead, I preferred reading books alone.\nWhen I heard my classmates call me “nerdy”, it hurt me a lot. I had many conversations with my parents and teachers. Then I came to realize that it was OK to be different and that I didn’t need to be like others. But I did try something new to fit in: I began to share what I read with my classmates. I even join their games sometimes, which has helped me make new friends.\nWe are all different. Although I should accept myself for who I am, I can also do something to improve, which will help me become a better and happier “ME”!",
+                    "is_answer_provided": true,
+                    "explanation": "The answer is provided in the text.",
+                    "test_point": "Personal Narrative; Self-reflection; Overcoming Challenges"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "Most people want to be happy,but few of them know how to find happiness.Money and success alone do not bring happiness forever. Aristotle(亚里士多德), a Greek thinker,said,“Happiness depends upon ourselves” 61<blank> Here are a few suggestions to help you be happier.  62<blank> such as reading a good book, listening to your favourite music,spending time with close friends. People who have several close friends often live happily.  63<blank>.\n 64<blank> .Many people go dancing or play sports. People can forget about their problems and only think about the activities.\n  Finally, many people find happiness in helping others. Studies show that people feel good when they spend their time helping others. 65<blank> You can help a friend with his or her lessons, go shopping to buy food for an elderly person.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "E",
+                    "is_answer_provided": false,
+                    "explanation": "",
+                    "test_point": "Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "",
+                    "test_point": "Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "",
+                    "test_point": "Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "",
+                    "test_point": "Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "",
+                    "test_point": "Logical Progression"
+                }
+            ]
+        }
+    ]
+}

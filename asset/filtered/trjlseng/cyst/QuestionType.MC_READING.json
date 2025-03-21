@@ -1,0 +1,2075 @@
+{
+    "question_sets": [
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Mr Li teaches Chinese in the USA. He comes back to China every year. He gives us a talk. He says,\" K Day in the USA is very interesting. All children like it very much. It is on March 7th. When you go out on that day, you can see children running with kites in the open air(露天). When you look up, you can see different kites in the sky（天空）. Some are big, and some are small. They are in different colours. Every kite has a long string(长线). The children begin to run when they get the kites up. Every child has a good time that day.",
+            "questions": [
+                {
+                    "text": "Mr Li is <blank>. He works in the USA.",
+                    "choices": {
+                        "A": "a worker",
+                        "B": "an English teacher",
+                        "C": "a doctor",
+                        "D": "a Chinese teacher"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Mr. Li teaches Chinese in the USA, so Mr. Li is a Chinese teacher.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                },
+                {
+                    "text": "Mr Li says something about <blank>.",
+                    "choices": {
+                        "A": "how to study English",
+                        "B": "K Day in the USA",
+                        "C": "his work in the USA",
+                        "D": "playing in the open air"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Mr. Li says \"K Day in the USA is very interesting.\"",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                },
+                {
+                    "text": "March 7th is <blank>.",
+                    "choices": {
+                        "A": "Children's Day",
+                        "B": "Teachers' Day",
+                        "C": "K Day",
+                        "D": "Tree planting Day(植树节)"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "K Day is on March 7th in the USA.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Every kite has <blank>.",
+                    "choices": {
+                        "A": "a short string",
+                        "B": "a long string",
+                        "C": "the same colour",
+                        "D": "the same size(大小)"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Every kite has a long string.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "There are <blank> kites in the sky on that day.",
+                    "choices": {
+                        "A": "all kinds of",
+                        "B": "one kind of",
+                        "C": "three kinds of",
+                        "D": "three"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "You can see different kites in the sky（天空）. Some are big, and some are small. They are in different colours.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Modern work and life bring anxieties(焦虑). Sometimes even little things make us upset. How can we deal with all of the worries and relax? Here are some tips.\n\n1. Take pictures every day\nTaking photos to record your daily life is a good way to make you feel happy. According to scientists, the pictures can remind you of those happy memories.\n\n2. Cry\nSome people hide their emotions when they feel sad. Crying many times can make you fell better.\n\n3. Rest on weekends\nWeekends are a time for rest, but some people, especially women, spend whole weekends doing housework. It makes them feel more tired. After working for a week, weekends are the best time for relaxation. A relaxing weekend can make you fell much better.\n\n4. Take part in more activities\nHaving a party is a great way to relax. Going out with friends for a picnic will be fun, and you won’t feel lonely.\n\n5. Go for a swim or a run\nSwimming or running during the day can make you feel better, help you forget everything temporarily, and help you sleep better.\n\n6. Sing while taking a shower\nSome people like to sing while taking a shower. They don’t care how good their singing is. It’s just a way to relax. Have a try. You are the only listener.",
+            "questions": [
+                {
+                    "text": "What is the passage mainly about?",
+                    "choices": {
+                        "A": "Life in modern society.",
+                        "B": "How to work well.",
+                        "C": "How to relax and live happily.",
+                        "D": "How to deal with little things."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage provides tips on how to relax and deal with anxieties, which leads to a happy life.",
+                    "test_point": "Reading Comprehension; Main Idea Identification; Summarization"
+                },
+                {
+                    "text": "What can help people sleep better according to the passage?",
+                    "choices": {
+                        "A": "Running.",
+                        "B": "Taking pictures.",
+                        "C": "Crying.",
+                        "D": "Singing."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions that swimming or running during the day can help you sleep better.",
+                    "test_point": "Reading Comprehension; Supporting Details; Fact Retrieval"
+                },
+                {
+                    "text": "Which of the following is TRUE?",
+                    "choices": {
+                        "A": "We should do housework on weekends.",
+                        "B": "Crying often is bad for our health.",
+                        "C": "Singing is one way for some people to relax.",
+                        "D": "We should swim or run for a long time every day."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions that some people like to sing while taking a shower as a way to relax.",
+                    "test_point": "Reading Comprehension; Fact vs. Opinion; Inference Skills"
+                },
+                {
+                    "text": "The underlined word “temporarily” means “______”in Chinese.",
+                    "choices": {
+                        "A": "永远地",
+                        "B": "坚决地",
+                        "C": "暂时地",
+                        "D": "幸运地"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Temporarily means 暂时地 (zànshí de) in Chinese, which means for a limited time.",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary; Synonym Replacement"
+                },
+                {
+                    "text": "How many ways of dealing with worries are introduced in the passage ?",
+                    "choices": {
+                        "A": "3",
+                        "B": "4",
+                        "C": "6",
+                        "D": "7"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage introduces six ways to deal with worries: taking pictures, crying, resting on weekends, taking part in activities, swimming/running, and singing.",
+                    "test_point": "Reading Comprehension; Counting; Summarization"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "What would you do if a stranger gave you some medicine and said it would keep you slim or help you do well in exams? Would you take it?\nStudents at Shenzhen Luohu Foreign Language Middle School have learned to keep themselves safe by saying “no”. In fact, what those strangers want to give them are drugs (毒品). Drugs are dangerous to your health!\n“Because teens don’t know much about drugs, they might want to try them,” said Zhang Dongsheng, the director of Shenzhen Drug Control Office.\nNow, many schools arrange (安排) courses or organize some activities to help students know about drugs.\nLiang, 16, was a good student before trying drugs. One day, some old friends told him it would be fun. After taking drugs only once, he found it very hard to stop. Liang began to spend all his time and money on drugs. Soon, he stopped going to school and started stealing (偷窃). In the end, he was put in prison.\nIn China, taking drugs is becoming a big problem for teens. According to a survey, about one million people in China were using illegal (违法) drugs last year, and 72% of them were young people. Worse still, there are about 10,000 drug users under 16 now.\nZhang has some good advice on staying clean. He said, “Drugs are dangerous. Never try them, even if you’re curious! It is the most important for you to keep safe and healthy.”",
+            "questions": [
+                {
+                    "text": "According to this passage, drugs can <blank>.",
+                    "choices": {
+                        "A": "do harm to your health",
+                        "B": "help you do well in exams",
+                        "C": "keep you slim and lovely",
+                        "D": "make you stay well"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage explicitly states that drugs are dangerous to your health.",
+                    "test_point": "Reading Comprehension; Fact Retrieval; Main Idea"
+                },
+                {
+                    "text": "Teens want to try drugs because <blank>.",
+                    "choices": {
+                        "A": "they are 18 years old",
+                        "B": "they have enough money",
+                        "C": "they are not curious about drugs",
+                        "D": "they don’t know about the harm of drugs"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage indicates that teens might want to try drugs because they don't know much about them.",
+                    "test_point": "Reading Comprehension; Inference Skills; Cause & Effect"
+                },
+                {
+                    "text": "From Liang’s story, we can know that it is <blank> to give up drugs even if one tries only once.",
+                    "choices": {
+                        "A": "easy",
+                        "B": "hard",
+                        "C": "foolish",
+                        "D": "possible"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Liang's story illustrates how difficult it is to stop taking drugs once someone has tried them, even just once.",
+                    "test_point": "Reading Comprehension; Inference Skills; Supporting Details"
+                },
+                {
+                    "text": "How many young people were using illegal drugs last year?",
+                    "choices": {
+                        "A": "one million",
+                        "B": "about seven hundred and twenty thousand",
+                        "C": "ten thousand",
+                        "D": "we don’t know"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that about one million people were using illegal drugs, and 72% of them were young people, which is about seven hundred and twenty thousand.",
+                    "test_point": "Reading Comprehension; Fact Retrieval; Calculation"
+                },
+                {
+                    "text": "What does the phrase “staying clean” here mean?",
+                    "choices": {
+                        "A": "Being clean and tidy.",
+                        "B": "Keeping clothes clean.",
+                        "C": "Staying away from drugs.",
+                        "D": "Wearing clean clothes."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "In the context of the passage about drugs, \"staying clean\" means staying away from drugs.",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary; Idioms & Phrases"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Dave had an uncle. He was very rich, but he had no child of his own. Soon after Dave left college, his uncle died .He left Dave a lot of money, so he decided to set up his own real estate agency(房地产中介).\n    He found a nice office, bought some new desks and chairs and moved in. He had only been there for a few hours when he heard someone coming to the door of his house.\n    “It’s my first customer!” he thought. He quickly picked up the telephone and pretended(假装) to be very busy answering an important call from someone in New York. The caller wanted to buy a big and expensive house in the country.\n    The man knocked at the door while this was going on, and he came in and waited politely for Dave to finish his conversation(谈话). Then he said to him, “I’m from the telephone company, and I was sent to fix your telephone.”",
+            "questions": [
+                {
+                    "text": "Why could Dave set up his own estate agency?",
+                    "choices": {
+                        "A": "Because he was a college student.",
+                        "B": "Because his uncle didn’t have his own children.",
+                        "C": "Because he was good at making money.",
+                        "D": "Because he got lots of money from his uncle."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states, 'He left Dave a lot of money, so he decided to set up his own real estate agency'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What does the underlined world “customer” mean?",
+                    "choices": {
+                        "A": "雇员",
+                        "B": "乘客",
+                        "C": "顾客",
+                        "D": "合伙人"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Customer' means 顾客 in Chinese.",
+                    "test_point": "Contextual Vocabulary; Synonym Replacement"
+                },
+                {
+                    "text": "How would Dave feel after hearing the man’s words?",
+                    "choices": {
+                        "A": "Excited",
+                        "B": "Sad",
+                        "C": "Surprised",
+                        "D": "Shameful (羞愧的)"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Dave would likely feel 'shameful' because he was pretending and got caught.",
+                    "test_point": "Inference Skills; Tone & Attitude"
+                },
+                {
+                    "text": "What’s the best title for the story?",
+                    "choices": {
+                        "A": "Too clever",
+                        "B": "Too busy",
+                        "C": "Too rich",
+                        "D": "Too polite"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The story shows Dave trying to be 'too clever' but failing.",
+                    "test_point": "Main Idea Identification; Summarization"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Can you imagine(想象) spacemen’s everyday life in space? They also need to eat, sleep, exercise and relax. They do the same things as us, but they do them differently.  \nOn Earth, we put food on a plate. Gravity(重力) holds the food down and keeps it on a place. But there is almost no gravity in space, so food can float(漂浮) away, and spacemen must eat carefully.  \n Sleeping is very different in space. Some spacemen like to float in the air, but most like to be in a sleeping bag. They tie(捆) the bag to a wall so that they won’t float away at night.        \n Exercise is very important in space. On Earth, your legs carry your body, but in space, spacemen float, so they do not use their legs often. This is very bad for their legs, so they must exercise for thirty minutes every day.  \n After a day’s work, spacemen can enjoy themselves. They may listen to music, read, watch films, play games, or talk to their friends and families on the radio.",
+            "questions": [
+                {
+                    "text": "On Earth, people can put food on a plate because <blank>.",
+                    "choices": {
+                        "A": "there is gravity",
+                        "B": "the food is light",
+                        "C": "the food is heavy",
+                        "D": "the plate is heavy enough"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states, 'Gravity holds the food down and keeps it on a place'.",
+                    "test_point": "Reading Comprehension; Cause & Effect"
+                },
+                {
+                    "text": "In space, the food is <blank>.",
+                    "choices": {
+                        "A": "on a plate",
+                        "B": "in a glass",
+                        "C": "floating in the air",
+                        "D": "in a bag"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions, 'there is almost no gravity in space, so food can float away'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The spacemen don’t <blank> to relax according to this passage?",
+                    "choices": {
+                        "A": "listen to music.",
+                        "B": "watch TV",
+                        "C": "play games",
+                        "D": "talk to their friends on the radio"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions spacemen may listen to music, play games, or talk to friends, but not watch TV.",
+                    "test_point": "Reading Comprehension; Implicit Information"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "\"I'm getting taller and taller,\" Alice said. She looked down at her feet. They seemed very far away.\n\"Goodbye, feet! OUCH!\"\nAlice's head hit the ceiling of the room. She was now more than nine feet tall.\nShe picked up the key and went back to the door. But she was too big now. She sat down and started to cry again. She cried and cried and cried. Her tears fell on the ground\nand soon there was a pool of water around her.\nPITTER, PATTER, PITTER, PATTER. She looked up. The White Rabbit was running towards her. He had a fan in one hand and a pair of white gloves in the other. As he ran, he muttered,\"Oh, the Duchess! The Duchess. She's going to be very angry.\"\nAlice whispered\"Sir-please-,\"but her voice frightened the Rabbit.He dropped the fan and the gloves and ran away quickly down a dark passage. Alice put the key on the table, picked up the gloves and the fan and started to fan herself.\n\"How strange everything is today,\"she said sadly.\"Yesterday things were normal. Did I change during the night? Am I a different girl today? If I am a different girl, who am I? Am I Mabel?\"(Mabel was a girl at Alice's school.)\nShe looked down and saw that she was wearing the Rabbit’s gloves!\n“How did taha happen?”She wondered.”Am I getting smaller?”\nShe was!She was getting smaller all the time.\n“It must be the fan!” She thought,and she dropped it just before she disappeared completely.\nNo,I can't be! I know a lot of things and she knows well only a few.\"\n“I wonder if I can remember the multiplication tables(乘法口诀). Let’s see, four times five is twelve, and four times six is thirteen, and four times seven is-oh dear! What about Geography? London is the capital of Paris, and Paris is the capital of Rome, and Rome-no, that's wrong.Perhaps I am Mabel!\"\n——Adapted from Alice in Wonderland",
+            "questions": [
+                {
+                    "text": "Alice said goodbye to her feet because <blank>.",
+                    "choices": {
+                        "A": "she became too tall to see her feet",
+                        "B": "her head was out of the room",
+                        "C": "she couldn't look down at her feet",
+                        "D": "her feet were leaving"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage says 'She looked down at her feet. They seemed very far away'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The pool of water around Alice on the ground was, in fact, <blank>.",
+                    "choices": {
+                        "A": "drinks",
+                        "B": "tears",
+                        "C": "milk",
+                        "D": "juice"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions 'She sat down and started to cry again. She cried and cried and cried. Her tears fell on the ground and soon there was a pool of water around her'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The White Rabbit was <blank> the Duchess.",
+                    "choices": {
+                        "A": "proud of",
+                        "B": "strict with",
+                        "C": "angry with",
+                        "D": "afraid of"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage says 'As he ran, he muttered,\"Oh, the Duchess! The Duchess. She's going to be very angry.\"', suggesting he is afraid.",
+                    "test_point": "Inference Skills; Character Analysis"
+                },
+                {
+                    "text": "Which is the right order of what happened in the passage? <blank>\n①Alice grew too big．\n②Alice found she got smaller and smaller．\n③Alice picked up the key and returned to the door．\n④Alice's voice frightened the Rabbit and it ran away．\n⑤Alice picked up the Rabbit's fan and fanned herself．",
+                    "choices": {
+                        "A": "①③④⑤②",
+                        "B": "②③⑤④①",
+                        "C": "①③⑤④②",
+                        "D": "②④⑤①③"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Based on the story, Alice first grew too big, then picked up the key, picked up the fan, frightened the Rabbit, and then got smaller.",
+                    "test_point": "Text Organization; Logical Progression"
+                },
+                {
+                    "text": "Alice felt <blank> when she said to himself",
+                    "choices": {
+                        "A": "happy",
+                        "B": "excited",
+                        "C": "lonely",
+                        "D": "confused(困惑的)"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Alice is questioning her identity and recalling incorrect facts, indicating she feels 'confused'.",
+                    "test_point": "Inference Skills; Tone & Attitude"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "The old shoes had brought him so much trouble that Johnny decided to throw them away.He went to a rubbish pit (垃圾坑) outside the city and threw the old shoes into it.“Now they can bring me no more trouble.”He said. He returned home, lay down on his bed and slept. But he had a dog, and the dog often went to the rubbish pit to look for food. The dog saw the shoes in the pit and knew they were its master's. So the dog took one of the heavy shoes in its mouth and went slowly back with it, and left it at its master's bedside. Then the dog took the other shoe back in the same way. When Johnny woke up, he saw the shoes by his bed and he was afraid,“The shoes can walk by themselves.They must be done away with (处理).” He thought. Then he made a large fire in front of his house and put the shoes on it. Just then a strong wind was blowing and soon the fire made the house begin burning. People came at once but they could do nothing. The house burnt down,but the dog saved the old shoes again.",
+            "questions": [
+                {
+                    "text": "Johnny decided to throw the old shoes away because <blank>",
+                    "choices": {
+                        "A": "they were old",
+                        "B": "the dog liked them",
+                        "C": "they brought him so much trouble",
+                        "D": "the rubbish pit was near his house"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The first sentence says that The old shoes had brought him so much trouble that Johnny decided to throw them away.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                },
+                {
+                    "text": "Why did the dog take Johnny's shoes back?",
+                    "choices": {
+                        "A": "Because Johnny asked it to take them back.",
+                        "B": "Because the dog knew they were its master's.",
+                        "C": "Because the dog knew its master likes them.",
+                        "D": "Because the dog wanted to make Johnny happy."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The dog saw the shoes in the pit and knew they were its master's.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "After the house burnt down, Johnny found that <blank>",
+                    "choices": {
+                        "A": "his shoes were lost",
+                        "B": "his dog was dead",
+                        "C": "his shoes were burnt down",
+                        "D": "the dog saved the old shoes again"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The last sentence says that The house burnt down,but the dog saved the old shoes again.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Where did Johnny throw the old shoes at first?",
+                    "choices": {
+                        "A": "in the garden",
+                        "B": "in the fire",
+                        "C": "in a rubbish pit",
+                        "D": "near the house"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "He went to a rubbish pit (垃圾坑) outside the city and threw the old shoes into it.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Why did he burn the shoes?",
+                    "choices": {
+                        "A": "He was angry",
+                        "B": "He was sad",
+                        "C": "He was surprised",
+                        "D": "He was afraid"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "When Johnny woke up, he saw the shoes by his bed and he was afraid,“The shoes can walk by themselves.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Baseball is one of the favorite sports in the USA. Children play baseball in sports fields or parks. At summer picnic, there is often an informal baseball game. Boys and girls, young and old take turns to bat. Each team has 9 players. The baseball season goes from April to September. During the time, baseball matches are shown on TV and members of the important baseball teams become America's heroes. At the end of the season the two top teams play against each other. Many baseball fans go along to watch the game. Millions of others listen to the radio or watch television. People seem to talk only about the game. Even long after it is over, they still talk about the result and the player. American football is perhaps the most popular sport in the USA. The football season begins when the baseball season ends. More people are more interested in football than baseball. When there is an important game, thousands of people sit beside the radio or in front of the television set to wait for the result.",
+            "questions": [
+                {
+                    "text": "According to the short passage, which is wrong?",
+                    "choices": {
+                        "A": "Boys and girls like baseball.",
+                        "B": "Baseball is played in the open air.",
+                        "C": "A baseball match has nine players.",
+                        "D": "Children sometimes play baseball in parks."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Each team has 9 players.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "American people play baseball in April, <blank> and September.",
+                    "choices": {
+                        "A": "May, June, July, August",
+                        "B": "March, May, July, August",
+                        "C": "January, June, October, November",
+                        "D": "February, May, July, December"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The baseball season goes from April to September.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What happens at the end of baseball season?",
+                    "choices": {
+                        "A": "People talk only about football games.",
+                        "B": "Many baseball fans became members of top teams.",
+                        "C": "A lot of people join the games.",
+                        "D": "Two top teams play a wonderful baseball game."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "At the end of the season the two top teams play against each other.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "<blank> follows the baseball season in the USA",
+                    "choices": {
+                        "A": "The basketball season",
+                        "B": "The football season",
+                        "C": "A baseball match",
+                        "D": "A football match"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The football season begins when the baseball season ends.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "This passage mainly tells us something about <blank>",
+                    "choices": {
+                        "A": "the football season in the USA",
+                        "B": "football is more interesting than baseball in the USA",
+                        "C": "the difference between baseball and football",
+                        "D": "the baseball season in the USA"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Baseball is one of the favorite sports in the USA.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Look at the clothes line in the twins' bedroom. There are some clothes on it. You can see a green blouse and a yellow skirt. The trousers on the clothes line are black. They are not new but clean. Are they Lily's clothes? No. I know they are Lucy's. Lily's clothes are on a clothes tree near the window. Her trousers are brown, her blouse is white and her skirt is blue. There is a new hat on the clothes tree, but it's not Lily's, it's Lucy's. There is an old hat on Lucy's bed in the room, it's Lily's. There are no clothes on the other bed, the bed is Lily's.",
+            "questions": [
+                {
+                    "text": "What can you see in the bedroom? I can see <blank>.",
+                    "choices": {
+                        "A": "a clothes line",
+                        "B": "a tree",
+                        "C": "a bed",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. The passage states 'Look at the clothes line in the twins' bedroom'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "What colour are Lucy's trousers? They are <blank>.",
+                    "choices": {
+                        "A": "green",
+                        "B": "black",
+                        "C": "brown",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The passage states 'The trousers on the clothes line are black. They are not new but clean. Are they Lily's clothes? No. I know they are Lucy's.'",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "Where is Lucy's hat? It's on <blank>.",
+                    "choices": {
+                        "A": "the clothes tree",
+                        "B": "the clothes line",
+                        "C": "lily's bed",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. The passage states 'There is a new hat on the clothes tree, but it's not Lily's, it's Lucy's'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "How many beds are there in the room? <blank>.",
+                    "choices": {
+                        "A": "only one",
+                        "B": "three",
+                        "C": "two",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. The passage mentions 'the twins' bedroom' and refers to 'the other bed', implying there are two beds.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Are there any things on Lily's bed? <blank>.",
+                    "choices": {
+                        "A": "Yes, there is a hat on it",
+                        "B": "No, there is not anything on it",
+                        "C": "Sorry, I don't know",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The passage states 'There are no clothes on the other bed, the bed is Lily's'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "It's a fine Sunday morning. Ann and her mother are in a big bus. There are many people in it. Some of them come from America, and some come from England and Canada. They are all their friends. They are going to the Great Wall.\nThere are two Chinese in the bus. One is woman. She is driving the bus. The other is a young man. He speaks good English. He is now talking about the Great Wall. The other people are all listening to him. They like the Great Wall. They want to see it very much.",
+            "questions": [
+                {
+                    "text": "Ann and mother are going to the Great Wall <blank>.",
+                    "choices": {
+                        "A": "by bike",
+                        "B": "by car",
+                        "C": "by plane",
+                        "D": "by bus"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. The passage states 'Ann and her mother are in a big bus'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "There are <blank>.",
+                    "choices": {
+                        "A": "only one Chinese in the bus",
+                        "B": "only two Chinese in the bus",
+                        "C": "only two Chinese on the bike",
+                        "D": "only one Chinese in the car"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The passage states 'There are two Chinese in the bus'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "The driver is <blank>.",
+                    "choices": {
+                        "A": "a man",
+                        "B": "a woman",
+                        "C": "a Canadian",
+                        "D": "an American"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The passage states 'One is woman. She is driving the bus'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "The people <blank>.",
+                    "choices": {
+                        "A": "are singing",
+                        "B": "are talking",
+                        "C": "are listening",
+                        "D": "are looking at the wall"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. The passage states 'The other people are all listening to him'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                },
+                {
+                    "text": "They <blank>.",
+                    "choices": {
+                        "A": "can see the Great Wall",
+                        "B": "can speak English very well.",
+                        "C": "want to talk with the man very much",
+                        "D": "want to see the Great Wall very much"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. The passage states 'They like the Great Wall. They want to see it very much'.",
+                    "test_point": "Reading Comprehension; Identifying Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Good news for panda lovers ! China’s first panda-themed tourist train (熊猫专列) started to run on March 28.\nThe train runs from Chengdu in Sichuan to Zunyi in Guizhou. It has giant panda pictures inside and outside. Passengers can try a panda-shaped cake. Workers who carry panda toys will welcome them.\nThe train also has great service(服务). People call it a “mobile(移动) star hotel”. It has a dining room, bar, karaoke room, dance hall, and mahjong room. People from Sichuan are famous for their love of mahjong. In the dining room, passengers can order Sichuan food.\nWith 12 cars, the train can take 252 passengers. Two or three passengers share one room with a washroom. They can take a shower on the train. The train also has a smart service system(系统), long tables for enjoying scenery(风景), 5G internet, and a song-ordering service.\nPassengers can enjoy a three-day trip on the train. After arriving, they will visit tourist sites in Guizhou, such as the Site of the Zunyi Conference.\nIf the train does well, it might (可能) travel to other parts of the country, according to a local railway company.",
+            "questions": [
+                {
+                    "text": "Which of the following about the panda train is true?",
+                    "choices": {
+                        "A": "The train ran on March 28 for the first time.",
+                        "B": "The train carries many toys for workers.",
+                        "C": "The train was designed only for panda lovers.",
+                        "D": "The train can take over 300 passengers"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The first sentence states that the train started to run on March 28, meaning it was the first time. So A is the answer.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                },
+                {
+                    "text": "People call the panda train a “mobile star hotel” because <blank> .",
+                    "choices": {
+                        "A": "there are different kinds of rooms on it",
+                        "B": "the great service is like that in a star hotel",
+                        "C": "passengers can order food from Sichuan",
+                        "D": "two or three passengers share a washroom"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The train has different kinds of rooms and facilities, providing great service just like a star hotel. So, B is the answer.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What can people do by taking the panda train according to the passage?\n① They can try a panda-shape cake ②They can play mahjong on the train\n③ They can order films about pandas ④ They can enjoy scenery along the way\n⑤ They can travel to any part of China",
+                    "choices": {
+                        "A": "①②④",
+                        "B": "①③⑤",
+                        "C": "②③④",
+                        "D": "②④⑤"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "① It is mentioned that passengers can try a panda-shaped cake. ② The train has a mahjong room. ④ The train has long tables for enjoying scenery. So A is the answer.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "In which part of a newspaper would you probably(可能的) read the passage?",
+                    "choices": {
+                        "A": "Fashion",
+                        "B": "Travel",
+                        "C": "Animals",
+                        "D": "Sports"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage is about a tourist train, which is related to travel. So, B is the answer.",
+                    "test_point": "Reading Comprehension; Text Organization"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "When I was a child, my mother would sometimes finish work, feeling tired or stressed out. Sometimes we’d hear some bad news from a friend or family members. Sometimes we’d hear about something sad on the news.\nEvery time, she would just say one simple phrase(习惯用语), “This too shall pass,” It was her way of telling herself that even the worst(最糟的) of the times will come to an end. Sometimes they feel like they won’t---but they almost(几乎) always do if you just stay strong and look for help.\nFor a long time, I forgot about this phrase. But in the past year, it has become very important to me. I have seen a lot of difficulties, both in my own life and in the world. Around the end of 2020, I got very sick and had to spend some time in the hospital. At the same time, the COVID-19 pandemic was hitting my home country, very hard. It was difficult to feel positive(积极的) about anything.\nI remember then what my mother said so often when I was young. I’m still not very well and COVID-19 is far from over, but when I feel down, I just tell myself, “ This too shall pass.” You might want to give it a try yourself when you’re having a bad day. If it works for me, it could work for you too.",
+            "questions": [
+                {
+                    "text": "What does the underlined word “they ” refer to?",
+                    "choices": {
+                        "A": "Family members.",
+                        "B": "Close friends",
+                        "C": "Simple phrases",
+                        "D": "Difficult times"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The word \"they\" refers to the worst of the times, which means the difficult times. So, D is the answer.",
+                    "test_point": "Reading Comprehension; Reference Words"
+                },
+                {
+                    "text": "What happened to the writer in the past year?",
+                    "choices": {
+                        "A": "He was ill in the hospital for some time.",
+                        "B": "He spent the holidays in the hospital.",
+                        "C": "He got COVID-19 in his home country.",
+                        "D": "He learned to fight against COVID-19."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The writer got very sick and had to spend some time in the hospital. So, A is the answer.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "How has his mother’s phrase helped the writer?",
+                    "choices": {
+                        "A": "He never gets sick any more",
+                        "B": "He never forgets things in his life",
+                        "C": "He becomes more positive.",
+                        "D": "He becomes happy when in trouble."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The writer tells himself the phrase when he feels down, helping him to feel more positive. So, C is the answer.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Through the story, the writer wants to tell us <blank> .",
+                    "choices": {
+                        "A": "we can’t believe everything we hear",
+                        "B": "getting sick will make you feel sad",
+                        "C": "mothers always have good advice",
+                        "D": "anything unhappy can always pass"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The main idea of the story is that even the worst of times will come to an end, which means anything unhappy can always pass. So, D is the answer.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Robert went to see his friend Denise last Sunday. In Denise's house he saw paper and paint everywhere.\nRobert: What are you doing?\nDenise: I'm copying pictures of some fantastic animals to make amazing to fly.\nRobert: What animals? You mean elephants and sharks?\nDenise: No. Today I'm reading a book about some really strange animals.\nRobert: Are they real?\nDenise: No. Animals like dragons are not real, but people love to talk about them.\nRobert: Why are dragons famous?\nDenise: Well, dragons are famous in China for being powerful, brave, clever and noble. They were the symbol(象征) of the emperor of China.\nRobert: What about in other countries?\nDenise: In many traditional European stories, dragons are cruel and dangerous! European dragons could fly and could breathe fire from their mouths. They also liked to catch and eat beautiful girls. A knight(骑士) on a horse always saved the beautiful girls by killing the dragon.\nRobert: I know there's also a famous beautiful bird but I can't remember its name.\nDenise: Oh! You mean the phoenix. It's also famous in China. It was the symbol of the queen of China. The phoenix never died, but every 500years it had to fly into a fire. The fire gave the phoenix a new life.\nRobert: What's that you're drawing?\nDenise: This is a griffin. It has the head and wings of an eagle(鹰) and the body of a lion. It protected kings and queens in Europe. This horse with wings is called Pegasus.\nRobert: Cool! I can’t wait to see these kites in the sky. People will think they're real. They'll be surprised to see a flying horse. Maybe they'll be seared!",
+            "questions": [
+                {
+                    "text": "How many unreal animals are Robert and Denise talking about?",
+                    "choices": {
+                        "A": "Three",
+                        "B": "Four",
+                        "C": "Five.",
+                        "D": "Six"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The unreal animals are dragons, phoenix, griffin, and Pegasus. So, B is the answer.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which sentence(句子)about dragons is true?",
+                    "choices": {
+                        "A": "All the dragons are powerful, brave, clever but cruel",
+                        "B": "A European knight on a horse killed dragons for fun.",
+                        "C": "The emperors of China liked to keep dragons as pets",
+                        "D": "Dragons are different in Chinese and European stories"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Dragons are different in Chinese and European stories. So, D is the answer.",
+                    "test_point": "Reading Comprehension; Fact vs. Opinion"
+                },
+                {
+                    "text": "What may a griffin look like according to Denise's words?",
+                    "choices": {
+                        "A": " ",
+                        "B": " ",
+                        "C": " ",
+                        "D": " "
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "A griffin has the head and wings of an eagle and the body of a lion.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Why did Denise copy and draw the pictures of the animals?",
+                    "choices": {
+                        "A": "To make some kites.",
+                        "B": "To make people scared.",
+                        "C": "To tell amazing stories",
+                        "D": "To show interest in animals."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Denise is copying pictures of some fantastic animals to make amazing kites to fly. So A is the answer.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "If a friend gives us a big help, it's a good idea to write them a thank-you note. But how many of us actually sit down to do this?\n“People don't seem to walk around giving thanks to people quite often,\"Amit Kumar from University of Texas said. Why are people hesitant (犹豫) about sending thank-you notes? And how do people feel when they receive one?\nKumar and his team asked some students to write a thank-you note to another person by e-mail.Then, they asked both the writer and the recipient (接受者) how sending or receiving these notes made them feel.\nThey found that the students didn't like to write the notes because they felt like they had to think too much about them. They worried about what to say and how to say it.\nThe recipients, however,enjoyed the notes. \"When you are a recipient, you focus on the warmth of the note,\" Kumar says. \"How heartfelt was it? How friendly and sweet?\"The writers also thought it might be awkward (尴尬的) for the recipient to receive a thank-you note. But this was not the fact.\n“They (recipients) feel quite happy,\"Kumar says. \"They don't really feel awkward at all.\"“If people knew that writing a thank-you note could have such a big influence (影响) on others.they would do it more often,\"Kumar says.\n“Simple, small changes in our everyday lives can make a big difference in how we treat other people and how we feel,\" he says.\nThen how to write a thank-you note? Would you please put the following into the right order (顺序)？\n①Second thank you. A sentence (句子) that says thanks again.\n②Closing and signature. Say “with love\", or “best wishes\". Then sign your name.\n③The details (细节). Write the thing you are thankful for. A few sentences will do.\n④First thank you. A short sentence that thanks the giver,such as “Thanks for the great birthday gift\".\n⑤Greeting, “Dear (name of recipient)\" is often used,\"Hi\" is also OK.",
+            "questions": [
+                {
+                    "text": "The meaning of the underlined word “heartfelt\" is close (接近) to “ <blank> ”",
+                    "choices": {
+                        "A": "funny",
+                        "B": "useful",
+                        "C": "different",
+                        "D": "warm"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"Heartfelt\" means showing strong feelings, which is similar to \"warm\". So, D is the answer.",
+                    "test_point": "Contextual Vocabulary; Synonym Replacement"
+                },
+                {
+                    "text": "What can we know from Amit Kumar?",
+                    "choices": {
+                        "A": "Writing thank-you notes makes people feel afraid.",
+                        "B": "Thank-you notes can influence the recipients greatly.",
+                        "C": "People often give thanks to others when getting help,",
+                        "D": "It is awkward for people to receive thank-you notes."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Amit Kumar says that writing a thank-you note could have such a big influence on others. So B is the answer.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Put the five steps of writing a thank-you note into the right order. Which one is true?",
+                    "choices": {
+                        "A": "④①③⑤②",
+                        "B": "④⑤①③②",
+                        "C": "⑤④③①②",
+                        "D": "⑤③②④①"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct order is: Greeting, First thank you, The details, Second thank you, Closing and signature. So, C is the answer.",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "Which is the best title (标题) of the passage?",
+                    "choices": {
+                        "A": "Take time to thank",
+                        "B": "How we treat and how we feel",
+                        "C": "Give thanks by e-mail",
+                        "D": "How to write a thank-you note"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mainly discusses how to write a thank-you note and its influence. So, D is the answer.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "A man wants to buy a watch. He goes into a shop and finds one. He likes it very much, but the shopkeeper asks 500 yuan for it. The man thinks it is too expensive. At this moment, a young man comes in, takes the watch and runs out. When the shopkeeper runs out, the young man is already(已经) lost among the crowd.\n The man leaves the shop. At a corner, he sees the young man with the stolen (窃取的) watch in his hand. “ Do you want a nice watch, Sir?” he asks the man. “it’s only 100 yuan.”\n“He doesn’t know I saw(看见) him rob the shop,” the man thinks. He pays for the watch and goes back to his hotel(宾馆) with the watch. There he tells his friend about the story.\n His friend looks at the watch and laughs, “ you are a fool(傻瓜). It costs less than 10 yuan. I think the shopkeeper and the young man play the trick together.”",
+            "questions": [
+                {
+                    "text": "The man _______ in the shop.",
+                    "choices": {
+                        "A": "is helping the shopkeeper clean watches",
+                        "B": "is waiting for his friend",
+                        "C": "is looking for the young man",
+                        "D": "is looking for a nice watch"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Reading Comprehension"
+                },
+                {
+                    "text": "---Why does the man pay for the watch at once(立刻) at the corner?\n---- Because________.",
+                    "choices": {
+                        "A": "he is rich enough to pay for it.",
+                        "B": "he thinks the watch is very cheap",
+                        "C": "he wants to know the time",
+                        "D": "he thinks the young man is his friend"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Reading Comprehension"
+                },
+                {
+                    "text": "What do the underlined words mean?",
+                    "choices": {
+                        "A": "许多人",
+                        "B": "驱散人群",
+                        "C": "找人",
+                        "D": "消失在人群中"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "How much money does the man spend on the watch?",
+                    "choices": {
+                        "A": "500 yuan",
+                        "B": "100 yuan",
+                        "C": "50 yuan",
+                        "D": "10 yuan"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The man’s friend laughs because ________.",
+                    "choices": {
+                        "A": "he thinks the shopkeeper and the young man play a trick",
+                        "B": "he likes the watch, too.",
+                        "C": "he is happy to see the man.",
+                        "D": "he is reading an interesting story."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "If someone says to you: “give me five”, do not search your pocket to get five yuan! It will make others laugh! The person's not asking for your money, but your fingers.\n In the US, \"give me five\" or \"give me the high five\" is a popular gesture (动作). You can see it often in films or on TV. It means the slapping (拍) of each other's raised (举起的) right hands together.\n People do it when they meet for the first time or something happy happens. For example, a student has good marks in exams or wins a lottery ticket (彩票).If a football team wins a game, the players will give high fives to everyone around to celebrate.\n This gesture may come from the old Roman gesture of raising the right arm for the emperor(皇帝). This showed that the person raising his arm did not have a sword (刀) in his hand.\n Why not try to give the high five to your friends?",
+            "questions": [
+                {
+                    "text": "“Give me five” is a gesture to <blank>.",
+                    "choices": {
+                        "A": "make people laugh",
+                        "B": "ask for money",
+                        "C": "celebrate success",
+                        "D": "search one’s pocket"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到People do it when they meet for the first time or something happy happens. 意思是当人们第一次见面或者发生高兴的事情的时候，会做这个动作，所以是为了庆祝成功。",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                },
+                {
+                    "text": "The gesture “give me five” is the clapping of <blank>.",
+                    "choices": {
+                        "A": "toes",
+                        "B": "hands",
+                        "C": "arms",
+                        "D": "legs"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到It means the slapping (拍) of each other's raised (举起的) right hands together. 意思是拍击彼此举起的右手，所以是拍手。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "When you <blank>, you give your friends high fives.",
+                    "choices": {
+                        "A": "lose your money",
+                        "B": "go back home",
+                        "C": "win a football game",
+                        "D": "do badly in exams"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到If a football team wins a game, the players will give high fives to everyone around to celebrate. 意思是如果足球队赢得比赛，队员们会和周围的人击掌庆祝。",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "The gesture started in <blank> according to the story.",
+                    "choices": {
+                        "A": "Rome",
+                        "B": "America",
+                        "C": "China",
+                        "D": "Britain"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到This gesture may come from the old Roman gesture of raising the right arm for the emperor(皇帝). 意思是这个动作可能来自古罗马时期，人们向皇帝举起右臂的动作。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Why did the Romans raise the right arm for the emperor? Because <blank>.",
+                    "choices": {
+                        "A": "they were proud of their emperor",
+                        "B": "they were happy to see the emperor",
+                        "C": "they wanted to show there were no swords in their hands",
+                        "D": "We don’t know"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到This showed that the person raising his arm did not have a sword (刀) in his hand. 意思是这表明举起手臂的人手中没有剑。",
+                    "test_point": "Reading Comprehension; Cause & Effect"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Bob was happy He was at a new school, and the other students were friendly. “Hi, Bob!” they said. But some students said, “Hi, Peter!” Bob didn't understand. He asked another student, “Why do some students call me Peter?” “Oh, that's easy to answer,” the students said. “Peter was a student here last year. Now he goes to a different school. You look like Peter. Some students think that you're Peter.” \nBob wanted to meet Peter. He got Peter's address from a student and went to Peter's house. Peter opened the door. Bob couldn't believe(相信) his eyes. He looked really like Peter! Bob and Peter had the same colour eyes and the same smile. They had the same black hair. They also had the same birthday. And they both were adopted(领养) by two different families. \nBob and Peter found out that they were twin brothers. Soon after the boys were born, one family adopted Bob, and another family adopted Peter. Bob's family never knew about Peter, and Peter's family never knew about Bob.\nBob and Peter's story was in the newspaper. There was a photo of Bob and Peter next to the story. A young man named John saw the photo in the newspaper. John couldn’t believe his eyes. He looked really like Bob and Peter! He had the same colour eyes and the same smile. He had the same black hair. He had the same birthday. And he, too, was adopted by another family. \nLater John met Bob and Peter. When Bob and Peter saw John, they couldn't believe their eyes. John looked really like them! Why did John look really like Bob and Peter? You can guess. Bob and Peter are not twins. Bob, Peter and John are triplets(三胞胎).",
+            "questions": [
+                {
+                    "text": "Bob’s classmates was <blank> to him.",
+                    "choices": {
+                        "A": "friendly",
+                        "B": "unfriendly",
+                        "C": "like",
+                        "D": "angry"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "文章第一句提到，在新的学校，其他的同学对他很友善。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Some students thought <blank>.",
+                    "choices": {
+                        "A": "John was Peter",
+                        "B": "Bob was John",
+                        "C": "Bob was Peter",
+                        "D": "Peter was John"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "因为Bob看起来像Peter，所以有些学生认为Bob是Peter。",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Bob saw Peter <blank>.",
+                    "choices": {
+                        "A": "in Peter's house",
+                        "B": "at school",
+                        "C": "on the way",
+                        "D": "in the classroom"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Bob从一个学生那里得到了Peter的地址，然后去了Peter的家，在Peter家里见到了Peter。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "John knew the story from<blank>.",
+                    "choices": {
+                        "A": "the newspaper",
+                        "B": "a book",
+                        "C": "other people",
+                        "D": "his parents"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "文章提到John在报纸上看到了Bob和Peter的照片。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Bob, Peter and John were<blank>.",
+                    "choices": {
+                        "A": "friends",
+                        "B": "classmates",
+                        "C": "brothers",
+                        "D": "twins"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "文章最后提到，Bob, Peter and John是三胞胎。",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Being a youth is one thing, and being a good one is another . A good youth should have these qualities: First of all, health , a healthy body is the best riches. Without it, nothing can be done well. If you are poor in health ,you’ll have to take medicine day after day. Even you can’t work, do sports and so on; Secondly, one must be of good quality. Always do something for others. Help those in trouble and care about the people around you. If everyone did the same, what a wonderful world this would be! Thirdly, one must have the ability to work with others. Cooperation and communication（合作和交流）are two important keys to better human relations . Everyone needs friends because no one can live through life alone or do everything he wants to.\nBesides the examples above ,patriotism is the one we should never forget. Patriotism means a love of one’s country. It is one of the highest qualities of human’s. Everyone should love his own country. But people sometimes think that patriots(爱国者)must be fighters or that they live in a time of fighting for their country. That is wrong. A good youth’s work is not only fighting. A good youth will do the things his country asks him to do.\nI think a good youth of today should also have some training in art. If everyone can enjoy art and be able to make more of it for others, then people will live better and enjoy more.",
+            "questions": [
+                {
+                    "text": "What’s the first thing a good youth should have?",
+                    "choices": {
+                        "A": "The best looking",
+                        "B": "The best riches",
+                        "C": "The good ability.",
+                        "D": "A healthy body."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到，一个优秀的年轻人首先应该拥有健康的身体。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "A person who has good qualities should <blank>",
+                    "choices": {
+                        "A": "think of himself",
+                        "B": "help others that need help",
+                        "C": "help the people they know.",
+                        "D": "help friends and relatives"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到，要帮助那些需要帮助的人。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The writers tells us that working with others is <blank>.",
+                    "choices": {
+                        "A": "good for some people",
+                        "B": "important to everyone",
+                        "C": "not necessary to good friends",
+                        "D": "can help us"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到，与他人合作的能力是非常重要的。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "From the passage we know the patriots must be <blank>.",
+                    "choices": {
+                        "A": "fighting to protect their countries",
+                        "B": "die for their countries.",
+                        "C": "people who fight for their countries",
+                        "D": "people who do what their country wants them to do"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到，一个优秀的年轻人会做国家要求他做的事情。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "If you want to be a good youth of today, <blank>.",
+                    "choices": {
+                        "A": "you should also know art",
+                        "B": "you can keep your own ideas",
+                        "C": "you should live alone",
+                        "D": "you should learn everything"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "文章中提到，一个优秀的年轻人应该接受一些艺术方面的培训。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Has any stranger ever touched（碰触） parts of your body or said dirty things to you? This can make you very uncomfortable or even blush（脸红）!\nIf someone has, don't be afraid. Just be clever and try to get away from it quickly!\nSome junior boys and girls from Beijing Yuren Middle School learnt this month. Their teacher gave them a lesson on how to keep themselves safe.\nMany students say this kind of thing has happened to them.\nLi Yunli is a girl student. When she was on a crowed bus last month, she felt someone touching her. A man leant（靠） on her body and put his hands on her leg! Li was so afraid. She couldn't say a word and just moved away.\nZhao Li, 12, is a boy. He likes to chat on the Internet. But once a stranger said lots of dirty things to him. Zhao was so surprised! He quickly stopped chatting with the man.\nWhat can students do when this kind of thing happens?\nHere are some tips from Jiulong Middle School's teacher and students:\n1. Don't be afraid. Ask him or her to stop at once. If he or she doesn't listen, try to turn to other around you and call for help. \n2. Keep calm. Be serious and keep a cool face. Say you don't like it and show you are angry.\n3. If there is no one around, use clever ways. If you only shout or fight to make them angry, it could make things worse! They may take your life. Find excuses to run away. Say things like you are waiting for your parents or you want to go to the washroom.",
+            "questions": [
+                {
+                    "text": "Li Yunli <blank> when a man leant on her body and put his hands on her leg.",
+                    "choices": {
+                        "A": "stopped talking",
+                        "B": "got off the bus quickly",
+                        "C": "didn't say a word and moved away",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "According to the passage, 'Li was so afraid. She couldn't say a word and just moved away.'",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Zhao Li likes to <blank>.",
+                    "choices": {
+                        "A": "touch other people",
+                        "B": "chat on the Internet",
+                        "C": "say dirty things to others",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "According to the passage, 'He likes to chat on the Internet.'",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which is the best to do when a stranger touches you?<blank>",
+                    "choices": {
+                        "A": "To shout at him.",
+                        "B": "To keep calm and try to shout or get away.",
+                        "C": "To fight to make him angry.",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "According to the passage, 'Keep calm. Be serious and keep a cool face. Say you don't like it and show you are angry.'",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "The underlined(下划线) word \"tips\" probably means <blank> in Chinese.",
+                    "choices": {
+                        "A": "尖端",
+                        "B": "教训",
+                        "C": "建议",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"tips\" means advice.",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary; Synonym Replacement"
+                },
+                {
+                    "text": "Which is the best title for this passage?.",
+                    "choices": {
+                        "A": "Learn to protect yourself!",
+                        "B": "Stop chatting on the Internet!",
+                        "C": "Please don't blush.",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mainly talks about how to protect yourself.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "There are many advantages of becoming a professional musician. The biggest advantage is being able to do something you love. You will have the chance to travel to many different places and meet a lot of different people. That will open up your eyes.\nHowever, there are also disadvantages of being a professional musician. One of the biggest disadvantages for most musicians is that they don't always have enough money. Most of the time, you will be looking for jobs. Sometimes you won't be able to find a good job. Another disadvantage is the place you live in. If you want to be a musician, you usually have to move to an area that has a lot of jobs, such as New York City. The cost of living in these areas is usually very high. The third disadvantage is that you can't have a stable family life. Different jobs will take a musician to different places, so most musicians are unable to have a regular family.",
+            "questions": [
+                {
+                    "text": "The advantages of being a professional musician include all the following EXCEPT <blank>.",
+                    "choices": {
+                        "A": "making a lot of money all the time",
+                        "B": "traveling to many different places",
+                        "C": "meeting a lot of different people",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage says that most musicians don't always have enough money.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which is NOT a disadvantage of beinga professional musician?",
+                    "choices": {
+                        "A": "Not always having enough money.",
+                        "B": "Being unable to have a stable family life.",
+                        "C": "Having the chance to meet many different people.",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Having the chance to meet many different people is an advantage.",
+                    "test_point": "Reading Comprehension; Fact vs. Opinion"
+                },
+                {
+                    "text": "What does the underlined word \"stable\" mean in Chinese?",
+                    "choices": {
+                        "A": "幸福的",
+                        "B": "稳定的",
+                        "C": "健康的",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"stable\" means 稳定的",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary; Synonym Replacement"
+                },
+                {
+                    "text": "Which of the following is TRUE according to the passage?",
+                    "choices": {
+                        "A": "The biggest advantage of being a musician is being able to live in big cities.",
+                        "B": "Most musicians are unable to have a regular family life because they enjoy traveling.",
+                        "C": "It's difficult for some musicians to find a good job sometimes.",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage says that 'Sometimes you won't be able to find a good job.'",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The author mainly tells us <blank> in the passage.",
+                    "choices": {
+                        "A": "becoming a professional musician can also have problems",
+                        "B": "why people want to become professional musicians",
+                        "C": "not to become professional musicians",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mainly talks about the advantages and disadvantages of becoming a professional musician.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Can you remember how excited you were when the Shenzhou V and Shenzhou VI spacecraft went into space? And how interesting it was when the Chinese astronauts told us about what they had seen on the trip! It’s time to get excited again. Shenzhou VII is just around the corner!\nEarlier several months ago, Chinese space scientists announced that Shenzhou VII will be sent up in 2008.\n“All our work on Shenzhou VII is going well,” said Qi Faren, former (前任的) chief designer of the Shenzhou spaceship.\nWill Shenzhou VII be sent up in time for the 2008 Beijing Olympics? Scientists say no. They say the timing of the mission (任务) depends on when they finish designing the spacesuit.\nShenzhou VII will take three astronauts into space. It will travel around the Earth for up to five days. At least one of the astronauts will do a spacewalk. Who will fly? Who will the astronauts be? Yang Liwei, Fei Junlong and Nie Haisheng, who have all made trips into space in the past few years, are all competing for a place. But it seems that it’s unfair for women astronauts.\nWhat about Chinese space exploration in the future?\nAfter the Shenzhou VII flight China will build a space lab and then a space station. Chinese astronauts will then be able to do experiments in space.\nWhat’s special about the Shenzhou VII spacesuit?\nChinese spacewalkers will wear 160 million yuan spacesuits. Each weighs about 100 kilograms on Earth. The Shenzhou VII spacesuit is heavier and more complicated (复杂的) than the suits the Shenzhou V and VI astronauts used.\nSpacewalks need other equipment (设备) too for astronauts to be able to work outside the spacecraft.",
+            "questions": [
+                {
+                    "text": "When will Shenzhou VII be sent up?",
+                    "choices": {
+                        "A": "Before the 2008 Beijing Olympics.",
+                        "B": "After 2008 Beijing Olympics.",
+                        "C": "In time for 2008 Beijing Olympics.",
+                        "D": "We don’t know the exactly date."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Scientists say the timing of the mission depends on when they finish designing the spacesuit.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Mainly because <blank>, Shenzhou VII hasn’t been decided when to be sent up.",
+                    "choices": {
+                        "A": "the astronauts haven’t been chosen",
+                        "B": "the design of Shenzhou VII hasn’t been finished",
+                        "C": "the spacesuits haven’t been designed",
+                        "D": "the money isn’t enough"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "They say the timing of the mission depends on when they finish designing the spacesuit.",
+                    "test_point": "Reading Comprehension; Cause & Effect"
+                },
+                {
+                    "text": "By now, <blank> has done a space walk.",
+                    "choices": {
+                        "A": "Yang Liwei",
+                        "B": "no astronauts in China",
+                        "C": "both Nie Haisheng and Fei Junlong",
+                        "D": "either Nie Haisheng or Fei Junlong"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "At least one of the astronauts will do a spacewalk in Shenzhou VII.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "Which of the following is NOT true about Shenzhou VII?",
+                    "choices": {
+                        "A": "It will take more astronauts into space.",
+                        "B": "It will travel around the Earth longer than any spacecraft.",
+                        "C": "Astronauts will be able to walk outside the Shenzhou VII spacecraft.",
+                        "D": "It will take no women astronauts into space."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "It will travel around the Earth for up to five days.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which of the following is TRUE according to the passage?",
+                    "choices": {
+                        "A": "The Shenzhou VII spacesuits are heavier than those for Shenzhou V and VI astronauts.",
+                        "B": "Chinese astronauts will be able to do experiments in the science lab that was built by Shenzhou VI astronauts.",
+                        "C": "All the Shenzhou VII astronauts will be spacewalkers.",
+                        "D": "Shenzhou VII spacecraft will cost 160 million yuan in all."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The Shenzhou VII spacesuit is heavier and more complicated (复杂的) than the suits the Shenzhou V and VI astronauts used.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "What do you like for breakfast? Breakfast is a great way to start(开始) a day.\nChildren around the world eat different kinds of foods for breakfast. The four students are telling us about their breakfast.\nJapan\nMy name is Yoko. I'm from Japan. In the morning, I usually eat rice, soup and fish. But sometimes I eat toast(吐司)and eggs.\nChina\nMy name is Li Lei. I'm from China. I like to have some vegetables, two eggs and some porridge (粥) in the morning.\nAmerica\nI'm Luis, and I'm from America. For breakfast, I often eat pancakes(煎饼), hamburgers or salad. Pancakes are my favorite food. They are delicious!\nAustralia\nMy name is Jack. I'm from Australia. I like to have toast and milk in the morning !",
+            "questions": [
+                {
+                    "text": "What does Li Lei usually have for breakfast?",
+                    "choices": {
+                        "A": "Milk",
+                        "B": "Porridge",
+                        "C": "Bread",
+                        "D": "Fish"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，Li Lei早餐喜欢吃蔬菜，鸡蛋和粥。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What’s Luis’s favorite food?",
+                    "choices": {
+                        "A": "Hamburgers",
+                        "B": "Salad",
+                        "C": "Pancakes",
+                        "D": "Toast"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，Luis最喜欢的食物是pancakes。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The students in<blank> usually have toast for breakfast.",
+                    "choices": {
+                        "A": "Japan and China",
+                        "B": "America and Australia",
+                        "C": "China and America",
+                        "D": "Japan and Australia"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，日本和澳大利亚的学生早餐通常吃toast。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "How does the writer start the passage(文章)?",
+                    "choices": {
+                        "A": "By showing photos",
+                        "B": "By telling a story(故事)",
+                        "C": "By asking a question(问题).",
+                        "D": "By welcoming the students."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "文章以一个问题开头。",
+                    "test_point": "Reading Comprehension; Text Organization"
+                },
+                {
+                    "text": "The passage is about<blank>.",
+                    "choices": {
+                        "A": "Food",
+                        "B": "Friends",
+                        "C": "Countries",
+                        "D": "Students"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "文章主要讲述了不同国家的人早餐吃什么。",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Do you know Ya Ya? Ya Ya is one of the most famous pandas in the world. This year, she comes back to China from America with the help of many kind people. All Chinese people are excited(激动的)about it.\nYa Ya is white and black like other pandas. She has a round face. She is so cute and nice that everyone loves her very much. Many people come to see her. Unlike others, Ya Ya is lively. She can show herself and play with them. So she is sent to(被送到)Memphis Zoo in America with Le Le. But the workers in the zoo don’t give enough good food to them. Le Le dies and Ya Ya is ill(生病的). People are sorry to know that. Many kind people give good bamboo(竹子) and fruit to her and ask our government(政府) to take her back to China.\nThere are only 1864 pandas in the world now. We should try to protect them.",
+            "questions": [
+                {
+                    "text": "Ya Ya is a<blank>.",
+                    "choices": {
+                        "A": "monkey",
+                        "B": "panda",
+                        "C": "cat",
+                        "D": "lion"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，Ya Ya是一只熊猫。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Why was Ya Ya sent to America?\n1 She is cute and nice.\n2 She is black and white.\n3 She can show herself.\n4 She can play with people.",
+                    "choices": {
+                        "A": "①②③",
+                        "B": "①②④",
+                        "C": "①③④",
+                        "D": "②③④"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，Ya Ya因为可爱，可以展示自己，可以和人玩耍，所以被送到美国。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What does the underlined word “lively”mean in Chinese?",
+                    "choices": {
+                        "A": "活泼的",
+                        "B": "可爱的",
+                        "C": "有生命的",
+                        "D": "温和的"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "lively的意思是活泼的。",
+                    "test_point": "Reading Comprehension; Contextual Vocabulary"
+                },
+                {
+                    "text": "What do people do to help Ya Ya in the passage?",
+                    "choices": {
+                        "A": "They play with her.",
+                        "B": "They give food to her.",
+                        "C": "They take photos with her.",
+                        "D": "They talk to her."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，人们给Ya Ya食物。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What’s the best title（标题）for the passage?",
+                    "choices": {
+                        "A": "Animal friends.",
+                        "B": "Cute pandas.",
+                        "C": "People’s love.",
+                        "D": "Ya Ya comes back."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "文章主要讲述了Ya Ya回到中国。",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "To help the people with no family, our school will have a flea market. The flea market is from 9:00 a.m. to 3:00 p.m. on Sunday.We can sell (卖) small things like school things, toys, bags and clothes. We can also make some food and drinks by ourselves to sell. My classmates are very excited but I am a little worried(担忧的). Because I can’t talk with other people if I don’t know them.\nOn Sunday morning, I sit next to my best friend Tom with my things. The flea market is busy. Everyone is trying to welcome others but me. A man with his boy comes to me. The boy takes my football and asks, “ How much is it?” My face turns red, but with Tom’s encouragement (鼓励), I say, “ It’s ten yuan.” The boy takes the football happily and goes away with his father. I feel very happy. After that, I try to welcome others and sell more things.\nAfter 3:00, we clean the place and go back to our classroom. Our teacher tells us we make about 2000 yuan finally(最后). I can help others, and I can talk with the people I don’t know now, so I am very glad.",
+            "questions": [
+                {
+                    "text": "When can you go to the flea market?",
+                    "choices": {
+                        "A": "At 8:00 a.m. on Sunday.",
+                        "B": "At 3:30 p.m. on Saturday.",
+                        "C": "At 10:00 a.m.on Saturday.",
+                        "D": "At 11:00 a.m.on Sunday."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，跳蚤市场在周日上午九点到下午三点。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What can we buy in the flea market?\n①\n②\n③\n④",
+                    "choices": {
+                        "A": "①②③",
+                        "B": "①②④",
+                        "C": "①③④",
+                        "D": "②③④"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，可以在跳蚤市场买到书包，玩具和衣服。",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What does the word “it” refer to(指的是) in the passage?",
+                    "choices": {
+                        "A": "My bag",
+                        "B": "My football",
+                        "C": "My toy",
+                        "D": "My book"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，这里的it指的是我的足球。",
+                    "test_point": "Reading Comprehension; Reference Words"
+                },
+                {
+                    "text": "Why am “I” happy finally?",
+                    "choices": {
+                        "A": "I can help others.",
+                        "B": "I can make money.(赚钱)",
+                        "C": "I can buy many things.",
+                        "D": "I can talk with my classmates."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，我最终感到高兴是因为我可以帮助别人。",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "What do you think of the writer(作者)?",
+                    "choices": {
+                        "A": "Cool.",
+                        "B": "Kind.",
+                        "C": "Cute.",
+                        "D": "Rich(富有的) ."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据文章，作者是一个善良的人。",
+                    "test_point": "Reading Comprehension; Tone & Attitude"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Hello! My name is Tom. I like to go out for a picnic with my parents on Sundays. I like fish and vegetables very much. My father is a driver. He likes meat and fish a little. My mother is an office worker. She likes apples and vegetables very much. But she doesn't like bread and hamburgers at all. So we usually take some fish, meat, vegetables and apples with us. Then my father gets water. My mother likes to cook for us and she cooks fish, meat and vegetables. I fly a kite. We sing some songs. We are all very happy.",
+            "questions": [
+                {
+                    "text": "What does Tom's father do?",
+                    "choices": {
+                        "A": "An office worker.",
+                        "B": "A doctor.",
+                        "C": "A driver.",
+                        "D": "A cook."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Tom's father is a driver in the context.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What does Tom's mother like eating?",
+                    "choices": {
+                        "A": "Fish and vegetables.",
+                        "B": "Meat and fish.",
+                        "C": "Apples and vegetables.",
+                        "D": "Bread and hamburgers."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Tom's mother likes apples and vegetables.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Tom's family take <blank> with them.",
+                    "choices": {
+                        "A": "vegetables, fish, meat and apples",
+                        "B": "vegetables, fish, meat and bread",
+                        "C": "vegetables, fish, meat and hamburgers",
+                        "D": "vegetables, fish, bread and hamburgers"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Tom's family take vegetables, fish, meat, and apples.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "There are maybe（可能）<blank> people in Tom's family.",
+                    "choices": {
+                        "A": "two",
+                        "B": "three",
+                        "C": "four",
+                        "D": "five"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Tom, his father, and his mother, so there are three people.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "One early（早的）morning, an old woman goes into her son's bedroom（卧室）to ask her son to get up.\n\"Get up, Mark. It's time to go to school!\"\n\"But why, Mom? I don't want to go.\"\n\"Give me two reasons why you don't want to go.\"\n\"Well, for one, I don't have any friends there, and the teachers don't like me for two!\"\n\"Oh, that's no reason not to go to school. Come on now and get ready（准备好）.\"\n\"Give me two reasons why I must go to school!\"\n\"Well, for one, you're 52 years old. And you're the principal（校长）for two! You have a lot to do.\"",
+            "questions": [
+                {
+                    "text": "Who asks Mark to get up?",
+                    "choices": {
+                        "A": "Mark's father.",
+                        "B": "Mark's mother.",
+                        "C": "Mark's teacher.",
+                        "D": "Mark's students."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Mark's mother asks him to get up.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Where does Mark work?",
+                    "choices": {
+                        "A": "In a school.",
+                        "B": "On a farm.",
+                        "C": "In a hospital.",
+                        "D": "In a shop."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Mark is the principal, so he works in a school.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                },
+                {
+                    "text": "The underlined word “reasons” means“<blank>”in Chinese.",
+                    "choices": {
+                        "A": "计划",
+                        "B": "说明",
+                        "C": "资料",
+                        "D": "原因"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The underlined word “reasons” means“原因”in Chinese.",
+                    "test_point": "Reading Comprehension; Vocabulary"
+                },
+                {
+                    "text": "Which of the following is TRUE（哪句话是正确的）?",
+                    "choices": {
+                        "A": "The son likes his school very much.",
+                        "B": "The son doesn't like his teachers.",
+                        "C": "The son doesn't like to work.",
+                        "D": "The son doesn't need to get up early."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The son doesn't like his teachers according to the text.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "My name is Bob Smith. My friend, Kangkang, asks me to give his sister, Charry, a letter. An old man doesn't let me in. I ask him to give it to Charry, but he doesn't know Charry. I have to tell him about Charry. Charry is a tall girl. She has a round face and a small nose. Her hair is blond. She is from England. The old man says, \"Oh, many girls are from England and have blond hair. And their eyes are blue. They are all very tall.\" At that time I don't say anything. \"Oh, she is the first（第一个）to come to school every day, \" I say.“Oh, I see. She is in Class One, Grade Seven. She likes to be in a red dress.\" I am very happy. I think the old man can give the letter to Charry now.",
+            "questions": [
+                {
+                    "text": "Who is Charry?",
+                    "choices": {
+                        "A": "Bob's friend.",
+                        "B": "Bob's sister.",
+                        "C": "Kangkang's friend.",
+                        "D": "Kangkang's sister."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Charry is Kangkang's sister.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "The underlined word “it” refers to<blank>（划线词“it”指代）.",
+                    "choices": {
+                        "A": "hair",
+                        "B": "the dress",
+                        "C": "the letter",
+                        "D": "the eye ."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The underlined word “it” refers to the letter.",
+                    "test_point": "Reading Comprehension; Reference Words"
+                },
+                {
+                    "text": "W hat color is Charry's hair?",
+                    "choices": {
+                        "A": "Black.",
+                        "B": "Brown.",
+                        "C": "Red.",
+                        "D": "Blond."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Charry's hair is blond.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Charry's favorite color is <blank>.",
+                    "choices": {
+                        "A": "blond",
+                        "B": "red",
+                        "C": "blue",
+                        "D": "pink"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Charry likes to be in a red dress.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "Hey，my name is Wang Haibei.You can call me Grandpa Haibei.I'm Chinese and I'm from China.I'm 76 years old.I'm old but I like new things.Now I'm in Copenhagen，the capital city of Denmark（丹麦）.It's a very nice city.I have a good day here.\nI get up at 7：00 am.Then I have a delicious breakfast with my son at 8：00 am.\nAt 8：30 am，we go to Hamlet's Castle（城堡）.It is very interesting.\nWe have some fish，beef and soup for lunch at 11：40 am.It's really delicious.\nIn the afternoon we go to a museum（博物馆）.We want to know the history of the city.We meet lots of old people there.I'm happy.",
+            "questions": [
+                {
+                    "text": "Grandpa Haibei has breakfast with his",
+                    "choices": {
+                        "A": "son",
+                        "B": "daughter",
+                        "C": "parents",
+                        "D": "friends"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states 'Then I have a delicious breakfast with my son at 8:00 am.'",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Grandpa Haibei thinks Hamlet's Castle is",
+                    "choices": {
+                        "A": "big",
+                        "B": "interesting",
+                        "C": "new",
+                        "D": "important"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states 'It is very interesting' referring to Hamlet's Castle.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What do they have for lunch?",
+                    "choices": {
+                        "A": "Noodles.",
+                        "B": "Beef，fish and soup.",
+                        "C": "Hamburgers.",
+                        "D": "Rice with meat."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage says 'We have some fish, beef and soup for lunch at 11:40 am.'",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Why do they go to the museum?",
+                    "choices": {
+                        "A": "To see a friend.",
+                        "B": "To take some photos.",
+                        "C": "To have a break.",
+                        "D": "To know about the city."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states 'We want to know the history of the city'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which of the following is NOT true（正确的）?",
+                    "choices": {
+                        "A": "Grandpa Haibei is Chinese.",
+                        "B": "Copenhagen is in Denmark.",
+                        "C": "They have lunch at ten to twelve.",
+                        "D": "Grandpa Haibei likes his day in Denmark."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "They have lunch at 11:40, which is twenty to twelve, not ten to twelve.",
+                    "test_point": "Reading Comprehension; Fact vs. Opinion"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "In London，it's five o'clock in the afternoon and people are leaving work and are going home.They're waiting for buses or trains.Some people are driving home.Some are getting off buses or trains.Some are having afternoon tea at home or having a drink.\nIn Moscow，it's eight o'clock in the evening，so people aren't having afternoon tea.They are having dinner at home or in restaurants.Some are going to the theatre or watching a film.Some are watching television or playing games at home.\nIn Beijing，it's one o'clock at night，so people aren't having dinner.Most people are sleeping.Some people are still working and some are going home from work.",
+            "questions": [
+                {
+                    "text": "What time is it in London now?",
+                    "choices": {
+                        "A": "1：00 am.",
+                        "B": "5：00 pm.",
+                        "C": "7：00 pm.",
+                        "D": "8：00 pm."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The first sentence states 'In London, it's five o'clock in the afternoon'.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Which meal are people having in Moscow?",
+                    "choices": {
+                        "A": "Breakfast.",
+                        "B": "Lunch.",
+                        "C": "Afternoon tea.",
+                        "D": "Dinner."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The second paragraph mentions people 'having dinner at home or in restaurants' in Moscow.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "People in <blank> are watching TV at home.",
+                    "choices": {
+                        "A": "Beijing",
+                        "B": "London",
+                        "C": "Moscow",
+                        "D": "New York"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The second paragraph mentions 'Some are watching television or playing games at home' in Moscow.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What are most people doing in Beijing?",
+                    "choices": {
+                        "A": "Sleeping.",
+                        "B": "Running.",
+                        "C": "Playing games.",
+                        "D": "Having breakfast."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The last paragraph states 'Most people are sleeping' in Beijing.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "How many cities are mentioned（提到） in the passage?",
+                    "choices": {
+                        "A": "Two.",
+                        "B": "Three.",
+                        "C": "Four.",
+                        "D": "Five."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The cities mentioned are London, Moscow, and Beijing.",
+                    "test_point": "Reading Comprehension; Main Idea Identification"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "WHY IS THE SUN IMPORTANT？\n　　The sun is a huge, hot, bright star. It is important because without it there would be no life on Earth. The sun gives us light and heat.\nAll living things need light and heat from the sun to live. Plants need light and heat to grow. They use the light from the sun to make food. We cannot make our own food, but plants can. All the food we eat comes from plants in a food chain(链)which starts with the sun. For example, \n\n\n\n\n\n\n\n\n　　Animals need sunlight, too. Just like us, their food comes from a food chain which begins with the sun and the plants.\n　　sun→ leaf→ caterpillar(毛虫)→bird \n　　sun→ seaweed(海藻)→small fish→ whale(鲸) \n　　Sunlight means we can see during the day. If there was no sun, it would be dark all the time. Even when the sky is cloudy, the sunlight is very strong and it shines through the clouds.",
+            "questions": [
+                {
+                    "text": "Which words tell us what the sun is like？",
+                    "choices": {
+                        "A": "Huge.(大的)",
+                        "B": "Hot.",
+                        "C": "Bright.",
+                        "D": "All above."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that the sun is huge, hot and bright.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "What are the two main things the sun gives us？",
+                    "choices": {
+                        "A": "Light and heat.",
+                        "B": "Heat and eggs.",
+                        "C": "Corn and light.",
+                        "D": "Wheat and bread."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that the sun gives us light and heat.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "Why can we still see during the day when the sky is cloudy？",
+                    "choices": {
+                        "A": "Because we can see all day and all night.",
+                        "B": "Because the sun can't give us light all day long.",
+                        "C": "Because the sunlight can shine through the clouds.",
+                        "D": "Because we can't see at night."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that the sunlight is very strong and it shines through the clouds.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "All the food we eat comes from <blank>. And it starts with the <blank>.",
+                    "choices": {
+                        "A": "plants; earth",
+                        "B": "a food chain; sun",
+                        "C": "food; sun",
+                        "D": "plants; star"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage mentions that all food comes from a food chain which starts with the sun.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "In what way do you think the sun cannot be harmful(有害的)？",
+                    "choices": {
+                        "A": "The sun can do harm to your eyes and skin.",
+                        "B": "It can make rivers too dry.",
+                        "C": "Without it there would be no life on Earth.",
+                        "D": "Hot sun on dry land can cause fires."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that without the sun there would be no life on Earth.",
+                    "test_point": "Reading Comprehension; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Reading-Comprehension-With-Multiple-Choices",
+            "context": "It was Mother’s Day. John was so busy with his work that he couldn’t go back home. When he passed by a flower shop in the evening, an idea came to his mind, “I’ll send Mum some roses.” While John was picking his flowers, a young man went inside. “How many roses can I get for only five dollars, madam?” he asked. The assistant was trying to tell him roses were as expensive as forty dollars a dozen(一打).Maybe he would be happy with carnations(康乃馨).\n“No, I have to have red roses,” he said. “My mum was badly ill last year and I didn’t get to spend much time with her. Now I want to get something special, it has to be roses as rose is her favorite.”\nAfter hearing it, John said he would pay the rest of the money for the young man. Moved by both of them, the assistant said, “Well, lovely young men, thirty dollars a dozen, only for you.” Taking the roses, the young man almost jumped into the air and ran out of the shop. It was well worth twenty--five dollars that John paid to see the exciting moment. Then John paid for his dozen of roses and told the assistant to send them to his mother.\nAs he walked out, he felt nice. Suddenly he saw the young man crossing the street and going into a park. But soon John realized it was not a park but a cemetery(墓地). Crying, the young man carefully put down the roses, “Mum, oh, Mum, why didn’t I tell you how much I loved you? God, please help me find my mum and tell her I love her.”\nSeeing this, John turned and quickly walked to the shop. He would take the flowers home himself.",
+            "questions": [
+                {
+                    "text": "The assistant tried to ask the young man to buy carnations instead of roses because <blank>.",
+                    "choices": {
+                        "A": "carnations were nicer than roses",
+                        "B": "roses were saved for John",
+                        "C": "roses were more expensive than carnations",
+                        "D": "carnations were special flowers for Mother’s Day"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The passage states that the assistant tried to tell the young man roses were expensive.",
+                    "test_point": "Reading Comprehension; Supporting Details"
+                },
+                {
+                    "text": "John spent <blank> altogether in the flower shop that day.",
+                    "choices": {
+                        "A": "$5",
+                        "B": "$25",
+                        "C": "$30",
+                        "D": "$55"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "John spent $25 for the young man's roses and $30 for his own, totaling $55.",
+                    "test_point": "Reading Comprehension; Inference Skills; Supporting Details"
+                },
+                {
+                    "text": "The young man cried at the cemetery because he<blank>.",
+                    "choices": {
+                        "A": "had spent all his money on the roses",
+                        "B": "wasn’t able to tell his mother he loved her himself",
+                        "C": "felt sorry to ask John to pay for his flowers",
+                        "D": "hadn’t got enough money for his sick mother"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The young man's words in the cemetery reveal his regret for not expressing his love to his mother.",
+                    "test_point": "Reading Comprehension; Inference Skills; Implicit Information"
+                },
+                {
+                    "text": "At last John changed his mind and went home because he wanted to <blank>.",
+                    "choices": {
+                        "A": "tell his mother he loved her himself",
+                        "B": "ask his mother for more money",
+                        "C": "tell his mother the young man’s story",
+                        "D": "ask his mother if she liked roses"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Seeing the young man's regret, John decided to express his love to his mother in person.",
+                    "test_point": "Reading Comprehension; Inference Skills; Author’s Purpose"
+                },
+                {
+                    "text": "The writer writes the passage in order to tell us “<blank>.”",
+                    "choices": {
+                        "A": "Buy roses for your mother when she is ill",
+                        "B": "Let your mother know how much you love her",
+                        "C": "Work hard to get more money for your mother",
+                        "D": "Send your mother flowers on Mother’s Day"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The passage emphasizes the importance of expressing love to one's mother.",
+                    "test_point": "Reading Comprehension; Main Idea Identification; Author’s Purpose"
+                }
+            ]
+        }
+    ]
+}

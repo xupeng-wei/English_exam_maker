@@ -1,0 +1,4127 @@
+{
+    "question_sets": [
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There is some <blank> on the plate.",
+                    "choices": {
+                        "A": "cakes",
+                        "B": "meat",
+                        "C": "potato",
+                        "D": "pears"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Meat is an uncountable noun, which can be used with 'some'.",
+                    "test_point": "Countable & Uncountable Nouns; Determiners"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Uncle Wang wants <blank> the machine like a bike.",
+                    "choices": {
+                        "A": "ride",
+                        "B": "riding",
+                        "C": "rides",
+                        "D": "to ride"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The structure 'want to do something' means '想做某事'.",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Tom usually goes to bed <blank> ten o'clock in the evening.",
+                    "choices": {
+                        "A": "at",
+                        "B": "in",
+                        "C": "on",
+                        "D": "of"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "We use 'at' to specify the exact time.",
+                    "test_point": "Prepositions; Time Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> picture books in class, please.",
+                    "choices": {
+                        "A": "Not read",
+                        "B": "No read",
+                        "C": "Not reading",
+                        "D": "Don't read"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "To express a prohibition, we use 'Don't + verb'.",
+                    "test_point": "Sentence Structure; Word Order"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The box is too heavy. Let <blank> help you to carry it.",
+                    "choices": {
+                        "A": "we",
+                        "B": "us",
+                        "C": "ours",
+                        "D": "our"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "After 'let', we use the objective pronoun.",
+                    "test_point": "Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Hurry up, <blank> we'll be late for the meeting.",
+                    "choices": {
+                        "A": "and",
+                        "B": "but",
+                        "C": "then",
+                        "D": "or"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'or' is used to indicate an alternative.",
+                    "test_point": "Conjunctions; Logical Connectors"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "People usually <blank> \"hello\" to each other when they make a phone call.",
+                    "choices": {
+                        "A": "say",
+                        "B": "speak",
+                        "C": "tell",
+                        "D": "talk"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "We say 'say hello to somebody'.",
+                    "test_point": "Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Look! She <blank> a kite for her son.",
+                    "choices": {
+                        "A": "makes",
+                        "B": "is making",
+                        "C": "make",
+                        "D": "making"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Look!' indicates that the action is happening now, so we need to use the present continuous tense.",
+                    "test_point": "Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "These shoes are yours. Please <blank>.",
+                    "choices": {
+                        "A": "put on them",
+                        "B": "put on it",
+                        "C": "put them on",
+                        "D": "put it on"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "If the object is a pronoun, it should be placed between 'put' and 'on'.",
+                    "test_point": "Phrasal Verbs; Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "She often gets <blank> very late.",
+                    "choices": {
+                        "A": "home",
+                        "B": "at home",
+                        "C": "to home",
+                        "D": "in home"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "We say 'get home' directly.",
+                    "test_point": "Collocations; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I think the shop is closed <blank> this time of day.",
+                    "choices": {
+                        "A": "in",
+                        "B": "on",
+                        "C": "at",
+                        "D": "for"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "We use 'at' to specify the time.",
+                    "test_point": "Prepositions; Time Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I want <blank> of meat, please.",
+                    "choices": {
+                        "A": "half kilo",
+                        "B": "a half kilo",
+                        "C": "half a kilo",
+                        "D": "a kilo half"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct expression is 'half a kilo'.",
+                    "test_point": "Word Order; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "-- Is this black ruler <blank>?\n -- No. It's <blank>.",
+                    "choices": {
+                        "A": "yours, his",
+                        "B": "your, his",
+                        "C": "yours, him",
+                        "D": "you, he"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'yours' and 'his' are possessive pronouns.",
+                    "test_point": "Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> book on the desk is a useful(重要的)one.",
+                    "choices": {
+                        "A": "A",
+                        "B": "An",
+                        "C": "The",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Since 'the book' is specified, we use 'the'.",
+                    "test_point": "Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Grandma is ill. We have to take her to the <blank>.",
+                    "choices": {
+                        "A": "farm",
+                        "B": "post office",
+                        "C": "hotel",
+                        "D": "hospital"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "When someone is ill, we take them to the hospital.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Liu Mei often helps her mother <blank> housework.",
+                    "choices": {
+                        "A": "does",
+                        "B": "do",
+                        "C": "doing",
+                        "D": "to doing"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "We say 'help somebody do something'.",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "We watch evening news on <blank> at 7:00 in the evening.",
+                    "choices": {
+                        "A": "CCTV",
+                        "B": "CAAC",
+                        "C": "WTO",
+                        "D": "MTV"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "CCTV is the China Central Television.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There <blank> a box of apples on the desk.",
+                    "choices": {
+                        "A": "are",
+                        "B": "is",
+                        "C": "has",
+                        "D": "have"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The subject is 'a box', which is singular.",
+                    "test_point": "Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Would you like <blank> with me?",
+                    "choices": {
+                        "A": "go",
+                        "B": "to go",
+                        "C": "going",
+                        "D": "goes"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "We say 'would like to do something'.",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Sometimes his brother <blank> TV after supper.",
+                    "choices": {
+                        "A": "watch",
+                        "B": "sees",
+                        "C": "watches",
+                        "D": "is watching"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence describes a habit, so we need to use the present simple tense.",
+                    "test_point": "Verb Tenses; Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "He looked at his watch and then <blank> the station.",
+                    "choices": {
+                        "A": "hurried to",
+                        "B": "hurry up",
+                        "C": "hurried",
+                        "D": "hurrying to"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The phrase \"hurry to\" means to quickly go to a place. It fits the context of the sentence.",
+                    "test_point": "Phrasal Verbs; Vocabulary; Contextual Meaning"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "She <blank> her childhood and youth in Shanghai.",
+                    "choices": {
+                        "A": "paid",
+                        "B": "cost",
+                        "C": "took",
+                        "D": "spent"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"Spent\" is the correct verb to describe how someone passed their childhood.",
+                    "test_point": "Vocabulary; Verb Choice; Contextual Meaning"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My father <blank> a bike <blank> me last weekend.",
+                    "choices": {
+                        "A": "showed, at",
+                        "B": "gave, for",
+                        "C": "bought, for",
+                        "D": "bought, to"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct structure is \"bought something for someone\".",
+                    "test_point": "Collocations; Verb Choice; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--You lent me some money a few months ago.\n--<blank>? I don’t remember lending you any money.",
+                    "choices": {
+                        "A": "Do I",
+                        "B": "Did I",
+                        "C": "Was I",
+                        "D": "should I"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Since the first person uses past tense (lent), the reply should also use the past tense (Did I).",
+                    "test_point": "Verb Tenses; Question Formation; Grammatical Consistency"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> there any seals in the zoo last year?\n--No, there <blank>. But there <blank> some now.",
+                    "choices": {
+                        "A": "Are, aren’t, are",
+                        "B": "Were, wasn’t, was",
+                        "C": "Were, weren’t, were",
+                        "D": "Were, weren’t, are"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Last year indicates past tense, so \"Were\" is correct. \"weren't\" agrees with \"no\", and \"are\" refers to the present.",
+                    "test_point": "Verb Tenses; Subject-Verb Agreement; Contextual Clues"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "His article is better than <blank> in the class.",
+                    "choices": {
+                        "A": "anyone’s",
+                        "B": "anyone else’s",
+                        "C": "anyone’s else",
+                        "D": "anyone else"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"anyone else's\" is the correct possessive form to compare his article to the articles of other people in the class.",
+                    "test_point": "Pronouns; Possessive Forms; Comparison"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--When did Kate buy the books?\n--<blank>.",
+                    "choices": {
+                        "A": "For a week",
+                        "B": "A week before",
+                        "C": "In a week",
+                        "D": "A week ago"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"A week ago\" is the correct way to indicate a past time.",
+                    "test_point": "Time Expressions; Verb Tenses; Adverbs of Time"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Did they play soccer <blank> the computer?",
+                    "choices": {
+                        "A": "in",
+                        "B": "on",
+                        "C": "to",
+                        "D": "with"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "on the computer is the correct prepositional phrase.",
+                    "test_point": "Prepositions; Collocations; Common Phrases"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "– What else do you want?\n– <blank> else. I think I have got everything now.",
+                    "choices": {
+                        "A": "Something",
+                        "B": "Everything",
+                        "C": "Nothing",
+                        "D": "Anything"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"Nothing\" is the correct answer to indicate that the speaker doesn't want anything else.",
+                    "test_point": "Pronouns; Negative Sentences; Contextual Understanding"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "It was time for the children <blank>.",
+                    "choices": {
+                        "A": "go home",
+                        "B": "went home",
+                        "C": "to go home",
+                        "D": "to go to home"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "It was time for somebody to do something is the correct grammatical structure.",
+                    "test_point": "Infinitives; Sentence Structure; Fixed Sentence Patterns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "\"<blank>?” -- \" He is tall and thin.”",
+                    "choices": {
+                        "A": "What’s your father",
+                        "B": "How is your father",
+                        "C": "What do your father like",
+                        "D": "What does your father look like"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"What does your father look like\" is the correct way to ask about someone's physical appearance.",
+                    "test_point": "Question Formation; Vocabulary; Describing Appearance"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Taiwan is <blank> island of China. I hope to visit it soon.",
+                    "choices": {
+                        "A": "the biggest",
+                        "B": "bigger",
+                        "C": "biggest",
+                        "D": "big"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Taiwan is the biggest island, and you should use the superlative form with \"the\".",
+                    "test_point": "Comparatives & Superlatives; Articles; Geographical Knowledge"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "In the future, we will use our computer <blank> our homework.",
+                    "choices": {
+                        "A": "does",
+                        "B": "doing",
+                        "C": "to do",
+                        "D": "did"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"to do\" is used to express the purpose.",
+                    "test_point": "Infinitives; Purpose Clauses; Future Tense"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—I saw Tony at the party. But he didn’t speak to me <blank> evening.\n—Maybe he didn’t see you.",
+                    "choices": {
+                        "A": "all",
+                        "B": "every",
+                        "C": "either",
+                        "D": "another"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "\"all evening\" means the whole evening.",
+                    "test_point": "Determiners; Time Expressions; Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Amy, I’ll be on holiday for a week. Could you help me <blank> my dog?",
+                    "choices": {
+                        "A": "look for",
+                        "B": "look at",
+                        "C": "look after",
+                        "D": "look over"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"look after\" means to take care of something.",
+                    "test_point": "Phrasal Verbs; Vocabulary; Common Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Many years ago, Mr. Green saw <blank> amazing thing in the sky. He thought maybe it was <blank> UFO.",
+                    "choices": {
+                        "A": "an, an",
+                        "B": "a, the",
+                        "C": "an, a",
+                        "D": "the, a"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The first blank requires 'an' because 'amazing' starts with a vowel sound. The second blank requires 'an' because 'UFO' is pronounced with a vowel sound.",
+                    "test_point": "Articles; Countable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—It's too hot. <blank> I swim in the lake, mum?\n—No,you <blank>.That's too dangerous. Ask your father to take you to the swimming pool.",
+                    "choices": {
+                        "A": "Could; couldn't",
+                        "B": "Need;mustn't",
+                        "C": "Must;needn’t",
+                        "D": "Could;can't"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The first blank requires 'Could' to make a polite request. The second blank requires 'can't' to express prohibition due to danger.",
+                    "test_point": "Modal Verbs; Permission; Prohibition"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> lovely weather it is! And <blank> time the children are having in the park!",
+                    "choices": {
+                        "A": "What an, What good",
+                        "B": "What, What a good",
+                        "C": "How, What good",
+                        "D": "How, What a good"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'How' is used to express the degree of an adjective, and 'What a good' is used before a singular countable noun to express exclamation.",
+                    "test_point": "Exclamatory Sentences; Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "After running <blank> a field and walking <blank> a forest, she finally reached a small river.",
+                    "choices": {
+                        "A": "across; through",
+                        "B": "cross; through",
+                        "C": "through; across",
+                        "D": "through; cross"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'Across' means moving from one side to the other on a surface. 'Through' means moving within a space or area.",
+                    "test_point": "Prepositions; Direction; Movement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Never try to <blank> a fire yourself. It’s a safe way to call 119 for help.",
+                    "choices": {
+                        "A": "look out",
+                        "B": "put out",
+                        "C": "get out",
+                        "D": "find out"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Put out' means to extinguish a fire.",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "He is <blank> man and he lives <blank>.",
+                    "choices": {
+                        "A": "a 80-year-old; alone",
+                        "B": "an 80-year-old; by him",
+                        "C": "an 80-year-old; alone",
+                        "D": "a 80-year-old; by himself"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Since \"80-year-old\" starts with a vowel sound, 'an' should be used. 'Alone' means without company.",
+                    "test_point": "Articles; Adjectives; Adverbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Mum, the cake smells <blank>.\n— Keep it away from ants. They can smell things <blank>.",
+                    "choices": {
+                        "A": "good; good",
+                        "B": "good; well",
+                        "C": "well; well",
+                        "D": "well; good"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Smells good' describes the cake's aroma. 'Smell well' describes the ants' ability to smell.",
+                    "test_point": "Adjectives; Adverbs; Sensory Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "People rushed into the room, but found <blank>.",
+                    "choices": {
+                        "A": "something unusual",
+                        "B": "nothing unusual",
+                        "C": "anything serious",
+                        "D": "something serious"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence implies they expected something, but found the opposite, so 'nothing unusual' fits best.",
+                    "test_point": "Pronouns; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I’m sorry I <blank> my homework at home.\n--That’s all right. Don’t forget <blank> it here this afternoon.",
+                    "choices": {
+                        "A": "forget; bringing",
+                        "B": "forget; to bring",
+                        "C": "left; to bring",
+                        "D": "left; bringing"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Left' indicates forgetting something at a place. 'To bring' is an infinitive phrase used after 'forget'.",
+                    "test_point": "Verb Tenses; Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Which word has a different pronounciation(发音) of \"ed”?",
+                    "choices": {
+                        "A": "phoned",
+                        "B": "planned",
+                        "C": "painted",
+                        "D": "tried"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The 'ed' in 'painted' is pronounced as /ɪd/, while the 'ed' in the other options is pronounced as /d/ or /t/.",
+                    "test_point": "Pronunciation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Yesterday I was too busy <blank> my homework <blank> the e-mail.?",
+                    "choices": {
+                        "A": "to do; to write",
+                        "B": "doing; not to write",
+                        "C": "doing; to write",
+                        "D": "to do; not to write"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'Too busy to do' is a common structure, and 'to write' is correct due to parallelism with 'to do'.",
+                    "test_point": "Gerunds & Infinitives; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— Did you <blank> your grandparents last month?\n— No. They didn't go to school when they were young. So they can't read or write.",
+                    "choices": {
+                        "A": "heard of",
+                        "B": "hear of",
+                        "C": "heard from",
+                        "D": "hear from"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Hear from' means to receive communication from someone.",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I know you were <blank> tired yesterday. But I think you complained <blank>.",
+                    "choices": {
+                        "A": "many too, much too",
+                        "B": "too many, much too",
+                        "C": "too much, too many",
+                        "D": "much too, too much"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Much too tired' is used with adjectives, and 'too much' is used to modify verbs like 'complained'.",
+                    "test_point": "Adverbs; Comparatives & Superlatives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The boy is <blank> the apples on the tree.",
+                    "choices": {
+                        "A": "enough tall to reach",
+                        "B": "tall enough to reach",
+                        "C": "enough tall reaching",
+                        "D": "tall enough reaching"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct word order is 'tall enough to reach'. 'Enough' follows the adjective it modifies.",
+                    "test_point": "Word Order; Adjectives; Adverbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— I think students can have mobile phones to help with their studies.\n— <blank>. They often use them to play games.",
+                    "choices": {
+                        "A": "I think so",
+                        "B": "I don’t agree",
+                        "C": "No problem",
+                        "D": "Sounds great"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Since the second sentence gives a reason against having mobile phones for students, 'I don't agree' is the most appropriate response.",
+                    "test_point": "Conversational English; Agreeing & Disagreeing"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Han Mei's mother often makes travel <blank> on the Internet",
+                    "choices": {
+                        "A": "ideas",
+                        "B": "jobs",
+                        "C": "plans",
+                        "D": "tickets"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Plans refer to arrangements or schedules for a trip, which aligns with the context of travel and the Internet.",
+                    "test_point": "Collocations; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Do you often <blank> your father? -Yes, I get a letter from him every week.",
+                    "choices": {
+                        "A": "hear from",
+                        "B": "come from",
+                        "C": "talk with",
+                        "D": "work with"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "\"Hear from\" means to receive communication from someone, fitting the context of receiving a letter.",
+                    "test_point": "Phrasal Verbs; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Bill is <blank> American boy. He likes playing <blank> football.",
+                    "choices": {
+                        "A": "a; the",
+                        "B": "an; the",
+                        "C": "the; 不填",
+                        "D": "an; 不填"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"American\" starts with a vowel sound, so \"an\" is used. \"Football\" is a general sport, so no article is needed.",
+                    "test_point": "Articles; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There <blank> some milk and bread on the table. You can have them <blank> breakfast.",
+                    "choices": {
+                        "A": "is; for",
+                        "B": "is; in",
+                        "C": "are; for",
+                        "D": "are; in"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "\"Milk and bread\" are considered singular here. \"For\" indicates purpose or use, like \"for breakfast\".",
+                    "test_point": "Subject-Verb Agreement; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Mum, can I eat <blank> cakes? Sorry, there aren't <blank> at home.",
+                    "choices": {
+                        "A": "some, some",
+                        "B": "any, any",
+                        "C": "some, any",
+                        "D": "any, some"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"Some\" is used in questions when offering or requesting. \"Any\" is generally used in negative sentences.",
+                    "test_point": "Determiners; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Diana <blank> goes to school at 7:00, and is <blank> late for it.",
+                    "choices": {
+                        "A": "always; often",
+                        "B": "never; always",
+                        "C": "never; never",
+                        "D": "always; never"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "If Diana always goes to school at 7:00, she is never late.",
+                    "test_point": "Adverbs of Frequency"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "If you want to listen to music, please <blank> the radio first.",
+                    "choices": {
+                        "A": "look after",
+                        "B": "look at",
+                        "C": "turn off",
+                        "D": "turn on"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"Turn on\" means to activate or start a device.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "It's six o'clock in the morning. Many people <blank> in the park.",
+                    "choices": {
+                        "A": "are dancing",
+                        "B": "dance",
+                        "C": "is dancing",
+                        "D": "dances"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The phrase \"many people\" indicates a plural subject, and \"at the moment\" suggests present continuous tense.",
+                    "test_point": "Verb Tenses; Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Hurry up, kids! The school bus is coming. We have <blank> time left.",
+                    "choices": {
+                        "A": "few",
+                        "B": "a few",
+                        "C": "a little",
+                        "D": "little"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"Time\" is uncountable. \"Little\" means almost no time.",
+                    "test_point": "Countable & Uncountable Nouns; Determiners"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "We all like red because it can <blank> us good luck.",
+                    "choices": {
+                        "A": "make",
+                        "B": "give",
+                        "C": "bring",
+                        "D": "take"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"Bring good luck\" is a common phrase.",
+                    "test_point": "Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "-- Where are the students? They are having lunch in the <blank>.",
+                    "choices": {
+                        "A": "dining hall",
+                        "B": "library",
+                        "C": "sports hall",
+                        "D": "science lab"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Students have lunch in the dining hall.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "-Would you like to come to my party this evening? <blank> I like parties.",
+                    "choices": {
+                        "A": "No, thank you",
+                        "B": "Yes, I'd love to",
+                        "C": "I'm sorry",
+                        "D": "Have a good time"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Yes, I'd love to shows that I want to go to the party.",
+                    "test_point": "Fixed Sentence Patterns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My parents <blank> my homework every night.",
+                    "choices": {
+                        "A": "check",
+                        "B": "click",
+                        "C": "save",
+                        "D": "connect"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Parents usually check students' homework.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "She's got some apples, <blank> she hasn't got any pears.",
+                    "choices": {
+                        "A": "or",
+                        "B": "and",
+                        "C": "but",
+                        "D": "so"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"But\" shows a contrast.",
+                    "test_point": "Conjunctions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> your clothes, please. They are here and there.",
+                    "choices": {
+                        "A": "Go back",
+                        "B": "Turn on",
+                        "C": "Put away",
+                        "D": "Give up"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"Put away\" means to return something to its proper place.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What colour is the bike?  \n--It’s <blank> orange.",
+                    "choices": {
+                        "A": "an",
+                        "B": "a",
+                        "C": "\\",
+                        "D": "the"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'orange' begins with a vowel sound, but in this case, it is used as an adjective, so no article is needed.",
+                    "test_point": "Articles; Adjectives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "That isn’t her bag. It’s <blank>.",
+                    "choices": {
+                        "A": "my",
+                        "B": "I",
+                        "C": "mine",
+                        "D": "me"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. The sentence requires a possessive pronoun, which is 'mine'.",
+                    "test_point": "Pronouns; Possessive Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Oh, your kite is very nice.\n--<blank>.",
+                    "choices": {
+                        "A": "That’s right",
+                        "B": "No, it’s not nice",
+                        "C": "Yes, it is",
+                        "D": "Thank you"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. When someone compliments you, the appropriate response is 'Thank you'.",
+                    "test_point": "Conversational English; Responding to Compliments"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The woman is sixty, but she <blank> young.",
+                    "choices": {
+                        "A": "is",
+                        "B": "sees",
+                        "C": "looks",
+                        "D": "watches"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'looks' is the correct verb to describe someone appearing young.",
+                    "test_point": "Verbs; Appearance"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "It’s time <blank> lunch. Let’s go home.",
+                    "choices": {
+                        "A": "to",
+                        "B": "in",
+                        "C": "for",
+                        "D": "on"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'It's time for lunch' is the correct phrase.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> is your coat?\n--The black one.",
+                    "choices": {
+                        "A": "What",
+                        "B": "Where",
+                        "C": "Which",
+                        "D": "How"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'Which' is used to ask about a specific item from a selection.",
+                    "test_point": "Question Formation; Interrogative Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> is the toy?\n--It’s on the bed.",
+                    "choices": {
+                        "A": "Who",
+                        "B": "Where",
+                        "C": "What",
+                        "D": "Whose"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'Where' is used to ask about the location of something.",
+                    "test_point": "Question Formation; Interrogative Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The shoes are too old. Put <blank> over there.",
+                    "choices": {
+                        "A": "it",
+                        "B": "they",
+                        "C": "their",
+                        "D": "them"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. 'them' is the correct pronoun to refer to 'shoes', which is plural.",
+                    "test_point": "Pronouns; Object Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Excuse me. Can you <blank> my watch, please?",
+                    "choices": {
+                        "A": "look",
+                        "B": "look like",
+                        "C": "look after",
+                        "D": "look at"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'look after' means to take care of something.",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Look <blank> the blackboard and listen <blank> the teacher.",
+                    "choices": {
+                        "A": "/ /",
+                        "B": "at; to",
+                        "C": "after; /",
+                        "D": "on; after"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'Look at' and 'listen to' are the correct prepositions to use with 'blackboard' and 'teacher', respectively.",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Whose dress is this?\n--It’s <blank>.",
+                    "choices": {
+                        "A": "Lucy",
+                        "B": "Lucy’s",
+                        "C": "Jim",
+                        "D": "Jim’s"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'Lucy’s' indicates possession.",
+                    "test_point": "Possessive Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The girl <blank> the purple coat is his sister.",
+                    "choices": {
+                        "A": "at",
+                        "B": "in",
+                        "C": "on",
+                        "D": "with"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'in' is used to describe someone wearing clothes.",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There is a bird <blank> the tree.",
+                    "choices": {
+                        "A": "in",
+                        "B": "on",
+                        "C": "to",
+                        "D": "of"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. 'in' is used to describe something inside the volume of the tree.",
+                    "test_point": "Prepositions; Location"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There are many <blank> in our school.",
+                    "choices": {
+                        "A": "woman teachers",
+                        "B": "woman teacher",
+                        "C": "women teacher",
+                        "D": "women teachers"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. Both 'woman' and 'teacher' should be pluralized to 'women teachers'.",
+                    "test_point": "Countable Nouns; Plural Forms"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Is there a ball under the desk?\n--<blank>.",
+                    "choices": {
+                        "A": "Yes, it is",
+                        "B": "Yes, there’s",
+                        "C": "No, there isn’t",
+                        "D": "No, there is"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C.  The question asks if there is a ball, so the correct negative response is 'No, there isn’t'.",
+                    "test_point": "Answering Questions; Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There <blank> some books and a pencil on the desk.",
+                    "choices": {
+                        "A": "am",
+                        "B": "is",
+                        "C": "are",
+                        "D": "be"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. Because there are 'some books', it is a plural form, so the correct option should be 'are'.",
+                    "test_point": "Subject-Verb Agreement; Plural Forms"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Let me help you.\n--<blank>.",
+                    "choices": {
+                        "A": "You’re welcome",
+                        "B": "Thanks very much",
+                        "C": "Don’t worry",
+                        "D": "Yes, thanks"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. When someone offers to help, a polite response is 'Yes, thanks'.",
+                    "test_point": "Conversational English; Responding to Offers"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> old man is <blank> English teacher.",
+                    "choices": {
+                        "A": "The; an",
+                        "B": "An; an",
+                        "C": "The; the",
+                        "D": "A; a"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. 'The' is used to refer to a specific old man, and 'an' is used before a vowel sound ('English').",
+                    "test_point": "Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What <blank> five plus six?\n--It’s eleven.",
+                    "choices": {
+                        "A": "am",
+                        "B": "is",
+                        "C": "are",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B.  Because it's a mathmatical equation, the verb should be 'is'.",
+                    "test_point": "Mathmatical Expression"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What <blank> you see in the picture?\n--I can see some flowers.",
+                    "choices": {
+                        "A": "must",
+                        "B": "can",
+                        "C": "are",
+                        "D": "do"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'can' is used to ask about someone's ability to see something.",
+                    "test_point": "Modal Verbs; Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—We can watch <blank> film Hi, Mom on Watermelon Video now, right?\n—Yes, I watched it on Mother’s Day. It’s <blank> interesting film with lots of love.",
+                    "choices": {
+                        "A": "a; an",
+                        "B": "a; the",
+                        "C": "the; a",
+                        "D": "the; an"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The first blank refers to a specific film, so \"the\" should be used. The second blank is followed by \"interesting,\" which starts with a vowel, so \"an\" should be used.",
+                    "test_point": "Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Every morning, Eric jogs <blank> the east side of Longyou River to keep fit.",
+                    "choices": {
+                        "A": "around",
+                        "B": "along",
+                        "C": "across",
+                        "D": "above"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"Along\" means following a line, which fits the context of jogging beside a river.",
+                    "test_point": "Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The robot has video cameras in its eyes and it <blank> \"see” and interact with people.",
+                    "choices": {
+                        "A": "can",
+                        "B": "could",
+                        "C": "may",
+                        "D": "must"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "\"Can\" indicates the robot's ability to see and interact.",
+                    "test_point": "Modal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Why is Mary carrying an umbrella? It is not going to rain today.\n—To <blank> herself from the sun.",
+                    "choices": {
+                        "A": "protect",
+                        "B": "save",
+                        "C": "get",
+                        "D": "follow"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "\"Protect\" means to keep someone or something safe from harm or damage, which fits the context of shielding oneself from the sun.",
+                    "test_point": "Vocabulary; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— <blank> useful the information on the screen is!\n—Yes, that is why Mr. Wu asked us to write it down just now.",
+                    "choices": {
+                        "A": "What",
+                        "B": "What a",
+                        "C": "What an",
+                        "D": "How"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"How\" is used to express surprise or admiration about an adjective (useful).",
+                    "test_point": "Exclamatory Sentences"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Wendy, you look tired out! Why not stop <blank> volleyball?\n—Sounds good. I really need a rest.",
+                    "choices": {
+                        "A": "to practise playing",
+                        "B": "practising playing",
+                        "C": "to practise to play",
+                        "D": "practising to play"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Stop + doing sth means stop an action. So, the answer should be B",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—The dishes smell so <blank>!\nI guess your mother must be a good cook.\n—No, she is just interested in cooking.",
+                    "choices": {
+                        "A": "good",
+                        "B": "well",
+                        "C": "bad",
+                        "D": "badly"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "\"Smell\" is a linking verb, so it should be followed by an adjective (good).",
+                    "test_point": "Adjectives & Adverbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—The traffic is moving fast here. You must <blank>, or you will get hurt.\n—Thank you. I will be careful.",
+                    "choices": {
+                        "A": "find out",
+                        "B": "put out",
+                        "C": "go out",
+                        "D": "look out"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"Look out\" means to be careful or to pay attention to avoid danger.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "It’s reported that <blank> people got COVID-19 vaccine shots(疫苗注射) in the hospital yesterday.",
+                    "choices": {
+                        "A": "two thousands, six hundreds fifty-eight",
+                        "B": "two thousand and six hundred fifty-eight",
+                        "C": "two thousand, six hundred and fifty-eight",
+                        "D": "two thousand and six hundred and fifty-eight"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "When expressing a number in English, 'and' is usually placed before the last two digits.",
+                    "test_point": "Number Expression"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—John, could you please help me return the book to the library?\n— <blank>. I’m just going there to borrow a book about animals.",
+                    "choices": {
+                        "A": "Good idea",
+                        "B": "That’s ok",
+                        "C": "No problem",
+                        "D": "You are welcome"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"No problem\" is a common response to a request for help.",
+                    "test_point": "Conversational Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There is <blank> \"f” and <blank> \"x” in <blank> word \"fix”.",
+                    "choices": {
+                        "A": "a; a; a",
+                        "B": "a; an; the",
+                        "C": "an; an; the",
+                        "D": "an; an; /"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The word \"f\" starts with a consonant, so we use \"a\". The word \"x\" starts with a consonant, so we also use \"a\". We don't need an article before word \"fix\".",
+                    "test_point": "Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Would you like to drink <blank> coffee?--No, thanks. But I want a cup of tea <blank> milk in it.",
+                    "choices": {
+                        "A": "any; with",
+                        "B": "some; and",
+                        "C": "some; with",
+                        "D": "any; has"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"coffee\" is uncountable, so we should use \"some\" in offer. \"with milk in it\" means the tea has milk.",
+                    "test_point": "Countable & Uncountable Nouns; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> sleep do you <blank> every night? \n--More than eight hours.",
+                    "choices": {
+                        "A": "How long; sleep",
+                        "B": "How many; have",
+                        "C": "How much; have",
+                        "D": "How often; sleep"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"sleep\" is uncountable, so we should use \"How much\" to ask the amount of sleep.",
+                    "test_point": "Countable & Uncountable Nouns; Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I’m glad to know we <blank> water this kind of flower very often.",
+                    "choices": {
+                        "A": "doesn’t need",
+                        "B": "needn’t to",
+                        "C": "don’t need",
+                        "D": "needn’t"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The subject is \"we\", so the verb should be \"don't need\".",
+                    "test_point": "Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> the number of the students <blank> glasses in your class?",
+                    "choices": {
+                        "A": "How is; wear",
+                        "B": "What are; with",
+                        "C": "How are; wearing",
+                        "D": "What is; with"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The question asks about the number of the students, so we use \"How is\". \"wear glasses\" is a fixed expression.",
+                    "test_point": "Question Formation; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Lily sat on the sofa just now. Maybe the wool scarf is <blank>.",
+                    "choices": {
+                        "A": "she",
+                        "B": "her",
+                        "C": "hers",
+                        "D": "herself"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The scarf belongs to Lily, so we use \"hers\".",
+                    "test_point": "Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "All the <blank> teachers and <blank> students are having a meeting here.",
+                    "choices": {
+                        "A": "woman; girl",
+                        "B": "women; girls",
+                        "C": "women; girl",
+                        "D": "woman; girls"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Since \"All the\" indicates plural, both \"teacher\" and \"student\" should be plural.",
+                    "test_point": "Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Look! There is <blank> eating on the grass.",
+                    "choices": {
+                        "A": "a few sheeps",
+                        "B": "a few sheep",
+                        "C": "a little sheep",
+                        "D": "little sheep"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"sheep\" is both singular and plural. \"a few\" means a small amount but more than one, so we use \"a few sheep\".",
+                    "test_point": "Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "People <blank> good health don’t have <blank> sweet snacks.",
+                    "choices": {
+                        "A": "in; too many",
+                        "B": "with; too much",
+                        "C": "have; much too",
+                        "D": "in; too much"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "\"in good health\" is a fixed expression. \"snacks\" are countable, so we use \"too many\".",
+                    "test_point": "Fixed Expressions; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> is it from Wanda Plaza to Buynow?\n--About ten minutes’ bus ride.",
+                    "choices": {
+                        "A": "How long",
+                        "B": "How many",
+                        "C": "How often",
+                        "D": "How far"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The question asks about the distance, so we use \"How far\".",
+                    "test_point": "Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The old man doesn’t look <blank>. How about <blank> him to hospital?",
+                    "choices": {
+                        "A": "good; bring",
+                        "B": "good; taking",
+                        "C": "well; taking",
+                        "D": "well; bring"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"look well\" means looks healthy. \"How about doing sth\" is a fixed expression.",
+                    "test_point": "Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Tom <blank> late for school, is he?\n--<blank> He often comes to school early.",
+                    "choices": {
+                        "A": "seldom; No, he isn’t",
+                        "B": "is seldom; Yes, he is",
+                        "C": "seldom is; Yes, he is",
+                        "D": "is seldom; No, he isn’t"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"seldom\" should be put before the main verb. Because he often comes to school early, the answer is \"No, he isn't\".",
+                    "test_point": "Adverbs of Frequency"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I think we must first <blank> how to get there and how much we will pay.",
+                    "choices": {
+                        "A": "look for",
+                        "B": "find",
+                        "C": "find out",
+                        "D": "look at"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"find out\" means to discover information. It fits better in this sentence.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I’m sure five kilos of beef <blank> enough <blank> today’s birthday dinner.",
+                    "choices": {
+                        "A": "is; for",
+                        "B": "are; at",
+                        "C": "is; at",
+                        "D": "are; to"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "\"five kilos of beef\" is considered as a whole, so we use \"is\". \"enough for\" is a fixed expression.",
+                    "test_point": "Subject-Verb Agreement; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Choutoufu, one of the traditional snacks in China, <blank> terrible, but <blank> good.",
+                    "choices": {
+                        "A": "smell; eat",
+                        "B": "smells; tastes",
+                        "C": "looks; eats",
+                        "D": "look; taste"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Choutoufu\" is singular, so we use \"smells\" and \"tastes\".",
+                    "test_point": "Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "He can play <blank> piano, she can play <blank> tennis. and we can speak <blank> English.",
+                    "choices": {
+                        "A": "/,a, /",
+                        "B": "the, /,/",
+                        "C": "/, the, /",
+                        "D": "/, /,the"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "定冠词the用在乐器前；泛指球类运动前不用冠词；英语是不可数名词，所以前面不用冠词。",
+                    "test_point": "Articles; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I <blank> a train to Shanghai. I go to Shanghai <blank> train.",
+                    "choices": {
+                        "A": "takes, by",
+                        "B": "take, by",
+                        "C": "by, catch",
+                        "D": "by, take"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，我乘火车去上海，take是乘坐的意思，by train是乘坐火车这一交通工具。",
+                    "test_point": "Collocations; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--I'm reading. What about you? --<blank>.",
+                    "choices": {
+                        "A": "I 'm a teacher.",
+                        "B": "I'm watching TV.",
+                        "C": "I watch TV.",
+                        "D": "She is watching TV."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据语境，这里应该用现在进行时，回答“我正在看电视”。",
+                    "test_point": "Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I look forward to <blank> you again.",
+                    "choices": {
+                        "A": "seeing",
+                        "B": "sees",
+                        "C": "see",
+                        "D": "seeing"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "look forward to 后面接名词或动名词，所以选择seeing。",
+                    "test_point": "Gerunds & Infinitives; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Can you <blank> English? –Yes, I can —Good. Now let’s <blank> about the film<blank> English.",
+                    "choices": {
+                        "A": "say, speak,in",
+                        "B": "speak, tell. at",
+                        "C": "speak, talk, in",
+                        "D": "tell. Talk, at"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "speak 指说某种语言，talk指谈论，in English 是用英语的意思。",
+                    "test_point": "Collocations; Commonly Confused Words; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank>is the weather like today? —very hot.",
+                    "choices": {
+                        "A": "What",
+                        "B": "How",
+                        "C": "Where",
+                        "D": "when"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "询问天气用What is the weather like?",
+                    "test_point": "Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Let’s send his presents <blank>her.",
+                    "choices": {
+                        "A": "for",
+                        "B": "to",
+                        "C": "at",
+                        "D": "with"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "send sth to sb，固定搭配。",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Father is strict <blank> me <blank> my study.",
+                    "choices": {
+                        "A": "with, with",
+                        "B": "with, in",
+                        "C": "in, with",
+                        "D": "in, in"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "be strict with sb 在某方面对某人严格要求。",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank> is the population of Shandong?",
+                    "choices": {
+                        "A": "What",
+                        "B": "How many",
+                        "C": "How",
+                        "D": "How much"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "询问人口用What is the population of...?",
+                    "test_point": "Question Formation; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Jim <blank>born in Jiaxing, where <blank> you born?",
+                    "choices": {
+                        "A": "was, was",
+                        "B": "were, were",
+                        "C": "was, were",
+                        "D": "were, was"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "吉姆是单数，所以用was，你用were。",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I <blank>Beijing at 3:00p.m. yesterday.",
+                    "choices": {
+                        "A": "arrived",
+                        "B": "got",
+                        "C": "arrived at",
+                        "D": "reached"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "reach可以直接加地点，表示到达某地。",
+                    "test_point": "Collocations; Synonyms & Antonyms"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I saw <blank> girl picking a pen up on the road.",
+                    "choices": {
+                        "A": "a 8 years old",
+                        "B": "a 8-year-old",
+                        "C": "an 8 year old",
+                        "D": "an 8-year-old"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "当数词和名词结合修饰另外一个名词的时候，数词和名词之间通常用-连接，用作形容词，用单数。",
+                    "test_point": "Word Formation; Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "When he was young, he decided <blank>an actor.",
+                    "choices": {
+                        "A": "to be",
+                        "B": "being",
+                        "C": "is",
+                        "D": "became"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "decide to do sth，决定做某事。",
+                    "test_point": "Gerunds & Infinitives; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I <blank>, so I didn’t know where I was.",
+                    "choices": {
+                        "A": "lost",
+                        "B": "was lost",
+                        "C": "lose",
+                        "D": "am lost"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "be lost 迷路，因为是过去的事情，所以用was lost。",
+                    "test_point": "Verb Tenses; Passive Voice; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> all the boys in his class, Tom is the shortest.",
+                    "choices": {
+                        "A": "in",
+                        "B": "of",
+                        "C": "for",
+                        "D": "From"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "of all 在所有...中。",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Tom wants to be a doctor. He thinks it is an easy<blank>.",
+                    "choices": {
+                        "A": "work",
+                        "B": "works",
+                        "C": "jobs",
+                        "D": "job"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "job是可数名词，这里表示一份工作，所以选择D。",
+                    "test_point": "Countable & Uncountable Nouns; Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> do you think of the film about Zhan Tianyou? It’s very interesting.",
+                    "choices": {
+                        "A": "What",
+                        "B": "How",
+                        "C": "Why",
+                        "D": "Where"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "What do you think of...? 询问对...的看法。",
+                    "test_point": "Question Formation; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—When did you <blank> our school? --Last night",
+                    "choices": {
+                        "A": "come",
+                        "B": "come back",
+                        "C": "return to",
+                        "D": "return"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "come to a place, 到达某地。",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "China is now the third country <blank> a person into space.",
+                    "choices": {
+                        "A": "send",
+                        "B": "send",
+                        "C": "to send",
+                        "D": "sends"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "to do 在句子中做目的状语。",
+                    "test_point": "Gerunds & Infinitives; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My home is 5 kilometers <blank> from here.",
+                    "choices": {
+                        "A": "far",
+                        "B": "long",
+                        "C": "away",
+                        "D": "to"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "away from 距离某地多远。",
+                    "test_point": "Collocations; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I was the first student <blank> school",
+                    "choices": {
+                        "A": "to reach",
+                        "B": "to get",
+                        "C": "to arrive",
+                        "D": "to come"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The phrase 'the first + to do' means the first one to do something.",
+                    "test_point": "Infinitive; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The river goes <blank> the city.",
+                    "choices": {
+                        "A": "over",
+                        "B": "through",
+                        "C": "in",
+                        "D": "on"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The river goes through the city.",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "-- What about <blank> hiking this Sunday?\n-- Great. I’d like <blank> with you.",
+                    "choices": {
+                        "A": "to go; going",
+                        "B": "going; going",
+                        "C": "going; to go",
+                        "D": "to go, to go"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"What about doing sth?\" is a fixed expression, and \"I'd like to do sth\" is also a fixed expression.",
+                    "test_point": "Gerunds & Infinitives; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Ted <blank> a piece of litter, and put it into the rubbish bag.",
+                    "choices": {
+                        "A": "picked up",
+                        "B": "threw away",
+                        "C": "looked for",
+                        "D": "handed in"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'Pick up' means to lift something from the ground.",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "He and his uncle <blank> away from the city two years ago.",
+                    "choices": {
+                        "A": "is",
+                        "B": "are",
+                        "C": "was",
+                        "D": "were"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The subject is 'He and his uncle', which is plural, so we should use 'were'.",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Did you <blank> your lost pen?",
+                    "choices": {
+                        "A": "look for",
+                        "B": "find",
+                        "C": "find out",
+                        "D": "discover"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Find is the most suitable answer.",
+                    "test_point": "Collocations; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "There is a famous band <blank> \" Lingdian”. I like it very much.",
+                    "choices": {
+                        "A": "called",
+                        "B": "read",
+                        "C": "name",
+                        "D": "got"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'called' means named.",
+                    "test_point": "Passive Voice; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "\" I’m going to Hawaii with my aunt this month for my holiday.” \"<blank>.”",
+                    "choices": {
+                        "A": "Have a good time",
+                        "B": "Best wishes to you",
+                        "C": "Congratulations",
+                        "D": "Please go"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Have a good time is the best wishes to someone.",
+                    "test_point": "Sentence Structure; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "His joke made everyone <blank> loudly.",
+                    "choices": {
+                        "A": "laugh",
+                        "B": "laughed",
+                        "C": "laughing",
+                        "D": "to laugh"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'make sb do sth' is a fixed expression.",
+                    "test_point": "Fixed Expressions; Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "\"<blank>?” \"It was sunny and hot. ”",
+                    "choices": {
+                        "A": "What was the date",
+                        "B": "What was the weather",
+                        "C": "How was it going",
+                        "D": "How was the weather"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "This question is asking about the weather.",
+                    "test_point": "Question Formation; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank> do you like Chinese food?",
+                    "choices": {
+                        "A": "What",
+                        "B": "Why",
+                        "C": "How",
+                        "D": "When"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "How do you like...?",
+                    "test_point": "Question Formation; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My home is far <blank> my school.",
+                    "choices": {
+                        "A": "to",
+                        "B": "from",
+                        "C": "at",
+                        "D": "of"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "from is used after far.",
+                    "test_point": "Prepositions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Who is the closest <blank> school?",
+                    "choices": {
+                        "A": "for",
+                        "B": "from",
+                        "C": "to",
+                        "D": "at"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'close to' is a fixed expression.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "\"We must keep <blank> in the hospital,” the nurse said to me.",
+                    "choices": {
+                        "A": "quiet; quietly",
+                        "B": "quietly; quiet",
+                        "C": "quiet; quiet",
+                        "D": "quietly; quietly"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Keep quiet is a state.",
+                    "test_point": "Adjectives; Adverbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The bus is coming. Oh, no! It's full. I'm afraid we can't <blank>.",
+                    "choices": {
+                        "A": "get up",
+                        "B": "get on",
+                        "C": "get out",
+                        "D": "get off"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "get on means 上车",
+                    "test_point": "Phrasal Verbs; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Where are the brooms? --You can’t see them, they are <blank> the door.",
+                    "choices": {
+                        "A": "to",
+                        "B": "of",
+                        "C": "behind",
+                        "D": "in"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means the brooms are behind the door. 'behind' means '在...之后' in Chinese.",
+                    "test_point": "Prepositions; Location"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Who’s <blank> duty today?",
+                    "choices": {
+                        "A": "in",
+                        "B": "on",
+                        "C": "to",
+                        "D": "of"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'on duty' means '值班' in Chinese, which is a fixed expression.",
+                    "test_point": "Fixed Expressions; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I can’t ride a horse <blank> ride a bike, <blank> my father can.",
+                    "choices": {
+                        "A": "and, and",
+                        "B": "or, and",
+                        "C": "or, but",
+                        "D": "and. But"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means I can't ride a horse or a bike, but my father can. 'or' means '或者' in Chinese, 'but' means '但是' in Chinese.",
+                    "test_point": "Conjunctions; Logical Connectors"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Take more <blank>, and you’ll be thinner and healthier.",
+                    "choices": {
+                        "A": "meals",
+                        "B": "homework",
+                        "C": "medicine",
+                        "D": "exercise"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means take more exercise, and you’ll be thinner and healthier. 'exercise' means '锻炼' in Chinese.",
+                    "test_point": "Vocabulary; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My friend, Li Ling invites me <blank> his home.",
+                    "choices": {
+                        "A": "for",
+                        "B": "to",
+                        "C": "on",
+                        "D": "at"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means Li Ling invites me to his home. 'invite sb. to somewhere' is a fixed expression.",
+                    "test_point": "Fixed Expressions; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "When is the film <blank>?",
+                    "choices": {
+                        "A": "begin",
+                        "B": "start",
+                        "C": "on",
+                        "D": "show"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'the film is on' means '电影正在上映' in Chinese.",
+                    "test_point": "Fixed Expressions; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--How <blank> do you go to the cinema? --Twice a month.",
+                    "choices": {
+                        "A": "always",
+                        "B": "usually",
+                        "C": "often",
+                        "D": "never"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'How often' is used to ask the frequency.",
+                    "test_point": "Question Formation; Adverbs of Frequency"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Would you like to go there with me? --<blank>",
+                    "choices": {
+                        "A": "Yes, I would like to.",
+                        "B": "No, I wouldn’t.",
+                        "C": "Good idea.",
+                        "D": "Why?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means would you like to go there with me? Yes, I would like to.",
+                    "test_point": "Sentence Completion; Conversation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Let him <blank> down the stairs\n --It’s dangerous.",
+                    "choices": {
+                        "A": "not jumps",
+                        "B": "not jump",
+                        "C": "not to jump",
+                        "D": "not jumping"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Let sb. do sth., and 'not' should be put before 'do'.",
+                    "test_point": "Sentence Structure; Word Order"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I can find a girl <blank> under a big tree.",
+                    "choices": {
+                        "A": "cry",
+                        "B": "crying",
+                        "C": "to cry",
+                        "D": "cries"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means I can find a girl crying under a big tree. 'crying' is doing the function of an adjective.",
+                    "test_point": "Gerunds & Infinitives; Non-finite Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I like <blank> very much and I’d like <blank> with my friends this afternoon.",
+                    "choices": {
+                        "A": "swimming, to swim",
+                        "B": "to swim, swimming",
+                        "C": "swimming, swimming",
+                        "D": "to swim, to swim"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Like doing sth., would like to do sth.",
+                    "test_point": "Gerunds & Infinitives; Verb Patterns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Two to one is <blank>.",
+                    "choices": {
+                        "A": "13: 58",
+                        "B": "12:58",
+                        "C": "1:02",
+                        "D": "2:01"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Two to one is 2:01.",
+                    "test_point": "Numerical Reasoning"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "This is a painting <blank> Van Gogh.",
+                    "choices": {
+                        "A": "on",
+                        "B": "by",
+                        "C": "to",
+                        "D": "for"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "A painting by Van Gogh.",
+                    "test_point": "Prepositions; Passive Voice"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The boy <blank> red trainers is my brother.",
+                    "choices": {
+                        "A": "put on",
+                        "B": "wears",
+                        "C": "on",
+                        "D": "in"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The sentence means the boy in red trainers is my brother.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--When is your P.E. lesson? \n--It’s <blank> 10:00 o’clock <blank> Friday morning.",
+                    "choices": {
+                        "A": "at, in",
+                        "B": "at, on",
+                        "C": "不填, on",
+                        "D": "不填, in"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "at 10:00 o’clock, on Friday morning.",
+                    "test_point": "Prepositions; Time Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "We can see <blank> \"u\" in the word \"uncle\".",
+                    "choices": {
+                        "A": "an",
+                        "B": "a",
+                        "C": "the",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "uncle发音以元音开头，所以用an。",
+                    "test_point": "Articles; Vowel Sounds"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—The new dress looks nice <blank> you.\n—Thank you.",
+                    "choices": {
+                        "A": "on",
+                        "B": "in",
+                        "C": "with",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "固定搭配look nice on，意为“穿…好看”。",
+                    "test_point": "Fixed Expressions; Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Linda, what are your favorite <blank>?\n—Skirts. They are nice.",
+                    "choices": {
+                        "A": "drinks",
+                        "B": "clothes",
+                        "C": "animals",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据回答“裙子”，可知询问的是最喜欢的衣物。",
+                    "test_point": "Contextual Vocabulary; Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Does Han Meimei have a brother?\n—No, she doesn’t. <blank> she has a sister.",
+                    "choices": {
+                        "A": "But",
+                        "B": "So",
+                        "C": "And",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "句意转折，用but。",
+                    "test_point": "Conjunctions; Logical Connectors"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Hello! May I speak to Michael?\n—Sorry, he is <blank>.",
+                    "choices": {
+                        "A": "here",
+                        "B": "in",
+                        "C": "out",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "be out表示外出，不在。",
+                    "test_point": "Commonly Confused Words; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Lucy, could you help me with my English?\n— <blank>.",
+                    "choices": {
+                        "A": "Thank you.",
+                        "B": "Yes, please.",
+                        "C": "No problem.",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "表示乐于助人，用No problem。",
+                    "test_point": "Fixed Expressions; Situational Dialogues"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Excuse me, can you give me a box? I want to <blank> the food.\n—OK, sir.",
+                    "choices": {
+                        "A": "take",
+                        "B": "show",
+                        "C": "cook",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据语境，表示外带食物，用take。",
+                    "test_point": "Contextual Vocabulary; Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Do you know Shenzhou XVII was sent into space successfully(成功地)?\n—Sure, it's very <blank>.",
+                    "choices": {
+                        "A": "young",
+                        "B": "new",
+                        "C": "cool",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "cool 在这里表示“很棒”。",
+                    "test_point": "Contextual Vocabulary; Adjectives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Do you see Cindy and Mike in the classroom?\n—No, I don't see <blank>, but I see <blank> schoolbags there.",
+                    "choices": {
+                        "A": "their;them",
+                        "B": "them;their",
+                        "C": "they;them",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "第一空是宾语，用them；第二空是形容词性物主代词，用their。",
+                    "test_point": "Pronouns; Grammar"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— <blank> are the bananas?\n—Two kilos for ¥15.",
+                    "choices": {
+                        "A": "How heavy",
+                        "B": "How many",
+                        "C": "How much",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "询问价格用how much。",
+                    "test_point": "Question Formation; How Questions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— <blank> eat out this evening?\n— Good idea.",
+                    "choices": {
+                        "A": "What about",
+                        "B": "Why not",
+                        "C": "Would you like",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "表示建议，可以用Why not或者What about。",
+                    "test_point": "Modal Verbs; Suggestions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— Do you like the green dress?\n— No, I don’t like it <blank>.",
+                    "choices": {
+                        "A": "a lot",
+                        "B": "a little",
+                        "C": "at all",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "表示一点也不喜欢，用at all。",
+                    "test_point": "Adverbs; Degree"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank> do you <blank> Ms. Wang?\n— She is very kind.",
+                    "choices": {
+                        "A": "What, think",
+                        "B": "How, like",
+                        "C": "What, like",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "How do you like ...？ 询问对...的看法。",
+                    "test_point": "Question Formation; How Questions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "— <blank>\n—I can't find my bike.",
+                    "choices": {
+                        "A": "What's up?",
+                        "B": "How are you?",
+                        "C": "How old are you?",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "What's up？表示发生了什么事。",
+                    "test_point": "Fixed Expressions; Situational Dialogues"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "This is <blank> banana and that is <blank> orange.",
+                    "choices": {
+                        "A": "a; a",
+                        "B": "a; an",
+                        "C": "an; a",
+                        "D": "an; an"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Banana\" starts with a consonant, so \"a\" is correct. \"Orange\" starts with a vowel, so \"an\" is correct.",
+                    "test_point": "Articles; Countable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Are these books yours? \n—No. Mine <blank> here in <blank> bag.",
+                    "choices": {
+                        "A": "are, my",
+                        "B": "is, our",
+                        "C": "is, my",
+                        "D": "are, his"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"Mine\" is singular, so \"is\" is correct. \"My bag\" is correct for possession.",
+                    "test_point": "Subject-Verb Agreement; Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Would you like to go out for a picnic?\n—<blank>",
+                    "choices": {
+                        "A": "Thank you.",
+                        "B": "Me, too.",
+                        "C": "No. I don't.",
+                        "D": "Yes. I'd love to."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"Yes, I'd love to\" is a positive response to an invitation.",
+                    "test_point": "Invitations; Conversational English"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Can you talk in English freely(自如地)now?\n—Sorry. I know only a <blank> ['lItl] English.",
+                    "choices": {
+                        "A": "letter",
+                        "B": "little",
+                        "C": "later",
+                        "D": "it"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Little\" means a small amount, which fits the context.",
+                    "test_point": "Countable & Uncountable Nouns; Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My parents and I aren't in, so my brother <blank> go there alone(独自).",
+                    "choices": {
+                        "A": "want to",
+                        "B": "come to",
+                        "C": "wants to",
+                        "D": "goes to"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Subject is 'my brother', so should use 'wants'.",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank>\n—I want to buy a coat.",
+                    "choices": {
+                        "A": "What do you want?",
+                        "B": "Can I help you?",
+                        "C": "Do you have a coat?",
+                        "D": "Is this coat yours?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "'What do you want?' best fits the response 'I want to buy a coat'.",
+                    "test_point": "Question Formation; Conversational English"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Do you have <blank> English books?\n—Yes, but I have only <blank>.",
+                    "choices": {
+                        "A": "any; one",
+                        "B": "some; any",
+                        "C": "one; any",
+                        "D": "any; some"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"Any\" is used in questions. \"Some\" is used in affirmative sentences.",
+                    "test_point": "Determiners; Countable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—What about this dress?\n—It looks very nice <blank> you.",
+                    "choices": {
+                        "A": "to",
+                        "B": "at",
+                        "C": "on",
+                        "D": "in"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "\"On\" is used to describe how clothes look on someone.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Could you please help me <blank> my English?\n—Sure.",
+                    "choices": {
+                        "A": "to",
+                        "B": "with",
+                        "C": "for",
+                        "D": "in"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Help me with\" is the correct collocation.",
+                    "test_point": "Collocations; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—What would you like to drink?\n—<blank>",
+                    "choices": {
+                        "A": "Some fish.",
+                        "B": "A glass of milk.",
+                        "C": "Two bags of rice.",
+                        "D": "Some bread."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "'A glass of milk' is a drink.",
+                    "test_point": "Countable & Uncountable Nouns; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—<blank> is it?\n—It's a quarter to five.",
+                    "choices": {
+                        "A": "When",
+                        "B": "Where",
+                        "C": "What about",
+                        "D": "What time"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "\"What time\" is used to ask the time.",
+                    "test_point": "Question Formation; Time Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Our English teacher often asks us <blank> English in class.",
+                    "choices": {
+                        "A": "speak",
+                        "B": "speaking",
+                        "C": "to speak",
+                        "D": "speaks"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The structure is \"ask somebody to do something.\"",
+                    "test_point": "Gerunds & Infinitives; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Why not go shopping with me?\n—<blank>",
+                    "choices": {
+                        "A": "You are right.",
+                        "B": "Good idea.",
+                        "C": "I'm OK.",
+                        "D": "Yes, I have."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Good idea\" is an appropriate response to a suggestion.",
+                    "test_point": "Invitations; Conversational English"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "—Help <blank> to some fish, children.\n—Thanks.",
+                    "choices": {
+                        "A": "you",
+                        "B": "your",
+                        "C": "yourself",
+                        "D": "yourselves"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Because it's 'children', which is plural, the correct answer is 'yourselves'.",
+                    "test_point": "Pronouns; Reflexive Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "We want <blank> this book now.",
+                    "choices": {
+                        "A": "reading",
+                        "B": "watching",
+                        "C": "to watch",
+                        "D": "to read"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct usage is \"want to do something\".",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Our teacher is <blank> a red sweater.",
+                    "choices": {
+                        "A": "putting on",
+                        "B": "dressing",
+                        "C": "wearing",
+                        "D": "have on"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"wearing\" means to have something on one's body as clothing or decoration.",
+                    "test_point": "Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My uncle is waiting <blank> the bus stop <blank> the moment.",
+                    "choices": {
+                        "A": "for, at",
+                        "B": "for,for",
+                        "C": "at, at",
+                        "D": "at, for"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct preposition following \"waiting\" is \"for\". \"At the moment\" is a fixed expression.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "My mother is <blank> a cake <blank> my birthday.",
+                    "choices": {
+                        "A": "making, to",
+                        "B": "making, for",
+                        "C": "doing, to",
+                        "D": "doing,for"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"make\" is for creating things, and \"for\" indicates the purpose or recipient.",
+                    "test_point": "Collocations; Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> you <blank> the window?\n—Yes, I am.",
+                    "choices": {
+                        "A": "Do, clean",
+                        "B": "Is, cleaning",
+                        "C": "Are, cleaning",
+                        "D": "Do, cleaning"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The answer is in present continuous tense, so the correct form is \"Are you doing\".",
+                    "test_point": "Verb Tenses"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "It’s cold today. You must <blank> the coat.",
+                    "choices": {
+                        "A": "take off",
+                        "B": "put on",
+                        "C": "take down",
+                        "D": "put in"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"put on\" means to wear clothes.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "I have <blank> with many American students in the international school since last term.",
+                    "choices": {
+                        "A": "got on well",
+                        "B": "made friends",
+                        "C": "caught up",
+                        "D": "played"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"make friends\" means to build friendship with someone.",
+                    "test_point": "Collocations"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "We are looking forward <blank> English.",
+                    "choices": {
+                        "A": "to with",
+                        "B": "to learn",
+                        "C": "to learning",
+                        "D": "to learned"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "\"look forward to doing something\" is a fixed expression.",
+                    "test_point": "Fixed Expressions; Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "The shop <blank> \"Closed\".",
+                    "choices": {
+                        "A": "writes",
+                        "B": "talks",
+                        "C": "says",
+                        "D": "speaks"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Shops can show words saying they are closed.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Our teacher often talks <blank> us <blank> English.",
+                    "choices": {
+                        "A": "to...on",
+                        "B": "with...on",
+                        "C": "with...in",
+                        "D": "to...at"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "\"talk with somebody on something\" is a fixed expression.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Look! Two <blank> and three <blank> are talking under the <blank> trees.",
+                    "choices": {
+                        "A": "man teachers, boy students,apples",
+                        "B": "men teachers, boys students,apples",
+                        "C": "men teachers,boy students,apple",
+                        "D": "man teacher, boy student,apple"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The plural form of man is men, boy is boys, and apple is apples.",
+                    "test_point": "Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Thank you for <blank> me.",
+                    "choices": {
+                        "A": "helping",
+                        "B": "to help",
+                        "C": "help",
+                        "D": "helps"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "\"Thank you for doing something\" is a fixed expression.",
+                    "test_point": "Gerunds & Infinitives; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "-- <blank> are they getting ready for?\n --The Spring Festival.",
+                    "choices": {
+                        "A": "Where",
+                        "B": "How",
+                        "C": "Why",
+                        "D": "What"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"What are they getting ready for?\" checks the purpose of doing something.",
+                    "test_point": "Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--I can’t find my glasses.\n --They <blank> in your pocket.",
+                    "choices": {
+                        "A": "can",
+                        "B": "can be",
+                        "C": "may",
+                        "D": "may be"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "\"may be\" is used to express possibility.",
+                    "test_point": "Modal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Hart Mei likes apples very much, but she doesn’t like oranges <blank>.",
+                    "choices": {
+                        "A": "a little",
+                        "B": "at all",
+                        "C": "a11",
+                        "D": "very much"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct idiom is 'not at all', which means 'not in any way' or 'not a bit'.",
+                    "test_point": "Collocations; Idioms & Phrases"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Those are <blank>.",
+                    "choices": {
+                        "A": "teacher",
+                        "B": "I teachers",
+                        "C": "my teachers",
+                        "D": "my teacher"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Teachers' is plural and needs a possessive pronoun like 'my' before it.",
+                    "test_point": "Pronouns; Countable & Uncountable Nouns; Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What do your brothers do?\n--One is a teacher, <blank> are students.",
+                    "choices": {
+                        "A": "the two",
+                        "B": "the others",
+                        "C": "two other",
+                        "D": "others"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'The others' is used to refer to the remaining members of a specific group.",
+                    "test_point": "Pronouns; Subject-Verb Agreement"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> maps are there?\n--There are eight.",
+                    "choices": {
+                        "A": "What",
+                        "B": "How",
+                        "C": "How many",
+                        "D": "Whose"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'How many' is used to ask about the quantity of countable nouns.",
+                    "test_point": "Question Formation; Countable & Uncountable Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What does Jim do on Sundays?\n--He usually goes to <blank> his parents in New York.",
+                    "choices": {
+                        "A": "see",
+                        "B": "look",
+                        "C": "watch",
+                        "D": "visit"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Visit' means to go and spend time with someone.",
+                    "test_point": "Collocations; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank> your bag?\n--On the desk.",
+                    "choices": {
+                        "A": "What’s",
+                        "B": "How’s",
+                        "C": "Where’s",
+                        "D": "How much is"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Where's' asks about the location of something.",
+                    "test_point": "Question Formation"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "This is <blank> pen. <blank> pen is blue.",
+                    "choices": {
+                        "A": "the, A",
+                        "B": "the, The",
+                        "C": "a, A",
+                        "D": "a, The"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The first blank needs 'a' because it's introducing a pen in general, and the second needs 'the' because it's referring to a specific pen.",
+                    "test_point": "Articles"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "<blank> name is Wang Fang. <blank> name is Jack.",
+                    "choices": {
+                        "A": "I, Your",
+                        "B": "Your, I",
+                        "C": "My, Your",
+                        "D": "My, You"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'My' is a possessive pronoun for the speaker and 'Your' is a possessive pronoun for the listener.",
+                    "test_point": "Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--<blank>, what’s this in English?\n--It’s a book.",
+                    "choices": {
+                        "A": "Sorry",
+                        "B": "Fine",
+                        "C": "Thank you",
+                        "D": "Excuse me"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Excuse me' is a polite way to interrupt someone or ask for their attention.",
+                    "test_point": "Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Listen! Is that Kate playing the violin in the room?\n--No. It <blank> be Kate. She has gone to New York.",
+                    "choices": {
+                        "A": "may not",
+                        "B": "needn’t",
+                        "C": "can’t",
+                        "D": "mustn’t"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Can't' expresses impossibility based on the given information that Kate is in New York.",
+                    "test_point": "Modal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--Hi! Ann, have good news for you.\n--<blank>? What is it?",
+                    "choices": {
+                        "A": "What",
+                        "B": "Really",
+                        "C": "OK",
+                        "D": "Who"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Really' is a response expressing surprise or interest.",
+                    "test_point": "Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Daming likes <blank> football very much.",
+                    "choices": {
+                        "A": "play",
+                        "B": "playing",
+                        "C": "plays",
+                        "D": "to play"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Like' is often followed by a gerund (verb + -ing) when expressing a general preference.",
+                    "test_point": "Gerunds & Infinitives"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "Dad, <blank> is my friend Peter Cooper.",
+                    "choices": {
+                        "A": "this",
+                        "B": "he",
+                        "C": "it",
+                        "D": "that"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'This' is used to introduce someone in person.",
+                    "test_point": "Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What’s Betty doing in her room?\n--She’s putting <blank> her clothes.",
+                    "choices": {
+                        "A": "in",
+                        "B": "for",
+                        "C": "on",
+                        "D": "at"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Putting on' is a phrasal verb meaning to dress oneself.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Multiple-Choice-Question",
+            "context": "",
+            "questions": [
+                {
+                    "text": "--What’s your favourite <blank>?\n--Running.",
+                    "choices": {
+                        "A": "food",
+                        "B": "music",
+                        "C": "sport",
+                        "D": "lesson"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Running is a type of sport.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        }
+    ]
+}

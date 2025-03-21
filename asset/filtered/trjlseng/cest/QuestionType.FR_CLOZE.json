@@ -1,0 +1,812 @@
+{
+    "question_sets": [
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "Here is some information you need to write on your party invitation. By showing all the  <blank text=56> about your party, the guests will feel easier to make decisions. They will be clear <blank text=57> they can accept it or they have to turn it down.\n Firstly, you should write the host's <blank text=58> on your invitation. Your invitation should also show the kind of the party to the persons that you want to <blank text=59>.\n  Secondly, you need to tell where you will hold the party. If your guests don't know about the place,they can look for the way on the mobile phone <blank text=60> getting lost.\n   Thirdly, write the date (日期) of your party <blank text=61>. After looking through the calendar, the guests will know if they are <blank text=62> on that day. Your invitation also <blank text=63> to tell your guests the time of the party and how long the party will last.\n   You may hope that your guests can <blank text=64> to your invitation as soon as possible. You can give <blank text=65> a date by which you need an answer. You can also write a phone number or an e-mail address.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "facts",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a noun to describe the information.",
+                    "test_point": "Cloze Test; Word Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "if",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a conjunction to connect two clauses.",
+                    "test_point": "Cloze Test; Conjunctions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "name",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a noun to describe the host.",
+                    "test_point": "Cloze Test; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "invite",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a verb to describe the action of inviting.",
+                    "test_point": "Cloze Test; Word Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "without",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a preposition to describe the action of getting lost.",
+                    "test_point": "Cloze Test; Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "clearly",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires an adverb to describe the date.",
+                    "test_point": "Cloze Test; Word Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "available",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires an adjective to describe the guests' state.",
+                    "test_point": "Cloze Test; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "needs",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a verb to describe the action of telling.",
+                    "test_point": "Cloze Test; Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "reply",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a verb to describe the action of replying.",
+                    "test_point": "Cloze Test; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "them",
+                    "is_answer_provided": false,
+                    "explanation": "The blank requires a pronoun to refer to the guests.",
+                    "test_point": "Cloze Test; Pronouns"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "World Laughter Day is on the first Sunday of May every year. People in every place can celebrate it. They only need <blank text=66> laugh loudly and freely.\n A doctor started the interesting day in 1998. He wanted to make the world a much happier place. He believed <blank text=67> laughter could bring people happiness and help people relax. When the doctor started <blank text=68> first World Laughter Day, it was very popular. To make it more popular, the doctor advised people to celebrate the day in public (公众的) places. He wanted more people to enjoy it. Many cities all over the world <blank text=69> now celebrating it. Some people even get prizes <blank text=70> the best laughter.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "to",
+                    "is_answer_provided": false,
+                    "explanation": "need to do sth.",
+                    "test_point": "Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "that",
+                    "is_answer_provided": false,
+                    "explanation": "believe that...",
+                    "test_point": "Conjunctions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "the",
+                    "is_answer_provided": false,
+                    "explanation": "the first...",
+                    "test_point": "Articles"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "are",
+                    "is_answer_provided": false,
+                    "explanation": "are celebrating...",
+                    "test_point": "Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "for",
+                    "is_answer_provided": false,
+                    "explanation": "prizes for...",
+                    "test_point": "Prepositions"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "It is well -known that everyone has his own dream as well as his own future. But do you know what future really is? I have to say that future is now. That is to say we must treasure every minute now. If we want to have a bright future, we should know how important time is and use it well.\nThere is an old English saying, “<blank text=46>”Then what’s time? Time is something that we can’t see or touch, but we can feel it passing by. Time is always with us. When we are at table, time passes; when we play, time goes by unnoticeable. We always say “<blank text=47>”, but time is even more precious（珍贵的）than money, because when money is spent, we can earn it back. But if time is gone away, it will never return. So, some of us even say time is priceless（无价的）.\nWe should always remember : Future is now. For us students, we should try our best to work hard in order to create a great future of our own. We should make the best use if every hour and be the master（主人）of today. We should do everything before us as well as possible. And “<blank text=48>”\nAs we all know, “ <blank text=49> ” If you waste today, you will regret（后悔）tomorrow. So from now on, work hard. Tomorrow will be better, and your future will be brighter. Remember, “<blank text=50>”Today’s hard work is the cause of tomorrow’s harvest（收获）",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Time and tide wait for no man.",
+                    "is_answer_provided": false,
+                    "explanation": "This sentence fits the context of the passage.",
+                    "test_point": "Sentence Completion; Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Time is money",
+                    "is_answer_provided": false,
+                    "explanation": "This sentence fits the context of the passage.",
+                    "test_point": "Sentence Completion; Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Never put of what can be done today till tomorrow.",
+                    "is_answer_provided": false,
+                    "explanation": "This sentence fits the context of the passage.",
+                    "test_point": "Sentence Completion; Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "No pains, no gains.",
+                    "is_answer_provided": false,
+                    "explanation": "This sentence fits the context of the passage.",
+                    "test_point": "Sentence Completion; Fixed Sentence Patterns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Gain time, gain life.",
+                    "is_answer_provided": false,
+                    "explanation": "This sentence fits the context of the passage.",
+                    "test_point": "Sentence Completion; Fixed Sentence Patterns"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "Rock climbing is a popular hobby that many people enjoy doing. You can do it indoors on special walls or outdoors on real mountains. There are many advantages of rock climbing—it is fun and it also helps people forget worries.\nThe most important equipment(装备)to have is good shoes. They need to be half a size smaller than your usual size. The next thing you need is a harness(保护带).This allows you to move freely, but will hold you up if you fall. It's important to know how to use your equipment. Otherwise, it may be dangerous. If you are a beginner, it's best to have lessons. A climber with experience can help you a lot in the beginning.\nRock climbing is very exciting for people of different ages. Climbers, however, must be careful not to pollute the environment. Sometimes rock climbers leave rubbish on the mountains where they climb. They should take it with them and throw it away. This will allow future climbers to enjoy a clean environment.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "On special walls.",
+                    "is_answer_provided": true,
+                    "explanation": "Where can you do rock climbing indoors?",
+                    "test_point": "Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Good shoes and a harness.",
+                    "is_answer_provided": true,
+                    "explanation": "What equipment does a climber need?",
+                    "test_point": "Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Yes. Because it is exciting.",
+                    "is_answer_provided": false,
+                    "explanation": "Will you try rock climbing when you have a chance? Why or why not?",
+                    "test_point": "Reading Comprehension"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "A poster uses pictures and words to send messages to people. <blank text=1> So we usually see posters in the halls of schools，outside stores or movie theaters.\nPeople who design posters work very hard to make their posters noticed（注意）.They want to make people stop and look at their posters and read them. <blank text=2>\nFirst，plan your poster.Then，make a draft（草稿）and check it carefully. <blank text=3>\nHow can you make your poster unique and interesting？Remember your poster should have：\n☆A Title.Make sure everyone knows what the poster is about before they start to read it.\n☆Information.What is the message？What is this poster for？ <blank text=4>\n☆ Why is this important？Why do you think it matters？Why should others pay attention to it？\n☆Decorations（装饰）and pictures.In order to attract people's attention，your poster needs to look nice，be easy to read and have some pictures.\n☆Who makes the poster？Place your name in the lower right corner.\n <blank text=5> Think of a topic and create your own poster to share（分享）with your school or community.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Therefore",
+                    "is_answer_provided": false,
+                    "explanation": "Therefore is the correct answer.",
+                    "test_point": "Logical Connectors; Sentence Structure"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Here",
+                    "is_answer_provided": false,
+                    "explanation": "Here is the correct answer.",
+                    "test_point": "Contextual Vocabulary; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Next",
+                    "is_answer_provided": false,
+                    "explanation": "Next is the correct answer.",
+                    "test_point": "Logical Connectors; Transition Words"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Also",
+                    "is_answer_provided": false,
+                    "explanation": "Also is the correct answer.",
+                    "test_point": "Logical Connectors; Sentence Structure"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Now",
+                    "is_answer_provided": false,
+                    "explanation": "Now is the correct answer.",
+                    "test_point": "Transition Words; Sentence Structure"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "Antarctica's（南极洲的）most famous animal is in danger. <blank text=1> （Recent），scientists found that the number of emperor penguins（帝企鹅）has dropped quickly\n    Hailey Bay was the world's <blank text=2> （two）largest home for penguins.Between 2016 and 2018，there were many <blank text=3> （storm）in Hailey Bay.Thousands of young penguins died.Because <blank text=4> this，the home for penguins has almost completely disappeared.\n    Scientists feel <blank text=5> （worry）about this.Hailey Bay used to be <blank text=6> safe place for penguins but now it isn't.Luckily，another home of penguins has gotten much <blank text=7> （big）.Many penguins have moved there <blank text=8> （keep）safe.\n <blank text=9> penguins may have greater chance to keep alive，penguins are still facing the danger of dying out.Unless something <blank text=10> （do），they won't have anywhere to go one day.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Recently",
+                    "is_answer_provided": false,
+                    "explanation": "Adverb is needed here",
+                    "test_point": "Word Formation; Adverbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "second",
+                    "is_answer_provided": false,
+                    "explanation": "Ordinal number is needed here",
+                    "test_point": "Countable & Uncountable Nouns; Word Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "storms",
+                    "is_answer_provided": false,
+                    "explanation": "Plural form is needed here",
+                    "test_point": "Countable & Uncountable Nouns; Word Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "of",
+                    "is_answer_provided": false,
+                    "explanation": "Because of is a fixed expression",
+                    "test_point": "Fixed Expressions; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "worried",
+                    "is_answer_provided": false,
+                    "explanation": "Adjective is needed here",
+                    "test_point": "Word Formation; Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "a",
+                    "is_answer_provided": false,
+                    "explanation": "A is needed here",
+                    "test_point": "Articles; Determiners"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "bigger",
+                    "is_answer_provided": false,
+                    "explanation": "Comparative is needed here",
+                    "test_point": "Comparatives & Superlatives; Grammar"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "to",
+                    "is_answer_provided": false,
+                    "explanation": "to keep safe.",
+                    "test_point": "Gerunds & Infinitives; Grammar"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "Although",
+                    "is_answer_provided": false,
+                    "explanation": "Although penguins may...",
+                    "test_point": "Conjunctions; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "is",
+                    "is_answer_provided": false,
+                    "explanation": "Unless something is done,...",
+                    "test_point": "Verb Tenses; Passive Voice"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "I had a high fever and <blank> cough <blank> a lot, so Mum took me to the hospital.\nThe guide can’t remember all the <blank> tourists <blank> names in a short time.\nAfter the storm, the water level rose so high that the villagers were in <blank> danger <blank>.\nOur teacher asks us to write down these <blank> speakers <blank> names.\nHis bike <blank> broke <blank> down, so he had to walk to school.\nThe <blank> clouds <blank> soon became dark and they covered the sun.\nSome scientists think too much homework <blank> leads <blank> to students’ poor health and  eyesight.\nHe was much <blank> fascinated <blank> about basketball after his team won in the final match.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "coughed",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes an action in the past, so the past tense 'coughed' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "tourists'",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes the tourists' names, so the possessive form 'tourists'' should be used.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "danger",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes the villagers were in danger, so the noun 'danger' should be used.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "speakers'",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes the speakers' names, so the possessive form 'speakers'' should be used.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "broke",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes an action in the past, so the past tense 'broke' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "clouds",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes the clouds became dark, so the noun 'clouds' should be used.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "leads",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes a general truth, so the present tense 'leads' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "fascinated",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes someone's feeling, so the adjective 'fascinated' should be used.",
+                    "test_point": "Word Formation; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "1 Many changes <blank> have taken <blank> place in our daily life since the use of Underground Line 1 and 2.\n2. There is a light rain, but none of the boys says they <blank> will stop <blank> playing football.\n3. Tommy will introduce the film to us, if he   <blank> is asked <blank> to.\n4 Do you know how much difficulty Chinese Women’s Volleyball Team has <blank> had/have <blank> (win) the match?\n5 To celebrate the Year of Monkey, Mother says she’ll have our house <blank> painted <blank>.\n6．—Why don’t you join the trip to Japan with us?—Sorry. We <blank> are saving <blank> some money to buy a new flat.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "have taken",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes an action that started in the past and continues to the present, so the present perfect tense 'have taken' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "will stop",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes a future action, so the future tense 'will stop' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "is asked",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes a passive action, so the passive voice 'is asked' should be used.",
+                    "test_point": "Passive Voice; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "had",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence asks about the difficulty the team has experienced, using present perfect tense.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "painted",
+                    "is_answer_provided": false,
+                    "explanation": "'Have something done' means 'ask someone to do something', so the past participle 'painted' should be used.",
+                    "test_point": "Passive Voice; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "are saving",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes an action happening now, so the present continuous tense 'are saving' should be used.",
+                    "test_point": "Verb Tenses; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Free-Responses",
+            "context": "完成句子 \n1. 梅梅非常兴奋因为所有人中她犯的错最少。\n  Meimei was very excited because she <blank> made the fewest mistakes <blank> of all.\n2. 斯密斯一家上周去澳大利亚旅游了一趟。\n  The Smiths <blank> took a trip to Australia <blank> last week.\n3. 你弟弟小时候对修电脑很感兴趣吗？\n  Did your brother <blank> have an interest in fixing <blank> computers when he was young?\n4. 仔细浏览一下你的答案会帮助你考试取得更好的成绩。\n  <blank> Skimming through <blank> will help you get a better result in the exam.\n5. 他们不痴迷于电脑游戏，而是喜欢阅读。\n   They like reading <blank> instead of playing <blank> computer games.\n6. 汤姆，好好计划时间。最好不要一直听音乐。\nTom, plan your day well. You <blank> had better not listening <blank> to music.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "made the fewest mistakes",
+                    "is_answer_provided": false,
+                    "explanation": "To express that Meimei made the fewest mistakes, the phrase 'made the fewest mistakes' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "took a trip to Australia",
+                    "is_answer_provided": false,
+                    "explanation": "To describe that the Smiths traveled to Australia, the phrase 'took a trip to Australia' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "have an interest in fixing",
+                    "is_answer_provided": false,
+                    "explanation": "To ask if the brother was interested in fixing computers, the phrase 'have an interest in fixing' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "skimming through",
+                    "is_answer_provided": false,
+                    "explanation": "To express that skimming through will help, the phrase 'Skimming through' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "instead of playing",
+                    "is_answer_provided": false,
+                    "explanation": "To express that they like reading instead of playing, the phrase 'instead of playing' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": ""
+                    },
+                    "answer": "had better not listen",
+                    "is_answer_provided": false,
+                    "explanation": "To express that you had better not listen, the phrase 'had better not listen' is the best choice.",
+                    "test_point": "Sentence Structure; Idioms & Phrases"
+                }
+            ]
+        }
+    ]
+}

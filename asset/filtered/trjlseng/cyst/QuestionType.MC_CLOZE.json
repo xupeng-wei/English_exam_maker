@@ -1,0 +1,1719 @@
+{
+    "question_sets": [
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "These days men and women , young and old are 1 the same kind of 2, and a lot of 3 have long hair（头发）. We often can't 4whether they are boys or girls, men or women.\n    5 old man often goes to walk in the park. He is sitting on a chair now. A young person is 6 7 him.\n    \"Oh, goodness!\" the old man says to the other one. \"Do you 8 that person with long hair? Is it a boy or a girl?\"\n    \"A boy,\" says the other one. \"He is my son.\" \"Oh,\" says the old man, \"Please 9 me. I don't know you are his 10.\" \"I'm not his mother, I'm his father,\" says the other one.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "having",
+                        "B": "wearing",
+                        "C": "putting",
+                        "D": "buying"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "People wear clothes.",
+                    "test_point": "Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "clothes",
+                        "B": "trees",
+                        "C": "pictures",
+                        "D": "Bags"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Wear clothes.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "we",
+                        "B": "your",
+                        "C": "them",
+                        "D": "Theirs"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "A lot of people have their hairs.",
+                    "test_point": "Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "talk",
+                        "B": "teach",
+                        "C": "say",
+                        "D": "tell"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "We can't tell whether they are boys or girls.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "An",
+                        "B": "A",
+                        "C": "The",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "An old man.",
+                    "test_point": "Articles"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "running",
+                        "B": "flying",
+                        "C": "standing",
+                        "D": "driving"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "A person standing beside the old man.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "on",
+                        "B": "beside",
+                        "C": "in",
+                        "D": "At"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The person is standing beside the old man.",
+                    "test_point": "Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "see",
+                        "B": "watch",
+                        "C": "look",
+                        "D": "Read"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "See is a suitable word.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "help",
+                        "B": "excuse",
+                        "C": "teach",
+                        "D": "Ask"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The old man wants to excuse the person.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "baby",
+                        "B": "sister",
+                        "C": "father",
+                        "D": "Mother"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The old man thought the person is his mother.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "The next day is sunny, so the children decide to do some work in the garden. <blank> of them has a piece of it to look after. Bobbie <blank> the rake from the house and starts work .But Peter doesn't have <blank>, then they start to argue. At last, Bobbie pushes the rake at Peter saying, 'Take it then!'\nThe rake <blank> on top of him. The teeth of it go into his <blank>. He starts screaming. Mother hears him and comes <blank> out of the house.\n'Are you hurt, Peter ?'\n'My foot! ‘he says.' I think it's <blank>.'\nMother takes off his shoe and sock. There's a lot of blood coming from three <blank>. Phyllis runs to get the doctor while Bobbie and Mother <blank> Peter into the house.\nDoctor Forrest puts a big bandage on Peter's foot and says, 'You must stay in bed for a week, Peter.'\nPeter looks very sad and Bobbie feels <blank> for him.\nLater that evening when they are <blank> .She says, 'I'm very sorry, Peter. I really am.' And she starts <blank>.\n‘Don’t cry, Bobbie,' Peter says. ‘I’m all right. But I feel very <blank>. '\nPeter doesn't like staying in bed. The hours pass very <blank>.\n‘I’m bored, ' he says after two days. ‘There’s <blank> to do.'",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "All",
+                        "B": "Each",
+                        "C": "Both",
+                        "D": "None"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Each' is used to refer to individual members of a group.",
+                    "test_point": "Determiners; Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "takes",
+                        "B": "gets",
+                        "C": "brings",
+                        "D": "lifts"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Gets' makes more sense in this context, implying Bobbie retrieves the rake.",
+                    "test_point": "Verbs; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "them",
+                        "B": "it",
+                        "C": "that",
+                        "D": "one"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'It' refers to the rake that Peter doesn't have.",
+                    "test_point": "Pronouns; Object Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "falls",
+                        "B": "fell",
+                        "C": "feels",
+                        "D": "jumps"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "'Fell' is the past tense of 'fall', describing the action of the rake.",
+                    "test_point": "Verb Tenses; Past Simple"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "arm",
+                        "B": "foot",
+                        "C": "eye",
+                        "D": "leg"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Later in the passage, Peter says, 'My foot!' indicating the rake injured his foot.",
+                    "test_point": "Contextual Vocabulary; Body Parts"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "walking",
+                        "B": "going",
+                        "C": "looking",
+                        "D": "running"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Running' implies Mother is rushing out of the house quickly.",
+                    "test_point": "Verbs; Action Verbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "terrible",
+                        "B": "Ok",
+                        "C": "broken",
+                        "D": "bad"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'Terrible' suggests the foot is seriously injured.",
+                    "test_point": "Adjectives; Degree"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "holes",
+                        "B": "places",
+                        "C": "differences",
+                        "D": "spots"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "'Holes' accurately describe the injuries caused by the rake's teeth.",
+                    "test_point": "Nouns; Injuries"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "let",
+                        "B": "carry",
+                        "C": "take",
+                        "D": "move"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Take' is the right word, suggesting taking Peter to the house.",
+                    "test_point": "Verbs; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "proud",
+                        "B": "satisfied",
+                        "C": "sorry",
+                        "D": "excited"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Bobbie feels 'sorry' because her actions caused the injury.",
+                    "test_point": "Adjectives; Feelings"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "alone",
+                        "B": "lonely",
+                        "C": "free",
+                        "D": "relaxed"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Being 'alone' provides the setting for Bobbie's apology.",
+                    "test_point": "Adjectives; Setting"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "speaking",
+                        "B": "laughing",
+                        "C": "shouting",
+                        "D": "crying"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Crying' is the natural reaction to feeling sorry and remorseful.",
+                    "test_point": "Verbs; Emotions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "thirsty",
+                        "B": "tired",
+                        "C": "sad",
+                        "D": "surprised"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Sad' reflects the mood of Peter being confined to bed.",
+                    "test_point": "Adjectives; Feelings"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "quickly",
+                        "B": "quietly",
+                        "C": "slowly",
+                        "D": "happily"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "'Slowly' describes how time passes when someone is bored and inactive.",
+                    "test_point": "Adverbs; Time"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "everything",
+                        "B": "anything",
+                        "C": "something",
+                        "D": "nothing"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "'Nothing' expresses the lack of activity or entertainment.",
+                    "test_point": "Pronouns; Negation"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "It's 8:00 am on Saturday. My  <blank> are taking a trip. We are at the seaside. My grandparents are  <blank> in the sea. They do some exercise every day, and they are very  <blank> . I'm playing with my  <blank> on the beach(沙滩). She enjoys the sun a lot. My little brother is making a  <blank> on the beach. He wants a big house very much. My father is drawing a nice picture. He is good at drawing because he is a(n) <blank> teacher. My mother is lying on the beach and enjoying listening to <blank> . She likes country music. She is very <blank> and relaxed(放松的). Look at those women. They are <blank> beach volleyball. That's very interesting. I also like it. What about those men? They are enjoying a boat game. It's also very <blank> . Everyone is happy on the beach now.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "friends",
+                        "B": "family",
+                        "C": "classmates",
+                        "D": "cousins"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Given the context of grandparents and family members, \"family\" is the most suitable choice.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "running",
+                        "B": "singing",
+                        "C": "working",
+                        "D": "swimming"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "At the seaside, people usually swim.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "afraid",
+                        "B": "busy",
+                        "C": "healthy",
+                        "D": "fat"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence says 'They do some exercise every day', so they are very healthy.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "father",
+                        "B": "sister",
+                        "C": "uncle",
+                        "D": "mother"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The subject says 'I'm playing with my <blank>'.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "car",
+                        "B": "dog",
+                        "C": "house",
+                        "D": "cake"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The brother is making a house.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "art",
+                        "B": "maths",
+                        "C": "English",
+                        "D": "music"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The father is drawing a nice picture, so he is a art teacher.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "stories",
+                        "B": "birds",
+                        "C": "music",
+                        "D": "movies"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The mother is enjoying listening to music.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "sad",
+                        "B": "happy",
+                        "C": "busy",
+                        "D": "cute"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The mother is very happy.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "reading",
+                        "B": "calling",
+                        "C": "playing",
+                        "D": "sending"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The women are playing beach volleyball.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "interesting",
+                        "B": "important",
+                        "C": "difficult",
+                        "D": "special"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Everyone is happy on the beach now, so the game is very interesting.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "This is a picture of Kat’s <blank text=1>. What can we <blank text=2> in the picture? Look <blank text=3> it, please. The man <blank text=4> the black coat is Kate’s father, Mr. Green. The <blank text=5> in the red sweater is Mrs. Green. They <blank text=6> young. The baby is Kate. The little boy is Kate’s <blank text=7>, Jim. <blank text=8> the man behind Mrs. Green? Oh, he’s <blank text=9> brother, Mr. Read. He <blank text=10> young, too.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "families",
+                        "B": "family",
+                        "C": "parents",
+                        "D": "brothers"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The sentence requires a singular noun to describe the group of people.",
+                    "test_point": "Nouns; Singular vs. Plural"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "look",
+                        "B": "do",
+                        "C": "see",
+                        "D": "put"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'see' is the correct verb to describe what one can observe in a picture.",
+                    "test_point": "Verbs; Observation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "at",
+                        "B": "after",
+                        "C": "for",
+                        "D": "up"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. 'Look at' is the correct phrasal verb to direct someone's attention.",
+                    "test_point": "Phrasal Verbs; Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "on",
+                        "B": "of",
+                        "C": "in",
+                        "D": "to"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'in' is used to describe someone wearing clothes.",
+                    "test_point": "Prepositions; Clothing"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "man",
+                        "B": "girl",
+                        "C": "women",
+                        "D": "woman"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is D. 'woman' is the correct singular noun to describe Mrs. Green.",
+                    "test_point": "Nouns; Gender"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "are",
+                        "B": "is",
+                        "C": "look like",
+                        "D": "looking"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. 'are' is the correct verb to agree with 'They'.",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "sister",
+                        "B": "brother",
+                        "C": "father",
+                        "D": "aunt"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. The sentence describes Jim's relationship to Kate.",
+                    "test_point": "Family Relationships; Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What’s",
+                        "B": "Where’s",
+                        "C": "Who’s",
+                        "D": "How is"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is C. 'Who’s' is used to ask about the identity of a person.",
+                    "test_point": "Question Formation; Interrogative Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "his",
+                        "B": "her",
+                        "C": "our",
+                        "D": "their"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is B. 'her' is the correct possessive pronoun to refer to Mrs. Green.",
+                    "test_point": "Possessive Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "looks",
+                        "B": "am",
+                        "C": "look",
+                        "D": "very"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The correct answer is A. 'looks' is the correct verb to describe someone's appearance and agrees with the singular subject 'He'.",
+                    "test_point": "Subject-Verb Agreement; Appearance"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "When the Wind Blows(吹)\nYears ago, a farmer owned the land along the Atlantic seacoast(大西洋沿岸). He advertised for a helper. But most people didn’t want to 31 for him. They were afraid of storms(风暴) across the Atlantic. At last, a short, thin man was in the job. “Are you a good farmhand?” the farmer asked.\n    “Well I can 32 when the wind blows,” replied the little man.Although (尽管)surprised by this answer, the farmer, in great need of help, hired him.\nThe little man worked well around 33, busy from morning to night, and the farmer felt happy with his work.\nThen one night the wind howled loudly in from offshore.34 out of bed the farmer rushed next door to man’s room. “Oh, my god! A 35 is coming!” he shouted, trying to wake the little man up. “Get up! Get up! Tie (捆，绑) things down 36 they blow away!”\nThe little man didn’t move, saying in a sleepy voice, “No sir, I told you, I can sleep when the wind blows.” \nThe farmer got very 37 and decided to make the little man go at once. Instead he hurried outside to prepare for the storm. How 38! He found that the little man had got everything ready. Nothing could blow away.\nAll of a sudden, the farmer 39 his worker’s words, so he returned to his bed while the wind blew.\nSo, if you are prepared, in either body or mind, you have 40 to be afraid of.\nCan you sleep when the wind blows through your life?",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "pay",
+                        "B": "work",
+                        "C": "ask",
+                        "D": "search"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "People work for someone. So the answer is B.",
+                    "test_point": "Contextual Vocabulary; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "sleep",
+                        "B": "leave",
+                        "C": "fight",
+                        "D": "travel"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "As described later, the man says he can sleep when the wind blows. So the answer is A.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "camp",
+                        "B": "house",
+                        "C": "farm",
+                        "D": "town"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The farmer hired the little man to work. So the man worked around the farm. C is the answer.",
+                    "test_point": "Contextual Vocabulary; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Looking",
+                        "B": "Jumping",
+                        "C": "Staying",
+                        "D": "Running"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "In such a scary situation, jumping out of bed sounds more suitable. So the answer is B.",
+                    "test_point": "Contextual Vocabulary; Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "season",
+                        "B": "sound",
+                        "C": "show",
+                        "D": "storm"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, the little man worked because people were afraid of storms. So, D is the answer.",
+                    "test_point": "Contextual Vocabulary; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "when",
+                        "B": "after",
+                        "C": "before",
+                        "D": "till"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Tie things down before they blow away. So the answer is C.",
+                    "test_point": "Conjunctions; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "angry",
+                        "B": "tired",
+                        "C": "excited",
+                        "D": "busy"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "When people cannot wake someone up, they will become angry. So A is the answer.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "noisy",
+                        "B": "amazing",
+                        "C": "careless",
+                        "D": "funny"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "It's amazing that the little man had got everything ready. So B is the answer.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "checked",
+                        "B": "repeated",
+                        "C": "broke",
+                        "D": "understood"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The farmer understood his worker's words. So D is the answer.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "something",
+                        "B": "anything",
+                        "C": "nothing",
+                        "D": "everything"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "If you are prepared, in either body or mind, you have nothing to be afraid of. So C is the answer.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "Do you know Buy Nothing Day? People always buy many things before Christmas, <blank text=(1)> 25th. <blank text=(2)> some people think we buy too much. They start Buy Nothing Day. They don't want us to go <blank text=(3)> on that day.\n Buy Nothing Day is on November 29th. It's always the first day of Christmas shopping. At this time, we see ads(广告)and they <blank text=(4)> us to \"buy, buy, buy\".\n Buy Nothing Day first starts in Canada. Now many people in Canada, America, Japan and the UK celebrate <blank text=(5)> . People buy nothing <blank text=(6)> that day. So what can you do if you can't shop? There are lots of things. Parents stay at home with their <blank text=(7)> . They often read stories, sing songs and draw pictures. Sometimes they have a <blank text=(8)> party at home.\n There <blank text=(9)> Buy Nothing Festivals in many big cities. People go to big shopping centres and malls. They hand out leaflets(传单)about the <blank text=(10)> things of shopping. Others cut up their credit cards(信用卡)!",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "September",
+                        "B": "October",
+                        "C": "November",
+                        "D": "December"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "And",
+                        "B": "But",
+                        "C": "So",
+                        "D": "Or"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "singing",
+                        "B": "dancing",
+                        "C": "shopping",
+                        "D": "fishing"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "tell",
+                        "B": "speak",
+                        "C": "talk",
+                        "D": "say"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Synonyms & Antonyms"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "it",
+                        "B": "them",
+                        "C": "him",
+                        "D": "us"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "at",
+                        "B": "on",
+                        "C": "in",
+                        "D": "for"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "students",
+                        "B": "neighbours",
+                        "C": "members",
+                        "D": "children"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "New Year",
+                        "B": "Goodbye",
+                        "C": "family",
+                        "D": "birthday"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "is",
+                        "B": "are",
+                        "C": "be",
+                        "D": "will be"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Subject-Verb Agreement"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "bad",
+                        "B": "lucky",
+                        "C": "good",
+                        "D": "wonderful"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "A: Hi, Li Lei! <blank text=(61)>\nB: Yes, I'm busy getting ready for the Spring Festival. \nA: <blank text=(62)>\nB: I'm making red lanterns. \nA: What about your father? Is he helping you?\nB: No, he is learning dragon dance with my grandpa. \nA: <blank text=(63)>\nB: About a week long. \nA: <blank text=(64)>\nB: We eat jiaozi — a kind of dumpling. \nA: <blank text=(65)>\nB: Yes, they like it very much. We always get a hongbao. \nA: Thank you for telling me so much. \nB: You're welcome.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do you often do?",
+                        "B": "I’m very busy.",
+                        "C": "Are they happy?",
+                        "D": "What are you doing now？\nE. How long is the Spring Festival?"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B is answering A's question about what he/she is doing now.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do you often do?",
+                        "B": "I’m very busy.",
+                        "C": "Are they happy?",
+                        "D": "What are you doing now？\nE. How long is the Spring Festival?"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, A asks what B is doing, and B replies he/she is making red lanterns. So A should ask whether B is busy.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do you often do?",
+                        "B": "I’m very busy.",
+                        "C": "Are they happy?",
+                        "D": "What are you doing now？\nE. How long is the Spring Festival?"
+                    },
+                    "answer": "E",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers about a week long, so A is asking the duration of the Spring Festival.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do you often do?",
+                        "B": "I’m very busy.",
+                        "C": "Are they happy?",
+                        "D": "What are you doing now？\nE. How long is the Spring Festival?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers about eating jiaozi, so A is asking what they often do during the Spring Festival.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do you often do?",
+                        "B": "I’m very busy.",
+                        "C": "Are they happy?",
+                        "D": "What are you doing now？\nE. How long is the Spring Festival?"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers yes, they like it very much, so A is asking whether they are happy.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "A: Hello, Lily. <blank text=(61)>\nB: Hello, Jack. It's Thursday. \nA: Oh, it's Daming's birthday today. Let's send him a birthday card.\nB: OK. Let's write \"Happy Birthday\" on it. \nA: <blank text=(62)>\nB: Good idea. He loves cakes. \nA: <blank text=(63)>\nB: He likes listening to music. <blank text=(64)>\nA: OK. And he likes playing football too. Let's invite him to go to a football match on Saturday. \nB: <blank text=(65)>",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "That's a great idea.",
+                        "B": "Happy Birthday to you.",
+                        "C": "Let's give him a CD.",
+                        "D": "How many presents do you get?\nE. And we can also make a birthday cake for him.\nF. What about a birthday present?\nG. What day is it today?"
+                    },
+                    "answer": "G",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers it's Thursday, so A is asking what day it is today.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "That's a great idea.",
+                        "B": "Happy Birthday to you.",
+                        "C": "Let's give him a CD.",
+                        "D": "How many presents do you get?\nE. And we can also make a birthday cake for him.\nF. What about a birthday present?\nG. What day is it today?"
+                    },
+                    "answer": "E",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers Good idea. He loves cakes. So A is suggesting making a birthday cake for him.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "That's a great idea.",
+                        "B": "Happy Birthday to you.",
+                        "C": "Let's give him a CD.",
+                        "D": "How many presents do you get?\nE. And we can also make a birthday cake for him.\nF. What about a birthday present?\nG. What day is it today?"
+                    },
+                    "answer": "F",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, B answers He likes listening to music, so A is asking what about a birthday present.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "That's a great idea.",
+                        "B": "Happy Birthday to you.",
+                        "C": "Let's give him a CD.",
+                        "D": "How many presents do you get?\nE. And we can also make a birthday cake for him.\nF. What about a birthday present?\nG. What day is it today?"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, A is suggesting giving him a CD since he likes listening to music.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "That's a great idea.",
+                        "B": "Happy Birthday to you.",
+                        "C": "Let's give him a CD.",
+                        "D": "How many presents do you get?\nE. And we can also make a birthday cake for him.\nF. What about a birthday present?\nG. What day is it today?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, A is inviting him to go to a football match on Saturday, so B thinks that's a great idea.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "W: Hello, Bill. <blank text=(61)>\nM: Hello, Lucy. It’s a picture of my friend’s family.\nW: Can I have a look at it?   \nM: <blank text=(62)>\nW: Oh, there’s a beautiful woman in the picture. <blank text=(63)>\nM: She’s cooking meat for lunch.\nW: Is the man her husband? What’s he doing?\nM: Yes. <blank text=(64)>\nW: Look at the two children. Are they drawing pictures?\nM: <blank text=(65)> They are doing their homework .\nW:What a busy family!",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Yes, please.",
+                        "B": "They are doing their homework.",
+                        "C": "What’s she doing?",
+                        "D": "What’s this?\nE. He’s reading a newspaper.\nF. She’s my friend."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, M answers it's a picture of my friend’s family, so W is asking what's this.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Yes, please.",
+                        "B": "They are doing their homework.",
+                        "C": "What’s she doing?",
+                        "D": "What’s this?\nE. He’s reading a newspaper.\nF. She’s my friend."
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, W asks Can I have a look at it? So M is answering Yes, please.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Yes, please.",
+                        "B": "They are doing their homework.",
+                        "C": "What’s she doing?",
+                        "D": "What’s this?\nE. He’s reading a newspaper.\nF. She’s my friend."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, M answers She’s cooking meat for lunch, so W is asking what’s she doing?",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Yes, please.",
+                        "B": "They are doing their homework.",
+                        "C": "What’s she doing?",
+                        "D": "What’s this?\nE. He’s reading a newspaper.\nF. She’s my friend."
+                    },
+                    "answer": "E",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, W asks Is the man her husband? What’s he doing? So M is answering He’s reading a newspaper.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Yes, please.",
+                        "B": "They are doing their homework.",
+                        "C": "What’s she doing?",
+                        "D": "What’s this?\nE. He’s reading a newspaper.\nF. She’s my friend."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "According to the context, W asks Are they drawing pictures? So M is answering They are doing their homework.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "A: Hi, look at the photo, please. It's a new photo of my family.\nB: Oh, it's so beautiful. (61) <blank>\nA: In Australia.\nB: Great! (62) <blank>\nA: They're my grandparents. \nB: (63) <blank>\nA: Yes, they are. They live there with my uncle's family. \nB: (64) <blank> The man in a yellow T-shirt?\nA: Yes, you are right.\nB: (65) <blank>\nA: As a Chinese teacher in a high school.\nB: How long do you stay in Australia?  \nA: About a month. And we have a wonderful time there.\nB: Oh, you have got a big and happy family.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do your parents do?",
+                        "B": "What does he do?",
+                        "C": "Where are they now?",
+                        "D": "Are they your parents?\nE. Are they your grandparents?"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Since A answers 'In Australia,' B is most likely asking where they are.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do your parents do?",
+                        "B": "What does he do?",
+                        "C": "Where are they now?",
+                        "D": "Are they your parents?\nE. Are they your grandparents?"
+                    },
+                    "answer": "E",
+                    "is_answer_provided": false,
+                    "explanation": "Since A responds with 'They're my grandparents,' B is asking if they are his grandparents.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do your parents do?",
+                        "B": "What does he do?",
+                        "C": "Where are they now?",
+                        "D": "Are they your parents?\nE. Are they your grandparents?"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Since A confirms with 'Yes, they are,' B is asking if they are his parents.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do your parents do?",
+                        "B": "What does he do?",
+                        "C": "Where are they now?",
+                        "D": "Are they your parents?\nE. Are they your grandparents?"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The conversation refers to a 'man in a yellow T-shirt', suggesting B is identifying someone and asking about his job.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What do your parents do?",
+                        "B": "What does he do?",
+                        "C": "Where are they now?",
+                        "D": "Are they your parents?\nE. Are they your grandparents?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Since the answer is about a job, the question likely asks about the profession of parents.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "A: Hello, Betty, where do you want to go?\nB: Hello, Danny. (61) <blank> What about you?\nA: Me too. What is your favourite animal? \nB: (62) <blank>\nA: (63) <blank>\nB: Yes, I do. \nA: Does it eat grass? \nB: Yes. (64) <blank>\nA: No, it isn’t.\nB: (65) <blank>\nA: Yes, it does. \nB: OK. Let's go and see zebras and other animals.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Do you like zebras?",
+                        "B": "I like zebras very much.",
+                        "C": "Is it a zebra?",
+                        "D": "I want to go to the zoo.\nE. What is it?"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The dialogue starts with a question about where they want to go, and B's reply needs to mention a destination.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Do you like zebras?",
+                        "B": "I like zebras very much.",
+                        "C": "Is it a zebra?",
+                        "D": "I want to go to the zoo.\nE. What is it?"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Since A then asks 'Do you like zebras?', B's response here needs to introduce the preference of zebras.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Do you like zebras?",
+                        "B": "I like zebras very much.",
+                        "C": "Is it a zebra?",
+                        "D": "I want to go to the zoo.\nE. What is it?"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Following B's answer, the question confirms whether B likes zebras.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Do you like zebras?",
+                        "B": "I like zebras very much.",
+                        "C": "Is it a zebra?",
+                        "D": "I want to go to the zoo.\nE. What is it?"
+                    },
+                    "answer": "E",
+                    "is_answer_provided": false,
+                    "explanation": "Before asking if it eats grass, A would ask what the animal is.",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Do you like zebras?",
+                        "B": "I like zebras very much.",
+                        "C": "Is it a zebra?",
+                        "D": "I want to go to the zoo.\nE. What is it?"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Since A responds with 'No, it isn’t', B's question likely asks, 'Is it a zebra?'",
+                    "test_point": "Contextual Vocabulary; Question Formation; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "One day，Mrs.Green says to <blank> son，\" Jim，your father has to go to the hospital to work today，and he has <blank> time to see your grandparents. <blank> let's go to see them this afternoon.They like <blank> very much，and I want to give them some eggs，but we don't have <blank> at home. Please go to the shop and buy five kilos of eggs. But please choose （选择）the <blank> ones. Don't get any bad （坏的）ones.\"\nThen Jim goes to the shop. A moment later, he comes <blank> with a red bag in his hand. His mother opens （打开）the bag and asks ,\"Oh，dear. <blank> is it？\"\n\"Eggs. \" Jim <blank> .\"I break （打破）each of them to <blank> the good ones.\"",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "his",
+                        "B": "its",
+                        "C": "her",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Mrs. Green 对她的儿子说话，故用her。",
+                    "test_point": "Pronouns; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "not",
+                        "B": "no",
+                        "C": "much",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "much time表示没有多少时间。",
+                    "test_point": "Determiners; Countable & Uncountable Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "But",
+                        "B": "Because",
+                        "C": "So",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "表示结果，用so。",
+                    "test_point": "Conjunctions; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "eggs",
+                        "B": "bananas",
+                        "C": "apples",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据后文可知，这里是指鸡蛋。",
+                    "test_point": "Contextual Vocabulary; Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "some",
+                        "B": "any",
+                        "C": "those",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "否定句中用any。",
+                    "test_point": "Determiners; Affirmative and Negative Sentences"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "well",
+                        "B": "bad",
+                        "C": "good",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据后文“Don't get any bad ones”可知，这里是指好的鸡蛋。",
+                    "test_point": "Contextual Vocabulary; Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "back",
+                        "B": "on",
+                        "C": "out",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "come back表示回来。",
+                    "test_point": "Phrasal Verbs; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Where",
+                        "B": "What",
+                        "C": "How",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "What is it？表示这是什么？",
+                    "test_point": "Question Formation; What Questions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "speaks",
+                        "B": "tells",
+                        "C": "says",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "say表示说。",
+                    "test_point": "Verbs; Commonly Confused Words"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "find",
+                        "B": "eat",
+                        "C": "play",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "find表示发现，找到。",
+                    "test_point": "Verbs; Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "I have a big family. My mother is a teacher and my father is an office worker. My grandfather works on a farm, but my grandmother doesn’t work. <blank> As a student in the school and a child at home, I think I should obey(遵守) some of the family rules. <blank> For example, my mom does not allow(允许) me to come back home late(迟的). And I can't be late for school. She thinks it isn’t good for me. <blank> Half an hour later, I have breakfast. Then I go to school by bike at seven o'clock. <blank> I can't watch TV, surf the Internet (上网) or play computer games（玩电脑游戏）in the evening on school days. On weekends, I have to clean my room by myself.\nMy family rules make me become busier than others. <blank>",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Because(因为) they can help me a lot.",
+                        "B": "There are strict rules(严格的规则) in my family.",
+                        "C": "I am very busy, but I am happy.",
+                        "D": "I should get up at six o'clock every morning."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "根据下文，可知家里有很多规矩，故选B。",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Because(因为) they can help me a lot.",
+                        "B": "There are strict rules(严格的规则) in my family.",
+                        "C": "I am very busy, but I am happy.",
+                        "D": "I should get up at six o'clock every morning."
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "根据下文，可知我每天早上六点起床。",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Because(因为) they can help me a lot.",
+                        "B": "There are strict rules(严格的规则) in my family.",
+                        "C": "I am very busy, but I am happy.",
+                        "D": "I should get up at six o'clock every morning."
+                    },
+                    "answer": "E",
+                    "is_answer_provided": false,
+                    "explanation": "根据语境，可知放学后我应该先写作业。",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Because(因为) they can help me a lot.",
+                        "B": "There are strict rules(严格的规则) in my family.",
+                        "C": "I am very busy, but I am happy.",
+                        "D": "I should get up at six o'clock every morning."
+                    },
+                    "answer": "E",
+                    "is_answer_provided": false,
+                    "explanation": "根据语境，可知早上六点起床之后就要开始做早饭。",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Because(因为) they can help me a lot.",
+                        "B": "There are strict rules(严格的规则) in my family.",
+                        "C": "I am very busy, but I am happy.",
+                        "D": "I should get up at six o'clock every morning."
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "根据语境，虽然我很忙，但是我很快乐。",
+                    "test_point": "Reading Comprehension; Logical Progression"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "Peter is my good friend. He is an English boy. He is thirteen   36   old. He is a student. We are in the same grade, but in   37   classes. He lives in Shanghai with his family now. A big shop is next to his home. He often goes to the   38   to buy some school things（东西）. His father works in a hospital. He is a   39   . He is tall. His mother works in a school. She is an English teacher. She isn't tall. She   40   a round face. They often get home at six o' clock in the afternoon and Peter gets   41   at six thirty. Today his father   42   his mother cook in the kitchen（厨房）. Peter does   43   homework. Kate is his sister. She   44   a Chinese book on the sofa. She likes Chinese very much. She   45   speak it very well. She has a happy family.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "year",
+                        "B": "years",
+                        "C": "ages",
+                        "D": "age"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Age is always in plural form with numbers.",
+                    "test_point": "Countable & Uncountable Nouns; Plural Forms"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "same",
+                        "B": "the same",
+                        "C": "different",
+                        "D": "the different"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence means 'in different classes'.",
+                    "test_point": "Adjectives; Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "shop",
+                        "B": "farm",
+                        "C": "office",
+                        "D": "restaurant"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "A shop is where you can buy school things.",
+                    "test_point": "Contextual Vocabulary; Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "farmer",
+                        "B": "teacher",
+                        "C": "student",
+                        "D": "doctor"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Doctor works in hospital.",
+                    "test_point": "Contextual Vocabulary; Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "have",
+                        "B": "has",
+                        "C": "is",
+                        "D": "are"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The subject 'she' requires the third-person singular form 'has'.",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "home",
+                        "B": "school",
+                        "C": "shop",
+                        "D": "farm"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "You can get 'home' in the context.",
+                    "test_point": "Vocabulary; Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "but",
+                        "B": "for",
+                        "C": "if",
+                        "D": "and"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Using 'and' to connect two actions of the father.",
+                    "test_point": "Conjunctions; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "him",
+                        "B": "his",
+                        "C": "her",
+                        "D": "he"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Possessive pronoun is required here.",
+                    "test_point": "Pronouns; Possessive Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "reads",
+                        "B": "read",
+                        "C": "looks",
+                        "D": "sees"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Kate is the subject, so the answer should be reads.",
+                    "test_point": "Subject-Verb Agreement; Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "is",
+                        "B": "can",
+                        "C": "may",
+                        "D": "are"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "\"Can\" is used to express ability.",
+                    "test_point": "Modal Verbs; Ability"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "Hello，everyone.I'm a golden monkey（金丝猴）.You can see some of my friends in the <blank text=(1)> .But I live with my family in the forest（森林） in Sichuan.I <blank text=(2)> I'm beautiful because my hair is golden.I'm <blank text=(3)> in the forest.And I'd like to be with my family.In the daytime，I look for（寻找） food and <blank text=(4)> with them.When we are free，we play with each other.When night comes，we go to <blank text=(5)> ，like you.\nBut we are in danger（危险） now.We have no <blank text=(6)> to live.Many people cut down（砍伐）trees， <blank text=(7)> we can't find our home.They are too <blank text=(8)>.But I know a lot of people are trying to save <blank text=(9)>.I want to say\"Thank you\"to these people.These are our <blank text=(10)> .I like them.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "library",
+                        "B": "school",
+                        "C": "zoo",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey lives in the zoo with its friends.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "use",
+                        "B": "think",
+                        "C": "watch",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey thinks it is beautiful.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "clean",
+                        "B": "cold",
+                        "C": "happy",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey is happy in the forest.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "water",
+                        "B": "map",
+                        "C": "pencil",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey looks for food and water.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "read",
+                        "B": "sleep",
+                        "C": "clean",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey goes to sleep at night.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "place",
+                        "B": "river",
+                        "C": "mountain",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The golden monkey has no place to live.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "or",
+                        "B": "so",
+                        "C": "but",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Many people cut down trees, so the monkeys cannot find their home.",
+                    "test_point": "Logical Connectors; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "busy",
+                        "B": "bad",
+                        "C": "healthy",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The people who cut down the trees are bad.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "us",
+                        "B": "you",
+                        "C": "them",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Many people are trying to save the monkeys, so 'us' is correct.",
+                    "test_point": "Pronouns; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "farmers",
+                        "B": "teachers",
+                        "C": "friends",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "The people trying to save the monkeys are their friends.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                }
+            ]
+        }
+    ]
+}

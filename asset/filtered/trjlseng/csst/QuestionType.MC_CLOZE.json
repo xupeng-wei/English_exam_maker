@@ -1,0 +1,1112 @@
+{
+    "question_sets": [
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "The red star over China is shining brightly on its sixtieth birthday. And  <blank> is that? There are many reasons. First of all, there is peace and prosperity (繁荣) in the land. The country isn’t at war and a  <blank> number of Chinese are living better and more comfortable lives than at  <blank> in history. And things will get even better in the  <blank> .\nThe Chinese economy(经济) is a world wonder—so much growth, so many buildings and so many new businesses. China is now the  <blank> biggest economic country in the world behind America and Japan. Some believe that China will be number one  <blank> the year 2030. What amazing  <blank> ! and what does that mean for you? It means that there will be lots of chances for you to do good  <blank> and to use all of your talents.\nThe rest of the world has started to take a closer  <blank>   at China and they like what they see. In a recent worldwide survey, almost seventy per cent of the people said they had a “positive image” of China. They thought China is beautiful and they are  <blank>   in what is happening in China.\nAnd it is not only because of economy,  <blank>  Chinese culture . Zhang Ziyi and Gongli are famous all over the world, as well as the movie  <blank>   Ang Lee. Writers such as Gao Xingjian and Ha jin have won international awards. And painters  <blank>  Wu Zuoren are selling their works for record high prices. This  <blank>  China seem pretty cool and it really is!\nSo happy  <blank> . China! We are proud of you!",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "what",
+                        "B": "how",
+                        "C": "why",
+                        "D": "if"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "本句是“为什么”，所以应该选择C",
+                    "test_point": "Conjunctions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "big",
+                        "B": "small",
+                        "C": "little",
+                        "D": "great"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择D",
+                    "test_point": "Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "some time",
+                        "B": "any time",
+                        "C": "sometimes",
+                        "D": "every time"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择B",
+                    "test_point": "Adverbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "future",
+                        "B": "further",
+                        "C": "farther",
+                        "D": "tomorrow"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择A",
+                    "test_point": "Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "first",
+                        "B": "second",
+                        "C": "third",
+                        "D": "fourth"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择B",
+                    "test_point": "Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "on",
+                        "B": "by",
+                        "C": "to",
+                        "D": "of"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择B",
+                    "test_point": "Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "growth",
+                        "B": "strength",
+                        "C": "power",
+                        "D": "energy"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择A",
+                    "test_point": "Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "food",
+                        "B": "clothes",
+                        "C": "jobs",
+                        "D": "houses"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择C",
+                    "test_point": "Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "look",
+                        "B": "see",
+                        "C": "watch",
+                        "D": "glance"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择A",
+                    "test_point": "Verbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "excited",
+                        "B": "interested",
+                        "C": "exciting",
+                        "D": "interesting"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择B",
+                    "test_point": "Adjectives"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "also",
+                        "B": "either",
+                        "C": "but",
+                        "D": "neither"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择A",
+                    "test_point": "Adverbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "actor",
+                        "B": "actress",
+                        "C": "director",
+                        "D": "singer"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择C",
+                    "test_point": "Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "just as",
+                        "B": "as such",
+                        "C": "for example",
+                        "D": "such as"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择C",
+                    "test_point": "Fixed Expressions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "makes",
+                        "B": "gives",
+                        "C": "takes",
+                        "D": "has"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择A",
+                    "test_point": "Verbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "New Year",
+                        "B": "Christmas",
+                        "C": "Birthday",
+                        "D": "Family"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "根据句意，此处应该选择C",
+                    "test_point": "Nouns"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "Many people are always feeling worried because they think they are inferior（比不上……的）to others. Some students always feel unconfident because no matter how hard they study, they can’t get good grades. They <blank> get praise from their teachers or parents. Some adults are facing a similar situation that their boss is seldom <blank> with them—no matter how hard they try to finish their tasks.\nBut weaknesses are just a small <blank> of your life. Why not spend some time on the other parts? I am not <blank> the top students in my school. I can’t always quickly <blank> what my teachers are saying. I don’t do well in some subjects as well, <blank> I never feel unconfident of myself. I always appreciate（欣赏）myself because I know that there is <blank> in me that makes me special. I have some <blank> that many people don’t have. It’s easy for me to make friends with others. I also have many good habits and great dreams. Take a break from your studies or working life, and spend a few minutes thinking about the time when you have <blank> better than others. You will realize how special you are!\nAs an old saying goes, “The cream always rises to the top.” Some people don’t <blank> their advantages early in their lives. For some, their advantages aren’t accepted by others. However, there is no doubt that each of us has some kinds of advantages. Each of us is special.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "often",
+                        "B": "always",
+                        "C": "hardly",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The context suggests that the students rarely receive praise, so 'hardly' is the most appropriate choice.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "strict",
+                        "B": "satisfied",
+                        "C": "angry",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence implies that the boss is not pleased with them, 'satisfied' fits the context best.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "part",
+                        "B": "step",
+                        "C": "place",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Weaknesses are just a small 'part' of your life, meaning a small aspect or portion.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "under",
+                        "B": "behind",
+                        "C": "among",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Being 'among' the top students means being in the group of top students, which fits the sentence's meaning.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "understand",
+                        "B": "translate",
+                        "C": "believe",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence describes a difficulty in comprehending what the teachers are saying, so 'understand' is the correct choice.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "because",
+                        "B": "so",
+                        "C": "but",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence presents a contrast: despite not doing well in some subjects, the speaker never feels unconfident, so 'but' is the appropriate conjunction.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "nothing",
+                        "B": "something",
+                        "C": "everything",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence emphasizes that there is a unique quality within the speaker that makes them special, thus 'something' is the right choice.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "abilities",
+                        "B": "books",
+                        "C": "products",
+                        "D": ""
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence refers to skills or capabilities that the speaker possesses, so 'abilities' is the most suitable option.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "driven",
+                        "B": "trained",
+                        "C": "acted",
+                        "D": ""
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence refers to times when you performed better than others, which aligns with 'acted'.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "look for",
+                        "B": "find out",
+                        "C": "take in",
+                        "D": ""
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The sentence means that people may not realize or discover their strengths early in life, making 'find out' the correct option.",
+                    "test_point": "Contextual Vocabulary; Logical Connectors"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "One day when Jamie came home after school, his mother had on her “worry” face. He knew she was thinking of <blank text=1>. “It’s bad out there. Black clouds are coming from the sea.” Jamie said.\n“Yes. I’m thinking of those fishing boats at sea,” she said.\nAt that moment, <blank text=2> went out. Jamie and his mother were in the dark.\n“The coastline(海岸)will be in the dark .” Jamie’s mother said. She got more worried. “<blank text=3> always come in threes. I broke my best glasses this morning, and my sister has the cold.” “Now, don’t worry, mum. They’re <blank text=4> to come through this all right.” But Jamie really worried about those fishing boats himself. The fishing boats would <blank text=5> the cove（用来停船的小海湾）in the dark.\nJamie took flares（火焰信号弹）and rushed into the wind . There was a cliff（峭壁）by the sea . He started to climb. He <blank text=6> himself up hand over hand. At last he reached the top. \nHe <blank text=7> three times. On the fourth try he fired off（发射） one of bright light . Then he saw an answering flare up at sea. Jamie fired off two more. He saw another answering flare up, then another. The answering flares from the fishing boats showed they <blank text=8> the entrance to the cove but then changed course（路线） and were <blank text=9> sailing into the cove . They were almost home.\nJamie helped <blank text=10> the fishermen of the village.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "the wind",
+                        "B": "the clouds",
+                        "C": "the rain",
+                        "D": "the weather"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "根据下文内容，母亲担心天气。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Jamie",
+                        "B": "his mother",
+                        "C": "the fire",
+                        "D": "the lights"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "根据下文内容，此处应是“灯”灭了。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Messages",
+                        "B": "Accidents",
+                        "C": "Troubles",
+                        "D": "Questions"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Troubles come in threes是迷信的说法，意思是“倒霉的事情会接二连三地发生”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Idioms & Phrases"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "sure",
+                        "B": "lucky",
+                        "C": "safe",
+                        "D": "ready"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "be sure to do sth 意思是“确信能做成某事”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "lose",
+                        "B": "miss",
+                        "C": "leave",
+                        "D": "forget"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "miss the cove 意思是“错过小海湾”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "pushed",
+                        "B": "pulled",
+                        "C": "carried",
+                        "D": "climbed"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "pull himself up 意思是“把自己拉上去”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "made",
+                        "B": "tried",
+                        "C": "failed",
+                        "D": "finished"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "try three times 意思是“尝试了三次”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "were at",
+                        "B": "had found",
+                        "C": "had passed by",
+                        "D": "were going into"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "had found 意思是“已经找到”，符合语境。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension; Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "now",
+                        "B": "then",
+                        "C": "once",
+                        "D": "again"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "now sailing into the cove 意思是“现在正在驶入小海湾”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "answer",
+                        "B": "save",
+                        "C": "find out",
+                        "D": "look for"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "help save the fishermen 意思是“帮助拯救渔民”。",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "One day a little mouse was thirsty. She looked everywhere for water to drink. She climbed up onto a table. And she saw a bottle on the table. The mouth of the bottle was (36)<blank>.The little mouse looked inside the bottle. “Aha, there is (37)<blank>milk in it. That’s great!” She went into it and began to drink.\nShe drank and drank. After a moment she had drunk enough. Her stomach was too big and she couldn’t come  (38)<blank> the bottle. She cried for help. Just then a cat came up to the table. When the cat(39)<blank> the cry he jumped onto the table so (40)<blank>, and said, “You’ll be my nice lunch!” The little mouse was very clever and she (41)<blank> for a moment and said. “Brother Cat ,you mustn’t roll the bottle.” (42)<blank>?” asked the cat. “I would get dizzy (头晕目眩的)”， said the mouse. The cat said that he would let her (43)<blank> soon. So he began to roll the bottle. Suddenly the bottle fell down onto the floor and broke into (44)<blank>. The little mouse ran (45)<blank> as fast as she could. When the cat jumped off the table and ran after her, the mouse had already gone into her home.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "big",
+                        "B": "strong",
+                        "C": "weak",
+                        "D": "small"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The mouth of the bottle was small so the mouse can't come out.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "little",
+                        "B": "some",
+                        "C": "few",
+                        "D": "a few"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Milk is uncountable, so we should use 'some'.",
+                    "test_point": "Countable & Uncountable Nouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "into",
+                        "B": "up",
+                        "C": "out of",
+                        "D": "down"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "She couldn't come out of the bottle because she drank too much.",
+                    "test_point": "Prepositions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "heard",
+                        "B": "saw",
+                        "C": "tasted",
+                        "D": "looked"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The cat heard the cry and jumped onto the table.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "happy",
+                        "B": "honest",
+                        "C": "honestly",
+                        "D": "happily"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "Jumped happily onto the table.",
+                    "test_point": "Adverbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "ate",
+                        "B": "thought",
+                        "C": "drank",
+                        "D": "took"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The mouse thought for a moment.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "When",
+                        "B": "Where",
+                        "C": "Why",
+                        "D": "How"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Why mustn't I roll the bottle?",
+                    "test_point": "Question Formation"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "dying",
+                        "B": "die",
+                        "C": "to die",
+                        "D": "died"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "Let sb do sth.",
+                    "test_point": "Verb Tenses"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "boxes",
+                        "B": "glasses",
+                        "C": "pieces",
+                        "D": "cakes"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "Break into pieces.",
+                    "test_point": "Collocations"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "away",
+                        "B": "in",
+                        "C": "to",
+                        "D": "at"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "Run away.",
+                    "test_point": "Phrasal Verbs"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "“Jane, please let me borrow a dollar,” Jenny asked as they stood in the school lunch line. “I have one in my jacket, but I don’t want to (31) <blank> and lose my place.” “OK,” agreed Jane.\n   Jane waited all day for Jenny to (32) <blank> back the dollar she borrowed, but Jenny always seemed to be (33) <blank>. “She’s just forgotten,” thought Jane. “I don’t (34) <blank> to make her angry.” Still, her money didn’t go (35) <blank>. Some classmates, like Jenny, were (36) <blank> five dollars a week.\n   Weeks went by. At last Jane got up enough courage (勇气) to tell her about the (37) <blank>.\n“Oh Jane, I(38) <blank>!” Jenny said. “I’ll bring the dollar tomorrow.” The next day Jenny seemed to have forgotten again. During the noon hour Jane saw her (39) <blank> sweets for Mary and ann. Jenny saw Jane looking at her.  (40) <blank> she said something in a low voice to the other two girls. Jane felt (41) <blank> and asked her teacher if she could go back to the (42) <blank>. In the classroom, Jane saw two new pencils in Jenny’s desk. An (43) <blank> came to her.\n   “ Jenny’s not (44) <blank> lately, and anyway, she really owes (欠)me. Besides, she has (45) <blank> money to buy more. A dollar doesn’t mean anything to her, but it means a lot to me.”",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "stay",
+                        "B": "wait",
+                        "C": "leave",
+                        "D": "take"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Leave can be used in this context, meaning that Jane doesn't want to leave her belongings and lose her place.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "return",
+                        "B": "lend",
+                        "C": "take",
+                        "D": "pay"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Return means 'to give something back'.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "busy",
+                        "B": "happy",
+                        "C": "free",
+                        "D": "sad"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The context indicates that Jenny didn't have time to return the money.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "want",
+                        "B": "mind",
+                        "C": "know",
+                        "D": "back"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Want can be used in this context, meaning that Jane doesn't want to make Jenny angry.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "up",
+                        "B": "on",
+                        "C": "far",
+                        "D": "back"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Didn't go back means that the money didn't return to Jane.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "losing",
+                        "B": "getting",
+                        "C": "finding",
+                        "D": "asking"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Get means that some classmates were getting five dollars a week from their parents.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "money",
+                        "B": "lunch",
+                        "C": "place",
+                        "D": "classmate"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "Money is the most suitable answer here.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "used",
+                        "B": "forgot",
+                        "C": "understood",
+                        "D": "thought"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Forgot means 'didn't remember'.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "borrowing",
+                        "B": "making",
+                        "C": "selling",
+                        "D": "buying"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Buying sweets makes sense here.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Even",
+                        "B": "Again",
+                        "C": "Then",
+                        "D": "Instead"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Instead means 'as an alternative'.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "alone",
+                        "B": "bad",
+                        "C": "hungry",
+                        "D": "lucky"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Bad means 'uncomfortable'.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "office",
+                        "B": "classroom",
+                        "C": "shop",
+                        "D": "school"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Classroom is a part of the school.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "end",
+                        "B": "answer",
+                        "C": "idea",
+                        "D": "example"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "Idea is an inspiration here.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "busy",
+                        "B": "pleased",
+                        "C": "healthy",
+                        "D": "kind"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Not kind means that Jenny didn't return the money, and even bought sweets with it.",
+                    "test_point": "Contextual Vocabulary"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "little",
+                        "B": "enough",
+                        "C": "many",
+                        "D": "all."
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Enough money means that Jenny has enough money to buy more sweets.",
+                    "test_point": "Contextual Vocabulary"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "Once upon a time there was a little cook. <blank> name was Caroline and she lived in a town. She was very cute and beautiful. In the town there was a king who was always sad and easy to get angry. He didn't have any <blank> in his palace because of his strange character. So he could only eat junk food while Caroline cooked nice meals for the poor kids in town.\nOne day Caroline had a good idea. She decided to go to the palace to <blank> the king. When she rang the doorbell, the king opened the door <blank> . Caroline asked the king with a nervous smile, \"Can…Can I use your huge kitchen to cook a meal for kids?\"\nThe king thought for a while. Then he agreed to let Caroline use his kitchen for three <blank> . Caroline jumped happily at once. She picked many vegetables from her family's vegetables garden. Then she carried them to the palace.\nAfter a while the king <blank> the smell of cooking which came from the kitchen. So he wanted to go in to see <blank> Caroline cooked food <blank> Caroline saw him she asked him to taste the food that she was cooking. <blank> delicious food it was!\nFrom that day on the people in that town had a happy king. They were invited to the parties in the palace. And the king shared his big table full <blank> delicious food with the poor.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "Its",
+                        "B": "His",
+                        "C": "Her",
+                        "D": "My"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The pronoun 'Her' correctly indicates possession by Caroline.",
+                    "test_point": "Pronouns; Possessive Pronouns"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "kids",
+                        "B": "soldiers",
+                        "C": "cooks",
+                        "D": "teachers"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "The context suggests the king didn't have any cooks in his palace because of his bad temper.",
+                    "test_point": "Contextual Vocabulary; Inference Skills"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "listen to",
+                        "B": "look for",
+                        "C": "laugh at",
+                        "D": "talk to"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "'Talk to' is the most appropriate action to take with the king in order to cheer him up.",
+                    "test_point": "Collocations; Phrasal Verbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "excitedly",
+                        "B": "angrily",
+                        "C": "happily",
+                        "D": "luckily"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": false,
+                    "explanation": "The king is described as always sad and easy to get angry.",
+                    "test_point": "Adverbs; Contextual Clues"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "minutes",
+                        "B": "hours",
+                        "C": "days",
+                        "D": "weeks"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": false,
+                    "explanation": "'Days' makes the most sense in the context of allowing Caroline to use the kitchen.",
+                    "test_point": "Contextual Vocabulary; Logical Progression"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "smelt",
+                        "B": "heard",
+                        "C": "tasted",
+                        "D": "saw"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "The king smelled the smell of cooking.",
+                    "test_point": "Contextual Vocabulary; Sensory Verbs"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "how",
+                        "B": "where",
+                        "C": "why",
+                        "D": "when"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "'How' is used to inquire about the way something is done.",
+                    "test_point": "Question Formation; Sentence Structure"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "If",
+                        "B": "Though",
+                        "C": "While",
+                        "D": "When"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "'When' indicates a time relationship between two actions.",
+                    "test_point": "Conjunctions; Time Expressions"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "What a",
+                        "B": "What",
+                        "C": "How",
+                        "D": "How a"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": false,
+                    "explanation": "'What a' is used before a singular countable noun to express surprise or admiration.",
+                    "test_point": "Exclamatory Sentences; Sentence Structure"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "to",
+                        "B": "with",
+                        "C": "to",
+                        "D": "of"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": false,
+                    "explanation": "The phrase 'full of' means containing a lot of something.",
+                    "test_point": "Prepositions; Fixed Expressions"
+                }
+            ]
+        },
+        {
+            "type": "Cloze-With-Multiple-Choices",
+            "context": "The need to give up\nTwo friends visited the zoo together. The zoo was very  33  and it was impossible to go everywhere. They had to  34  where and which animal to visit as their time was limited (限定). So both of them agreed not to go back  35  choosing a branch road at every crossing. \nA road sign at the first crossing showed one way to  36  quarters and the other to tiger hill. They decided on the former after a  37  discussion because lions were “the king of the grassland.” The second  38  a division going separately to the panda and the peacock. They chose panda as it was the nation’s treasure, so they  39  its way. Thus they made choices all  40  the way and each choice meant giving up so that they couldn’t help regretting. But they had to make it, and immediately. If they couldn’t, they would  41  more. Only rapid decision could offer more  42  for sightseeing and reduce (减少) possible regret. \nLife is more or less like this — choices often appear that one has to choose, for example, between two desirable (合意的) jobs, two fascinating universities. To get one you have to give up the other — you can  43  get half of it. If you spend time weighing the pros and cons and thinking about gains and losses, you will most likely  44  with empty hands. Don’t be sad about it. At least you have got half of the desirable things in life — something that is hard to come by.",
+            "questions": [
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "small",
+                        "B": "large",
+                        "C": "far",
+                        "D": "dirty"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "The context suggests the zoo is extensive, thus 'large' fits best.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "know",
+                        "B": "agree",
+                        "C": "ask",
+                        "D": "decide"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "Given limited time, they needed to 'decide' which animals to see.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "after",
+                        "B": "before",
+                        "C": "while",
+                        "D": "for"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "They agreed not to go back 'after' choosing a path.",
+                    "test_point": "Logical Connectors; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "panda",
+                        "B": "bird",
+                        "C": "food",
+                        "D": "lion"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "The sign pointed to 'lion' quarters.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "long",
+                        "B": "hard",
+                        "C": "short",
+                        "D": "serious"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "They had a 'short' discussion because they were limited in time.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "showed",
+                        "B": "gave",
+                        "C": "formed",
+                        "D": "talked"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "The second crossing 'showed' a division.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "got",
+                        "B": "went",
+                        "C": "made",
+                        "D": "moved"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "They 'went' its way means they followed the path.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "along",
+                        "B": "across",
+                        "C": "by",
+                        "D": "in"
+                    },
+                    "answer": "A",
+                    "is_answer_provided": true,
+                    "explanation": "They made choices 'along' the way.",
+                    "test_point": "Collocations; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "fail",
+                        "B": "lose",
+                        "C": "miss",
+                        "D": "waste"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "If they didn't decide quickly, they would 'miss' more opportunities.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "choices",
+                        "B": "chances",
+                        "C": "hope",
+                        "D": "help"
+                    },
+                    "answer": "B",
+                    "is_answer_provided": true,
+                    "explanation": "Rapid decision could offer more 'chances' for sightseeing.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "also",
+                        "B": "even",
+                        "C": "still",
+                        "D": "only"
+                    },
+                    "answer": "D",
+                    "is_answer_provided": true,
+                    "explanation": "You can 'only' get half of it.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                },
+                {
+                    "text": "",
+                    "choices": {
+                        "A": "start",
+                        "B": "stop",
+                        "C": "end",
+                        "D": "change"
+                    },
+                    "answer": "C",
+                    "is_answer_provided": true,
+                    "explanation": "If you hesitate, you will most likely 'end' with empty hands.",
+                    "test_point": "Contextual Vocabulary; Reading Comprehension"
+                }
+            ]
+        }
+    ]
+}
