@@ -1,0 +1,201 @@
+{
+    "type": "Cloze-With-Multiple-Choices",
+    "context": "Water may be the most serious problem in the world. Is this <blank text=16> to you? You may think that nearly 70% of the <blank text=17> is covered with water. Yes, it is <blank text=18>. But about 97% of it is sea water or salt water, and it can't be drunk used. People can only drink and use the <blank text=19> 3%. The water <blank text=20> only from rivers, lakes and underground. And we can not even use all of that, because iceberg <blank text=21> some of it. Even <blank text=22>, some of the water has been polluted.\nOf course, this little water is still <blank text=23> for us if no more water is wanted and some of it can be <blank text=24> back again. But today more and more water is <blank text=25>; for more and more people, more and more factories… We must take steps to do with this problems. One of the first steps is to develop <blank text=26> of reusing water. Another way is to use <blank text=27> water by <blank text=28> the salt out and this began in many countries. But it <blank text=29> too much. How serious the water problem is!\n<blank text=30> in the end of the next century, there will be drinking water only.",
+    "questions": [
+      {
+        "text": "",
+        "choices": {
+          "A": "new",
+          "B": "strange",
+          "C": "easy",
+          "D": "interesting"
+        },
+        "answer": "B",
+        "is_answer_provided": false,
+        "explanation": "The word 'strange' fits the context, indicating the seriousness of the problem might be surprising to the reader.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "land",
+          "B": "world",
+          "C": "earth",
+          "D": "moon"
+        },
+        "answer": "C",
+        "is_answer_provided": false,
+        "explanation": "The most common and appropriate word to describe the planet covered with water is 'earth'.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "true",
+          "B": "wrong",
+          "C": "right",
+          "D": "trouble"
+        },
+        "answer": "A",
+        "is_answer_provided": false,
+        "explanation": "Affirming the previous statement that nearly 70% of the earth is covered with water, 'true' is the correct choice.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "other",
+          "B": "another",
+          "C": "one",
+          "D": "more"
+        },
+        "answer": "A",
+        "is_answer_provided": false,
+        "explanation": "'Other' correctly refers to the remaining percentage of drinkable water after excluding seawater.",
+        "test_point": "Determiners"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "starts",
+          "B": "brings",
+          "C": "goes",
+          "D": "comes"
+        },
+        "answer": "D",
+        "is_answer_provided": false,
+        "explanation": "The water 'comes' from rivers, lakes, and underground sources, indicating its origin.",
+        "test_point": "Collocations"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "gets",
+          "B": "covers",
+          "C": "takes",
+          "D": "uses"
+        },
+        "answer": "B",
+        "is_answer_provided": false,
+        "explanation": "Icebergs 'cover' some of the water, making it unavailable for use.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "more",
+          "B": "worse",
+          "C": "better",
+          "D": "harder"
+        },
+        "answer": "B",
+        "is_answer_provided": false,
+        "explanation": "The situation is getting 'worse' because some of the water is polluted.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "clear",
+          "B": "good",
+          "C": "well",
+          "D": "enough"
+        },
+        "answer": "D",
+        "is_answer_provided": false,
+        "explanation": "The water is 'enough' for us if not much is required.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "turned",
+          "B": "come",
+          "C": "become",
+          "D": "grown"
+        },
+        "answer": "A",
+        "is_answer_provided": false,
+        "explanation": "Some of the water can be 'turned' back again through reuse.",
+        "test_point": "Collocations"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "frozen",
+          "B": "lost",
+          "C": "needed",
+          "D": "kept"
+        },
+        "answer": "C",
+        "is_answer_provided": false,
+        "explanation": "More water is 'needed' due to increasing population and industrialization.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "rules",
+          "B": "roads",
+          "C": "ways",
+          "D": "problems"
+        },
+        "answer": "C",
+        "is_answer_provided": false,
+        "explanation": "Develop 'ways' of reusing water to tackle the water problem.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "river",
+          "B": "sea",
+          "C": "lake",
+          "D": "dirty"
+        },
+        "answer": "B",
+        "is_answer_provided": false,
+        "explanation": "'Sea' water is used by removing the salt.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "taking",
+          "B": "getting",
+          "C": "coming",
+          "D": "moving"
+        },
+        "answer": "A",
+        "is_answer_provided": false,
+        "explanation": "'Taking' the salt out refers to the process of desalination.",
+        "test_point": "Collocations"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "gives",
+          "B": "costs",
+          "C": "spends",
+          "D": "uses"
+        },
+        "answer": "B",
+        "is_answer_provided": false,
+        "explanation": "Desalination 'costs' too much.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "Nearly",
+          "B": "Although",
+          "C": "Of course",
+          "D": "Maybe"
+        },
+        "answer": "D",
+        "is_answer_provided": false,
+        "explanation": "'Maybe' indicates a possibility or prediction about the future.",
+        "test_point": "Contextual Vocabulary"
+      }
+    ]
+  }

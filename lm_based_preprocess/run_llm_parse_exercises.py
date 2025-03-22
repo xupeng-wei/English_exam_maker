@@ -7,6 +7,10 @@ import logging
 import time
 from tqdm import tqdm
 
+import sys
+sys.path.append("..")
+from exam_schema.exam import Exam, QuestionSet, Question, Choices, QuestionType
+
 logging.basicConfig(
     filename="/tmp/runtime.log",  # Save logs to a file (optional)
     level=logging.INFO,  # Set logging level (INFO, ERROR, DEBUG, etc.)
@@ -15,37 +19,11 @@ logging.basicConfig(
     force=True,
 )
 
-GEMINI_API_KEY = "" # Your GEMINI API key here
-
-class QuestionType(enum.Enum):
-    MCQ = "Multiple-Choice-Question"
-    MC_READING = "Reading-Comprehension-With-Multiple-Choices"
-    TF_READING = "Reading-Comprehension-With-True-or-False"
-    MC_CLOZE = "Cloze-With-Multiple-Choices"
-    FR_CLOZE = "Cloze-With-Free-Responses"
-    # not to support other types for now
-
-class Choices(BaseModel):
-    A: str
-    B: str
-    C: str
-    D: str
-
-class Question(BaseModel):
-    text: str
-    choices: Choices
-    answer: str
-    is_answer_provided: bool
-    explanation: str
-    test_point: str
-
-class QuestionSet(BaseModel):
-    type: QuestionType
-    context: str
-    questions: list[Question]
-
-class Exam(BaseModel):
-    question_sets: list[QuestionSet]
+with open("google_gemini_key", "r") as f:
+    GEMINI_API_KEY = f.read().strip() # Your GEMINI API key here
+    if GEMINI_API_KEY == "":
+        logging.fatal("GEMINI_API_KEY is empty")
+        raise Exception("GEMINI_API empty")
 
 
 prompt = \

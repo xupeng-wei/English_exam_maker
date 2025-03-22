@@ -1,0 +1,136 @@
+{
+    "type": "Cloze-With-Free-Responses",
+    "context": "In England, one of the most popular kinds of food is fish and chips. People u<blank text=1> buy it in fish and chip shops. They put it in paper bags and t<blank text=2> it home, or to their workplace. But the w<blank text=3> favorite food isn't English. It s<blank text=4> that American fast food is the most popular. In many c<blank text=5> like Moscow, Paris and some big cities in China, you can f<blank text=6> people eating hamburgers and chips. Chinese food is also p<blank text=7> in the world. In many big cities you can find Chinese r<blank text=8>. People e<blank text=9> Chinese food because it has different tastes a<blank text=10> is usually very delicious.",
+    "questions": [
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "usually",
+        "is_answer_provided": true,
+        "explanation": "Usually buy.",
+        "test_point": "Contextual Vocabulary; Adverbs"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "take",
+        "is_answer_provided": true,
+        "explanation": "Take it home.",
+        "test_point": "Contextual Vocabulary; Phrasal Verbs"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "world's",
+        "is_answer_provided": true,
+        "explanation": "World's favorite.",
+        "test_point": "Contextual Vocabulary; Word Formation"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "seems",
+        "is_answer_provided": true,
+        "explanation": "It seems.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "cities",
+        "is_answer_provided": true,
+        "explanation": "In many cities.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "find",
+        "is_answer_provided": true,
+        "explanation": "You can find.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "popular",
+        "is_answer_provided": true,
+        "explanation": "Also popular.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "restaurants",
+        "is_answer_provided": true,
+        "explanation": "Chinese restaurants.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "enjoy",
+        "is_answer_provided": true,
+        "explanation": "People enjoy.",
+        "test_point": "Contextual Vocabulary"
+      },
+      {
+        "text": "",
+        "choices": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "answer": "and",
+        "is_answer_provided": true,
+        "explanation": "Tastes and.",
+        "test_point": "Contextual Vocabulary; Conjunctions"
+      }
+    ]
+  }

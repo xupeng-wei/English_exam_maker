@@ -1,0 +1,19 @@
+{
+  "type": "Multiple-Choice-Question",
+  "context": "",
+  "questions": [
+    {
+      "text": "—Could you please help me <blank> my English?\n—Sure.",
+      "choices": {
+        "A": "to",
+        "B": "with",
+        "C": "for",
+        "D": "in"
+      },
+      "answer": "B",
+      "is_answer_provided": false,
+      "explanation": "\"Help me with\" is the correct collocation.",
+      "test_point": "Collocations; Prepositions"
+    }
+  ]
+}

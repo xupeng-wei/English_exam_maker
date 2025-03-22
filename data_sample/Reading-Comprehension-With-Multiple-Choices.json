@@ -1,0 +1,71 @@
+{
+  "type": "Reading-Comprehension-With-Multiple-Choices",
+  "context": "At a quarter to six, Mrs Alison heard her husband park(停车) the car outside the house and at once went out to speak to him. \"What's the matter?\" he asked. \"You look upset(沮丧).\" \"I have made a terrible mistake(错误), Jim, \" she said. \"Mrs Johnson called me half an hour ago. We got talking and then without thinking, I asked her and her husband to come and have dinner with us this evening.\"\n\"Well, that's nothing to get upset about,\" Mr Alison said. \"We will have a pleasant evening. We haven't seen the Johnsons for a long time.\"\n\"I'd like them to come,\"answered Mrs Alison. \"but I've just found there is almost not any food in the house. You didn't remember to buy some steak (牛排). I asked you to get some on your way home from work three days ago.\"\n\"Steak?\" Mr Alison said. \"Oh, my dear, yes, I remember now. I did get some. You ought (应该) to have reminded (提醒) me about it. It's in the car. It's been there for the past three days!\"",
+  "questions": [
+    {
+      "text": "Mrs Alison got upset when she <blank>.",
+      "choices": {
+        "A": "heard her husband park the car outside the house",
+        "B": "went out to speak to her husband",
+        "C": "asked Mrs Johnson and her husband to come and have dinner",
+        "D": "found that there was little food in the house"
+      },
+      "answer": "D",
+      "is_answer_provided": false,
+      "explanation": "According to the passage, Mrs Alison got upset when she found that there was little food in the house.",
+      "test_point": "Reading Comprehension; Supporting Details"
+    },
+    {
+      "text": "Mrs Johnson called Mrs Alison <blank>.",
+      "choices": {
+        "A": "at a quarter to six",
+        "B": "at about half past five",
+        "C": "at about a quarter past five",
+        "D": "at five fifty"
+      },
+      "answer": "B",
+      "is_answer_provided": false,
+      "explanation": "According to the passage, Mrs Johnson called Mrs Alison half an hour ago, and Mrs Alison heard her husband park the car at a quarter to six. So Mrs Johnson called Mrs Alison at about half past five.",
+      "test_point": "Reading Comprehension; Inference Skills"
+    },
+    {
+      "text": "Mr Alison would like the Johnsons to come because <blank>.",
+      "choices": {
+        "A": "they haven't seen each other for a long time",
+        "B": "he bought some steak three days ago",
+        "C": "there was no food in the house",
+        "D": "Mrs Alison has made a terrible mistake"
+      },
+      "answer": "A",
+      "is_answer_provided": false,
+      "explanation": "According to the passage, Mr Alison would like the Johnsons to come because they haven't seen each other for a long time.",
+      "test_point": "Reading Comprehension; Supporting Details"
+    },
+    {
+      "text": "Mrs Alison told her husband to buy some steak <blank>.",
+      "choices": {
+        "A": "on his way to work three days ago",
+        "B": "on his way home three days ago",
+        "C": "on his way home from work in three days",
+        "D": "on his way to work after three days"
+      },
+      "answer": "B",
+      "is_answer_provided": false,
+      "explanation": "According to the passage, Mrs Alison told her husband to buy some steak on his way home three days ago.",
+      "test_point": "Reading Comprehension; Supporting Details"
+    },
+    {
+      "text": "Mr Alison <blank>.",
+      "choices": {
+        "A": "didn't buy any steak",
+        "B": "forgot to buy some steak",
+        "C": "bought some steak and forgot it in the car",
+        "D": "was too busy to buy some steak"
+      },
+      "answer": "C",
+      "is_answer_provided": false,
+      "explanation": "According to the passage, Mr Alison bought some steak and forgot it in the car.",
+      "test_point": "Reading Comprehension; Supporting Details"
+    }
+  ]
+}

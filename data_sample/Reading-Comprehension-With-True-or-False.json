@@ -1,0 +1,71 @@
+{
+  "type": "Reading-Comprehension-With-True-or-False",
+  "context": "Do you know how to study better and make your study more effective (有效的)? We all know that Chinese students usually study hard for long hours. This is very good, but it can't help a lot. If you want to study effectively, you must have enough rest and exercise. Every day you need to go out for a walk or visit some friends or some nice places . It's good for your health. When you return to your studies, your mind will be refreshed (清醒) and you'll learn more and study better . Here take English learning as an example. First you make a lot of progress (进步) and you feel happy. Then your language study seems to stay the same and you want to drop it. This can last your days or even weeks , still you needn't lose hope . At some point our language study will again take another big jump. You'll see that you really have been all the time . If you get enough sleep, food, rest and exercise, studying English can be very effective and interesting . Don't drop it along the way. Learn slowly and you['re sure to get a good result.",
+  "questions": [
+    {
+      "text": "Chinese students usually have many effective ways to learn English.",
+      "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "F",
+      "is_answer_provided": false,
+      "explanation": "The passage states that Chinese students study hard for long hours, but this is not very helpful, implying that they may not have effective ways to learn English.",
+      "test_point": "Reading Comprehension; Inference Skills"
+    },
+    {
+      "text": "Learning for long hours is not helpful at all",
+      "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "F",
+      "is_answer_provided": false,
+      "explanation": "The passage states that studying hard for long hours is good, but it can't help a lot. This implies that it is somewhat helpful, but not entirely effective.",
+      "test_point": "Reading Comprehension; Inference Skills"
+    },
+    {
+      "text": "Taking exercise is good for your health as well as study.",
+      "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "T",
+      "is_answer_provided": false,
+      "explanation": "The passage states that if you want to study effectively, you must have enough rest and exercise. It also says that exercise is good for your health.",
+      "test_point": "Reading Comprehension; Supporting Details"
+    },
+    {
+      "text": "If your English studying stay ate same , you should stop learning it .",
+      "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "F",
+      "is_answer_provided": false,
+      "explanation": "The passage says that if your language study seems to stay the same, you needn't lose hope, indicating that you should not stop learning.",
+      "test_point": "Reading Comprehension; Inference Skills"
+    },
+    {
+      "text": "Keep learning slowly , and you'll get a good result later.",
+      "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "T",
+      "is_answer_provided": false,
+      "explanation": "The passage concludes with 'Learn slowly and you are sure to get a good result.'",
+      "test_point": "Reading Comprehension; Supporting Details"
+    }
+  ]
+}
