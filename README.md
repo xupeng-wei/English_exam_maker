@@ -1,7 +1,7 @@
 # English Exam Question Maker 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![WIP](https://img.shields.io/badge/status-active%20development-orange)](https://github.com/your-repo)
+[![WIP](https://img.shields.io/badge/status-active%20development-orange)](https://github.com/xupeng-wei/English_exam_maker)
 
 An intelligent system for automatically generating and customizing English exam questions for Chinese middle school students.
 
@@ -39,3 +39,39 @@ Both pipelines output structured JSON data that gets stored in the unified quest
 - **Infinite scalability**: Overcome offline database limitations through LLM generation
 - **Customization**: Control question types and difficulty levels
 
+## 📊 Data
+
+### Data Source
+
+http://shijuan.zww.cn 
+
+- Contains middle school English exam questions (Grades 7-9) and Chinese high school entrance exam materials  
+- Data characteristics:  
+  - Unstructured text format  
+  - No categorization by question types or test points  
+  - Partial questions lack answers/explanations  
+
+https://www.trjlseng.com
+
+- Collects exam papers from multiple grades and schools  
+- Data characteristics:  
+  - PDF/doc/docx file formats  
+  - Unstructured text content  
+
+### Data Processing
+
+#### Data Collection
+See sample code in `crawl` folder:
+
+1. **Blog Data Crawling**  
+   - Uses Python `requests` library for content retrieval  
+   - Extracts exam content from HTML using `beautifulsoup`  
+   - Reference: `crawl/crawl_instance_0.ipynb`
+
+2. **Document Processing**  
+   - Downloads PDF/doc files via `requests`  
+   - Converts files to text:  
+     - PDF parsing with `fitz` (PyMuPDF) 
+     - DOC/DOCX parsing with `docx` library  
+   - Outputs JSON format data  
+   - Reference: `crawl/crawl_instance_1.ipynb`, `crawl/instance_1_convert_to_json.ipynb`
