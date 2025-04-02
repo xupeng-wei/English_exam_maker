@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![WIP](https://img.shields.io/badge/status-active%20development-orange)](https://github.com/xupeng-wei/English_exam_maker)
+[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/dry-melon/Chinese-middle-school-English-exam-questions)
 
 An intelligent system for automatically generating and customizing English exam questions for Chinese middle school students.
 
@@ -40,6 +41,27 @@ Both pipelines output structured JSON data that gets stored in the unified quest
 - **Customization**: Control question types and difficulty levels
 
 ## 📊 Data
+
+### Quick Start
+
+To access the dataset, use the following scripts:
+
+```python
+from datasets import load_dataset
+
+# Load all data
+dataset = load_dataset("dry-melon/Chinese-middle-school-English-exam-questions", name="default")
+```
+
+Split by grade:
+```python
+dataset = load_dataset("dry-melon/Chinese-middle-school-English-exam-questions", name="grade")
+```
+
+Split by question type:
+```python
+dataset = load_dataset("dry-melon/Chinese-middle-school-English-exam-questions", name="question_type")
+```
 
 ### Data Source
 
