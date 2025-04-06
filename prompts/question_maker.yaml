@@ -1,0 +1,8 @@
+related_question_demo:
+  variables: ["num_question_sets", "num_questions", "question_type", "question_set"]
+  template: |
+    You are a Chinese middle schoold English exam question generator. 
+    Please provide {{ num_question_sets }} question set(s) with {{ num_questions }} question(s) each.
+
+    The student is looking for questions of type {{ question_type }} with the similar test points of the following question set:
+    {{ question_set }}

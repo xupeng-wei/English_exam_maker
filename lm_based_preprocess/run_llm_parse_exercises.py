@@ -25,65 +25,8 @@ with open("google_gemini_key", "r") as f:
         logging.fatal("GEMINI_API_KEY is empty")
         raise Exception("GEMINI_API empty")
 
-
-prompt = \
-"""
-You are a Chinese middle school English exam parser. The user provides an English exam collected from the Internew, and requires you to parse them into a structured "exam". Here are requirements of output components:
-
-- A structured "exam" contains "question_sets", which is a list of "question_set".
-
-- A "question_set" has a "type", "context", and "questions" (which is a list of "question").
-
-  - "type" indicates the type of this question set. The "type" has to be one of the following:
-
-    - "Multiple-Choice-Question": the question sets of this type contains a single question. These questions have one or more sentences in text, with <blank>s, and provide 3 or 4 choices for the blank position(s) for students to choose from. The questions are usually used for testing students' understanding to grammars, vocabulary, conversations, etc. 
-
-    - "Reading-Comprehension-With-Multiple-Choices": the question sets of this type provide a passage as "context", and goes with several multiple-choice questions related to the passage. The questions usually check students' reading comprehension capability. 
-
-    - "Reading-Comprehension-With-True-or-False": the question sets of this type provide a passage as "context", and goes with several statements related to the content of the passage. Students will need to choose "T" (True) or "F" (False) based on whether the statement consistent with the passage. 
-
-    - "Cloze-With-Multiple-Choices": the question sets of this type provide a passage as "context", with <blank>s. Each <blank> corresponds to a question in "questions". These questions do not have extra "text", but with 3 or 4 choices that could be filled in the <blank>.
-
-    - "Cloze-With-Free-Responses": the question sets of this type provide a passage as "context", with <blank>s. Each <blank> corresponds to a question in "questions". These questions do not provide extra 'text" or "choices", and students are expected to fill a word in the <blank>.
-
-  - "context" provides the additional materials required for solving certain types of question sets. If the type is "Multiple-Choice-Question", it does not require any context, so you may leave the context as an empty string.
-
-- A "question" consist of "text", "choices", "answer", "is_answer_provided", "explanation", "test_point": 
-
-  - "text": the text of a certain question. The questions in "Multiple-Choice-Question", "Reading-Comprehension-With-Multiple-Choices", "Reading-Comprehension-With-True-or-False" will have "text" field, which contains the text of the question (if there are multiple lines, like a conversation, you should include the multiple lines), but not including the choices, while the questions in "Cloze-With-Multiple-Choices" and "Cloze-With-Free-Responses" question sets don't require any "text", so you may leave the context as an empty string.
-
-  - "choices": the three or four choices of a multiple choice questions, with "A", "B" and "C" fields if there are three choices, or "A", "B", "C", and "D" fields if there are four choices. The questions in "Multiple-Choice-Question", "Reading-Comprehension-With-Multiple-Choices", "Cloze-With-Multiple-Choices" question sets have "choices" field, while "Reading-Comprehension-With-True-or-False" and "Cloze-With-Free-Responses" do not require choices, so you may leave all the fields in "choices" as empty strings. 
-
-  - "answer": the answer to the question. The answers to a multiple choice questions (including questions in the "Multiple-Choice-Question", "Reading-Comprehension-With-Multiple-Choices", "Cloze-With-Multiple-Choices" question sets) must be "A", "B", "C", or "D". The answers to a question in "Reading-Comprehension-With-True-or-False" question sets must be "T" or "F". No constraint on the answers to "Cloze-With-Free-Responses". 
-
-  - "is_answer_provided": if the answer can be found in the provided document (as "答案", "参考答案", or so), this field should be true. Otherwise, you try to come up with the answer in the "answer" field, and fill in this field with false.
-
-  - "explanation": provide the reason why we should use this answer. No more than 50 words.
-
-  - "test_point": use up to 6 keywords to summarize the test point of the question. For example, "Verb Tenses; Subject-Verb Agreement; Passive Voice". Possible keywords can be any of, but not limited to, the following: Prepositions, Verb Tenses, Subject-Verb Agreement, Word Formation, Collocations, Synonyms & Antonyms, Pronouns, Passive Voice, Conditional Sentences, Reading Comprehension, Cloze Test, Fixed Expressions, Phrasal Verbs, Modal Verbs, Articles, Comparatives & Superlatives, Conjunctions, Reported Speech, Question Formation, Gerunds & Infinitives, Relative Clauses, Sentence Structure, Idioms & Phrases, Word Order, Countable & Uncountable Nouns, Determiners, Logical Connectors, Double Negatives, Parallel Structure, Contextual Vocabulary, Inference Skills, Main Idea Identification, Author’s Purpose, Tone & Attitude, Fact vs. Opinion, Reference Words, Cause & Effect, Synonym Replacement, Antonym Clues, Skimming & Scanning, Implicit Information, Logical Progression, Pronoun Reference, Text Organization, Supporting Details, Summarization, Transition Words, Time Expressions, Sentence Completion, Fixed Sentence Patterns, Redundancy Avoidance, Cohesion & Coherence, Style & Register, Genre Recognition, Figurative Language, Commonly Confused Words, Sentence Transformation.
-
-Here are some additional rules:
-
-- Do not include Listening tests into your response. Similarly, skip the questions which do not belong to any of the types listed above.
-
-- The parsed "text" or "context" should not contain any underscores. All the blanks should be represented as <blank>, or <blank text=(some text, e.g., the question number)>.
-
-- If you use <blank>, you should not let the <blank> swallow the space before and after it.
-
-- Not all the content provided belongs to a question set.
-
-- No need to include the question number and parenthesis in the front.
-
-- "\n" in the content might be a space or a new line. Shouldn't include "\n" in your output.
-
-- If the original text has typos, spelling issues, or format issues, correct them.
-
----
-
-Here is the input:
-
-"""
-
+from prompts.prompt_builder import PromptBuilder
+prompt_builder = PromptBuilder()
 
 paths = [
     ("~/crawling/trjlseng_parsed/cyst", "~/crawling/parsed_exams/trjlseng/cyst"),
@@ -117,7 +60,7 @@ def InternalParseExams(in_path, exam_name, out_dir):
         client = genai.Client(api_key = GEMINI_API_KEY)
         response = client.models.generate_content(
             model = "gemini-2.0-flash",
-            contents = prompt + exam,
+            contents = prompt_builder.build("exam_parser", exam=exam),
             config = {
                 "response_mime_type": "application/json",
                 "response_schema": Exam,

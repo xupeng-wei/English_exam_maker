@@ -11,6 +11,7 @@ from typing import Type, Optional
 import sys
 sys.path.append("..")
 from exam_schema.exam import Exam, QuestionSet, Question, Choices, QuestionType
+from prompts.prompt_builder import PromptBuilder
 
 logging.basicConfig(
     level=logging.INFO,  # Set logging level (INFO, ERROR, DEBUG, etc.)
@@ -48,11 +49,10 @@ def GeminiRequestWrapper(prompt: str, schema: Type[BaseModel], *args, **kwargs) 
     return ret
 
 def GenerateRelatedQuestionByLLM(query: QuestionSet, num_question_sets: int = 1, num_questions: int = 1) -> Optional[Exam]:
-    prompt = f"""
-    You are a Chinese middle schoold English exam question generator. 
-    Please provide {num_question_sets} question set(s) with {num_questions} question(s) each.
-
-    The student is looking for questions of type {query.type.value} with the similar test points of the following question set:
-    {query.model_dump_json(indent=2)}
-    """
+    prompt_builder = PromptBuilder()
+    prompt = prompt_builder.build("related_question_demo", 
+                                  num_question_sets=num_question_sets, 
+                                  num_questions=num_questions, 
+                                  question_type=query.type.value, 
+                                  question_set=query.model_dump_json(indent=2))
     return GeminiRequestWrapper(prompt, Exam)
