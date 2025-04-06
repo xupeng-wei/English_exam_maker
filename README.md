@@ -217,3 +217,13 @@ Method: rule-based post-processing
     - blanks with numbers in wrong locations: e.g., \<blank\>9\<blank\>, \<blank\>(8), (8)\<blank\>, ...
     - unrecognized text in blank structure: e.g., \<blank text=non-number text...\>
   - For free-response: need to filter simple cloze questions for single sentences. The language model will parse these questions as Cloze-With-Free-Response, but they are not of the type of our interests. Usually the context of these mistakenly parsed problems contains multiple questions, each with a number in the front of each line, so we first detect if there are more than three starting question number patterns, and then filter the question sets of this type. 
+
+## ⚙️ [WIP] Question Maker
+
+### Offline Question Selector
+
+`question_maker/offline.py`: randomly pick one or more question sets upon user's requests
+
+### Similar Question Maker
+
+`question_maker/gemini.py` is a prototype version of question maker, using gemini flash 2.0 API. Currently this part works pretty well for Multiple-Choice-Questions. Still working on other types of questions, and extracting prompt templates. 
