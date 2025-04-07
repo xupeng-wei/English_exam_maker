@@ -226,4 +226,26 @@ Method: rule-based post-processing
 
 ### Similar Question Maker
 
+#### PromptBuilder
+
+All the prompt templates are stored in `prompts` folder with suffix `.yaml`. Each prompt template files can contains multiple templates. Each template contains a `template` field and a `variable` field. In a template, users can define other fields and cite as variables in `template`. For example:
+
+```yaml
+a_demo_template:
+  variables: ["system", "exam"]
+  template: |
+    {{ system }}
+    
+    Now provide me with a question set similar to the following:
+    {{ exam }}
+  system: |
+    You are an exam maker bot.
+```
+
+Currently `template` does not support nested variables. 
+
+The prompt templates can be parsed by `PromptBuilder` implemented in `prompts/prompt_builder.py`, using jinja2 to build actual prompts.
+
+#### Prototype
+
 `question_maker/gemini.py` is a prototype version of question maker, using gemini flash 2.0 API. Currently this part works pretty well for Multiple-Choice-Questions. Still working on other types of questions, and extracting prompt templates. 
