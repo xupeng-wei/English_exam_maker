@@ -182,6 +182,22 @@ Both rule-based methods and LLM-based methods were used to extract questions of 
   - Issues:
     - Sometimes it can mistakenly parse other miscellaneous types into types of interest
 
+Upon this step, there are 52,581 question sets.
+
+By question type:
+
+- Multiple-Choice-Question: 41,269 question sets (if multiple questions in one question set produced by LLM, count each of them as singleton, as MCQ question sets should be a singleton)
+- Reading-Comprehension-With-Multiple-Choices: 3,824 question sets
+- Reading-Comprehension-With-True-or-False: 755 question sets
+- Cloze-With-Multiple-Choices: 1,939
+- Cloze-With-Free-Responses: 4,794
+
+By grade: 
+
+- Grade 7: 17,138 question sets
+- Grade 8: 14,728 question sets
+- Grade 9:  20,715 question sets
+
 #####  Post-processing: filter the invalid data
 
 What constitutes invalid data?
@@ -217,6 +233,15 @@ Method: rule-based post-processing
     - blanks with numbers in wrong locations: e.g., \<blank\>9\<blank\>, \<blank\>(8), (8)\<blank\>, ...
     - unrecognized text in blank structure: e.g., \<blank text=non-number text...\>
   - For free-response: need to filter simple cloze questions for single sentences. The language model will parse these questions as Cloze-With-Free-Response, but they are not of the type of our interests. Usually the context of these mistakenly parsed problems contains multiple questions, each with a number in the front of each line, so we first detect if there are more than three starting question number patterns, and then filter the question sets of this type. 
+  
+  See the number of remaining question sets in [Data Summary](#data-summary) subsection. The overall filter rate is 33.0% Here list the filter rate of each question type:
+  
+  - Multiple-Choice-Question: 26.1%
+  - Reading-Comprehension-With-Multiple-Choices: 28.5%
+  - Reading-Comprehension-With-True-or-False: 25.7%
+  - Cloze-With-Multiple-Choices: 37.3%
+  - Cloze-With-Free-Responses: 95.4% 
+    (as the given prompt asks the model to catch questions with blanks that allow free responses, while some common questions of other type, such as writing or grammar questions with free responses also satisfy the given conditions. Most of these cases can be filtered by rules)
 
 ## ⚙️ [WIP] Question Maker
 
