@@ -1,8 +1,324 @@
+# For MCQ Questions:
 related_question_demo:
   variables: ["num_question_sets", "num_questions", "question_type", "question_set"]
   template: |
-    You are a Chinese middle schoold English exam question generator. 
+    You are a Chinese middle school English exam question generator. 
     Please provide {{ num_question_sets }} question set(s) with {{ num_questions }} question(s) each.
 
     The student is looking for questions of type {{ question_type }} with the similar test points of the following question set:
     {{ question_set }}
+
+# For General Questions:
+system:
+  template: |
+    You are a Chinese middle school English exam question generator. User will provide you with a question set, and you will generate a new question set of the same question type with the similar test points. 
+
+query_head_stable:
+  variables: ["question_set"]
+  template: |
+    Now, please generate a new question set with the same question type and similar test points based on the following question set:
+    {{ question_set }}
+
+query_head_experimental:
+  variables: ["question_set"]
+  template: |
+    input:
+    {{ question_set }}
+    output:
+
+# (TO CHECK) Stacking too many history might be problematic
+dedup_history:
+  variables: ["history"]
+  template: |
+    Note that the following question sets has been generated before:
+    {{ history }}
+    ---
+
+question_maker_prompt:
+  variables: ["system", "dedup_history", "few_shots", "query_head"]
+  template: |
+    {{ system }}
+    ---
+    {{ few_shots }}
+    ---
+    {{ query_head }}
+    {{ dedup_history }}
+    
+
+# For Reading-Comprehension-With-Multiple-Choices
+few_shots_rc_mcq:
+  variable: ["example1", "response1", "example2", "response2"]
+  template: |
+    Here are some examples of the input and output pairs:
+    ---
+    input: 
+    {{ example1 }}
+    output:
+    {{ response1 }}
+    ---
+    input:
+    {{ example2 }}
+    output:
+    {{ response2 }}
+  example1: |
+    {
+      "type": "Reading-Comprehension-With-Multiple-Choices",
+      "context": "\"Who did this?\"asked my teacher. Thirty children tried to think about not only what they had done, but also what our teacher might have found out.\n\"Who did this?\"she asked again. She wasn't really asking, she was demanding an answer. She never became angry, but she was this time. She held up a piece of broken glass and asked, \"Who broke this window?\"\n\"Oh, oh,\"I thought. I was the one who broke the window. I did not do it on purpose. It was caused by a bad throw of a baseball. Why did it have to be me?\nIf I admitted it, I would be in a lot of trouble. How would I be able to pay for a big window like that? \"My father is going to get mad at me,\"I thought. I didn't want to raise my hand, but some force much stronger than me pulled it up. \"I did it.\"Then I was silent. It was hard enough saying what I had.\nMy teacher went to one of our library shelves and took down a book. She then began walking towards my desk. I had never known my teacher to strike a student, but I feared she was going to start with me.\n\"I know how you like birds, Henry.\"She said as she stood looking down at my face. \"Here is that field guide about birds that you are always checking out. It is yours. We got a new one for the school anyway. You will not be punished. But remember, it's only for your truthfulness.\"\nI couldn't believe it! I wasn't being punished and I was getting my very own bird field guide. The very one that I had been saving up all my money to buy.",
+      "questions": [
+        {
+          "text": "The teacher wanted to find out <blank>.",
+          "choices": {
+            "A": "who broke the window just now",
+            "B": "who likes birds best in the class",
+            "C": "who stole a book from the library",
+            "D": "who played baseball in the classroom"
+          },
+          "answer": "A",
+          "is_answer_provided": true,
+          "explanation": "The teacher held up a piece of broken glass and asked, \"Who broke this window?\"",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "Henry didn't admit it at first because he thought <blank>.",
+          "choices": {
+            "A": "his teacher would take his baseball away",
+            "B": "his father would never give him money",
+            "C": "his father would be very angry with him",
+            "D": "his teacher would strike him in class"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "He thought, \"My father is going to get mad at me\".",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "What did the teacher do to Henry at last?",
+          "choices": {
+            "A": "Telephoned his father.",
+            "B": "Gave him a book.",
+            "C": "Bought a new window.",
+            "D": "Punished him."
+          },
+          "answer": "B",
+          "is_answer_provided": true,
+          "explanation": "The teacher gave him a bird field guide.",
+          "test_point": "Reading Comprehension; Summarization"
+        },
+        {
+          "text": "From the story, we know that Henry is <blank>.",
+          "choices": {
+            "A": "serious",
+            "B": "clever",
+            "C": "quiet",
+            "D": "honest"
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "He admitted that he broke the window at last.",
+          "test_point": "Reading Comprehension; Character Analysis"
+        }
+      ]
+    }
+  response1: |
+    {
+      "type": "Reading-Comprehension-With-Multiple-Choices",
+      "context": "\nIt was the first day of the new school year, and I was feeling both excited and nervous. I had spent the whole summer reading books, hoping to impress my new English teacher. When she walked into the classroom, she smiled warmly and asked, \"Who here enjoys reading?\"\nA few students raised their hands slowly. I hesitated, then lifted mine too.\n\"Great,\" she said. \"I want each of you to recommend a book to the class by next week.\"\nThat evening, I carefully picked out my favorite book and wrote a short summary of why I loved it. When the day came to share, I was shaking as I stood in front of the class.\n\"This book made me feel brave,\" I said, holding up the cover.\nWhen I sat down, the teacher gave me a thumbs-up. Later, she gave me a note that said, \"You inspired others today. Keep reading.\"\nI kept that note in my pencil box all year.\n",
+      "questions": [
+        {
+          "text": "What was the teacher's purpose in asking who enjoyed reading?",
+          "choices": {
+            "A": "To give out free books.",
+            "B": "To assign summer homework.",
+            "C": "To learn about students' interests.",
+            "D": "To check who read the most books."
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "She asked the question to engage students and understand who likes reading.",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "The student felt nervous before speaking because <blank>.",
+          "choices": {
+            "A": "they hadn't read any books.",
+            "B": "they were afraid of being laughed at.",
+            "C": "they wanted to impress the class.",
+            "D": "the classroom was too noisy."
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "The student was shaking and felt nervous, indicating fear of judgment.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "What did the teacher do after the student shared their book?",
+          "choices": {
+            "A": "Asked them to write a longer report",
+            "B": "Gave them a small reward",
+            "C": "Ignored their effort",
+            "D": "Criticized their choice"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "She gave the student a note saying they inspired others, which is a form of positive reinforcement.",
+          "test_point": "Reading Comprehension; Summarization"
+        },
+        {
+          "text": "What kind of person is the student most likely to be?",
+          "choices": {
+            "A": "Confident and bold",
+            "B": "Lazy and careless",
+            "C": "Thoughtful and brave",
+            "D": "Quiet and shy"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "The student was nervous but chose to speak up and inspire others.",
+          "test_point": "Reading Comprehension; Character Analysis"
+        }
+      ]
+    }
+  example2: |
+    {
+      "type": "Reading-Comprehension-With-Multiple-Choices",
+      "context": "One day little Mike's mother went to the river to do some washing. Before she left, she said to him, \"Mike, while I am away, stay near the door and watch it all the time!\" She said this because she was afraid of the thieves.\nMike sat down beside the door. After an hour, one of his uncles came. He asked Mike,\"Where is your mother?\"\"She has gone to the river to do some washing,\"Mike answered.\"Well,\"said his uncle,\"now it is a quarte -r to two.Three hours later we are going to visit your family.Go and tel -l her about it, for I'm too busy. I have to hurry….\"\nAfter his uncle had gone away, Mike began to think: Mother had asked me to watch the door all the time and my uncle told me to go and tell my mother.\n\"What shall I do?\"he thought and thought.Finally he pulled down the door, put it on his back and went to the river with it.",
+      "questions": [
+        {
+          "text": "What did Mike's mother ask him to do while she was away?",
+          "choices": {
+            "A": "To wait for her.",
+            "B": "To watch the house.",
+            "C": "To look after the door.",
+            "D": "To wait for his uncle."
+          },
+          "answer": "B",
+          "is_answer_provided": true,
+          "explanation": "Mike's mother asked him to 'stay near the door and watch it all the time', which means to watch the house.",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "How many uncles did Mike have?",
+          "choices": {
+            "A": "One.",
+            "B": "Two.",
+            "C": "Three.",
+            "D": "We don't know."
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "The passage mentions 'one of his uncles' but does not provide information about other uncles.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "What time did Mike's mother go to the river?",
+          "choices": {
+            "A": "1∶15.",
+            "B": "2∶15.",
+            "C": "12∶45.",
+            "D": "1∶45."
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "The uncle came after an hour, and it was 1:45 when the uncle came. Therefore, the mother went to the river at 12:45.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "When would Mike's uncle come to see them?",
+          "choices": {
+            "A": "In the evening.",
+            "B": "In the morning.",
+            "C": "In the afternoon.",
+            "D": "At night."
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "The uncle said, 'now it is a quarter to two. Three hours later we are going to visit your family'. So it's in the afternoon.",
+          "test_point": "Reading Comprehension; Reference Words"
+        },
+        {
+          "text": "What should Mike do?",
+          "choices": {
+            "A": "He should lock the door before he went to the river.",
+            "B": "He should ask his uncle to tell his mother.",
+            "C": "He should go to the river with the door.",
+            "D": "He should make a telephone call to his mother."
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "Based on the context, the most reasonable option would be to lock the door before leaving to deliver the message, so option A is the most appropriate answer.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        }
+      ]
+    }
+  response2: |
+    {
+      "type": "Reading-Comprehension-With-Multiple-Choices",
+      "context": "\nEmma’s parents were going to a neighbor’s wedding and told her to take care of the house.\n“Don’t forget to feed the dog at 6 o’clock,” her father said.\nHer mother added, “And make sure the flowers don’t get too much sun.”\nEmma nodded seriously. “I’ll take care of everything,” she promised.\n\nAt 5:30, she gave the dog a full bowl of food and sat down to read a book. After a while, she looked out the window and noticed the sun shining brightly on her mother’s garden.\nShe remembered what her mother had said. “Too much sun is bad for the flowers,” she thought.\nSo Emma picked up the large beach umbrella from the backyard, opened it, and carefully placed it over the garden.\nThen, just to be safe, she also put her little brother’s toy tent over the smaller flowerpots.\n\nWhen her parents came back, they saw a garden covered in shade like a campsite.\nHer mother laughed, “Well, the flowers sure didn’t get too much sun!”\n",
+      "questions": [
+        {
+          "text": "What did Emma promise her parents before they left?",
+          "choices": {
+            "A": "To clean the kitchen.",
+            "B": "To go to the wedding with them.",
+            "C": "To take care of the house.",
+            "D": "To water the flowers."
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "She promised to take care of the house while her parents were away.",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "Why did Emma cover the garden with an umbrella?",
+          "choices": {
+            "A": "She wanted to play in the garden.",
+            "B": "She misunderstood her mother’s instructions.",
+            "C": "It started raining.",
+            "D": "She thought it would make the flowers grow faster."
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "She thought 'don’t get too much sun' meant she had to block the sunlight entirely.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "What time did Emma feed the dog?",
+          "choices": {
+            "A": "At 6:00",
+            "B": "At 5:30",
+            "C": "At 4:30",
+            "D": "At 7:00"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "She fed the dog at 5:30, which was a little early.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "Who told Emma to make sure the flowers didn’t get too much sun?",
+          "choices": {
+            "A": "Her father",
+            "B": "Her neighbor",
+            "C": "Her teacher",
+            "D": "Her mother"
+          },
+          "answer": "D",
+          "is_answer_provided": false,
+          "explanation": "Her mother asked her to make sure the flowers didn’t get too much sun.",
+          "test_point": "Reading Comprehension; Reference Words"
+        },
+        {
+          "text": "What should Emma have done instead of using an umbrella?",
+          "choices": {
+            "A": "Moved the flowers into the house.",
+            "B": "Put a hat on each flower.",
+            "C": "Checked on the flowers later in the day.",
+            "D": "Watered the flowers immediately."
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "She should have monitored the sunlight instead of blocking it completely.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        }
+      ]
+    }

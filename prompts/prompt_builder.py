@@ -1,6 +1,7 @@
 import yaml
 from jinja2 import Template, Environment, Undefined
 import os
+import re
 
 import logging
 
@@ -46,9 +47,10 @@ class PromptBuilder:
         for k, v in value.items():
             if k == "template":
                 continue
-            kwargs[k] = v
-        env = Environment(undefined=Undefined)
-        value["template"] = env.from_string(template).render(**kwargs)
+            # kwargs[k] = v
+            value["template"] = re.sub("{{ " + k + " }}", str(v), template)
+        # env = Environment(undefined=Undefined)
+        # value["template"] = env.from_string(template).render(**kwargs)
         return value
 
     def refresh_prompt_templates(self):
