@@ -322,3 +322,1447 @@ few_shots_rc_mcq:
         }
       ]
     }
+
+# For Reading-Comprehension-With-True-or-False
+few_shots_rc_tf:
+  variable: ["example1", "response1", "example2", "response2"]
+  template: |
+    Here are some examples of the input and output pairs:
+    ---
+    input: 
+    {{ example1 }}
+    output:
+    {{ response1 }}
+    ---
+    input:
+    {{ example2 }}
+    output:
+    {{ response2 }}
+  example1: |
+    {
+      "type": "Reading-Comprehension-With-True-or-False",
+      "context": "Imagine the year is 1666 and we can see a student called Isaac Newton. He's away from his university for a holiday and at home with his family. Isaac Newton continues to study at home. He enjoys physics and thinking about the mysteries of the world.\nOn a day when there is rain and sun at the same time he sees a beautiful rainbow in the sky. It has many different colours, he is told that there are five. Newton wants to have his own rainbow because he wants to look at it closely. He decides to do an experiment. On a sunny day he goes inside a small room and he makes the room very dark. Then he makes a small hole and the sun comes inside, it's a small ray of light. It's white. Newton takes a prism and holds it up to the light. The ray of light goes through the prism, but it isn't white now - there are many colours. The prism has split up the white light into different colours: Newton has a rainbow.\nNewton looks at his rainbow carefully. He can see more than five colours, he can see seven. He says the colours are: red, orange, yellow, green, blue, indigo and violet.\nBut Newton is a scientist and he's always very interested in how things work. He has his rainbow but he wants to know more. So he takes another prism and holds it up to the rainbow. The rainbow goes through the second prism, but it isn't colourful now - it's white again. The prism has joined up the colours back into white light. Newton is the first person to understand that light is a combination of all the rainbow colours together.\nNewton also understands how we can see colour. Imagine a leaf in the sunshine. All the rainbow colours fall on the leaf but it absorbs all these colours. The only colour that is reflected is green, so the leaf looks green. Different objects reflect different colours. And perhaps Newton's favourite fruit is an orange - but what came first, the name of the fruit or the name of the colour?\n",
+      "questions": [
+        {
+          "text": "In 1666 Isaac Newton was a university student learning physics.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": true,
+          "explanation": "The passage states that in 1666 Isaac Newton was a student away from his university, implying he was a university student.",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        },
+        {
+          "text": "Newton was told that there were five colours in a rainbow and he believed it.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": true,
+          "explanation": "Newton did not believe it. He wanted to check himself.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "Newton used a prism(棱镜)to split up the white light from the sun.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": true,
+          "explanation": "The passage describes Newton using a prism to split white light into different colors.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "Newton understood that light was a combination(复合)of all the rainbow colours together.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": true,
+          "explanation": "Newton used another prism to join the rainbow colors back into white light.",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "The great man's favourite colour was orange because he liked orange fruit.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": true,
+          "explanation": "The passage only speculates about this, but there is no evidence to support this statement.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        }
+      ]
+    }
+  response1: |
+    {
+      "type": "Reading-Comprehension-With-True-or-False",
+      "context": "In the year 1879, a boy named Albert Einstein was born in Germany. As a child, Albert was quiet and curious. He didn't speak very much until he was three years old, and some people thought something might be wrong. But Albert was always thinking. He loved puzzles and spent a lot of time alone, reading books and building things.\n\nOne day, his father gave him a small magnetic compass. Albert noticed that the needle always pointed in the same direction, no matter which way he turned it. He asked, “Why does it do that?” That simple question stayed with him for years. He wanted to understand the forces behind it.\n\nAs he grew older, Albert asked more and more questions. In school, he wasn’t always the best student, but he was deeply interested in math and science. He often asked questions that even his teachers couldn’t answer.\n\nLater in life, Einstein developed a theory called relativity. One of its ideas is that time and space are connected, and that time can actually move slower or faster depending on how fast something is moving. This was very different from what people believed at the time, but Einstein used logic, mathematics, and imagination to prove it.\n\nToday, Einstein is one of the most famous scientists in history. But it all started with a little boy, a simple compass, and a big question.\n",
+      "questions": [
+        {
+          "text": "Albert Einstein was very talkative as a small child.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The passage says Einstein didn’t speak very much until he was three years old.",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        },
+        {
+          "text": "The compass Albert received helped him become interested in science.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The compass made him wonder about invisible forces, which inspired his curiosity.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        },
+        {
+          "text": "Einstein's teachers could always answer his questions in school.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The passage says he asked questions that even his teachers couldn’t answer.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "Einstein’s theory of relativity changed how people understood time and space.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "His theory said that time and space are connected and can change with motion.",
+          "test_point": "Reading Comprehension; Main Idea Identification"
+        },
+        {
+          "text": "Einstein became famous because he spoke many languages.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The passage does not mention language skills; he became famous for his scientific work.",
+          "test_point": "Reading Comprehension; Inference Skills"
+        }
+      ]
+    }
+  example2: |
+    {
+      "type": "Reading-Comprehension-With-True-or-False",
+      "context": "Baseball is a very popular sport in the United States. Many people enjoy the game. It is sometimes called \"the most popular game\" in the United States. Many Americans think that it is the national sport.\nBaseball is played between two teams of nine men each. Different men have different jobs when the team is on the field. Each team must try to score more points than the other team. A point is scored when one man hits the ball and then runs around the playing field to each of the four bases.\n\nThe men who play baseball must do two things well. First, they must hit the ball when it is their turn. If they can hit the ball well, they can help their team to win the game. Second, they must catch and throw the ball well. When their team is on the field, they can keep the other team from winning. These are the two abilities that a baseball player must have.\n\nOf course, there are some good things about baseball. You don't have to be very intelligent to play baseball or to watch it. You can easily understand what is happening on the field. Many Americans enjoy going to a baseball game during the summer months. The weather is warm and it is usually pleasant to sit outside for a few hours and watch a game. Baseball games don't usually cost much money. You can go to a baseball game for a very small amount of money, and still have a very good time.\n",
+      "questions": [
+        {
+          "text": "Baseball is called the most popular game in the USA.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The text states: 'It is sometimes called \"the most popular game\" in the United States.'",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        },
+        {
+          "text": "Each baseball team has eleven players.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The text states: 'Baseball is played between two teams of nine men each.'",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "A good player can both hit the ball well and catch and throw the ball well.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The text says players must be able to hit the ball and catch and throw the ball well.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "The players have to be very clever to play baseball.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The text says you don't have to be very intelligent to play or watch baseball.",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        },
+        {
+          "text": "Baseball tickets aren't very expensive and many Americans like to watch baseball games.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The passage says baseball games don't usually cost much and that many Americans enjoy attending them.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        }
+      ]
+    }
+  response2: |
+    {
+      "type": "Reading-Comprehension-With-True-or-False",
+      "context": "Ice cream is one of the most popular desserts around the world. It is cold, sweet, and comes in many different flavors like chocolate, vanilla, and strawberry. Most people enjoy eating ice cream in the summer when the weather is hot. It helps them feel cool and refreshed.\n\nIce cream is made by mixing milk, cream, sugar, and flavoring. Then it is frozen while being stirred so that it becomes smooth and creamy. Some people add toppings like nuts, fruit, or chocolate syrup to make it taste even better.\n\nAlthough ice cream is often eaten in summer, many people enjoy it all year round. In fact, some people even eat ice cream in winter! Eating ice cream is fun and relaxing. You don’t need to know much to enjoy it—just pick your favorite flavor and enjoy a cold bite.\n\nIce cream shops can be found in almost every town. Some are small family businesses, while others are part of large chains. Either way, they bring joy to people of all ages.\n",
+      "questions": [
+        {
+          "text": "Ice cream is usually eaten in hot weather.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The text says most people enjoy eating ice cream in the summer when it’s hot.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "You have to be an expert to enjoy eating ice cream.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The text says you don’t need to know much to enjoy ice cream.",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        },
+        {
+          "text": "Ice cream can only be eaten with fruit toppings.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The text says people add various toppings like nuts, fruit, or chocolate syrup.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "Ice cream shops can only be found in big cities.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "F",
+          "is_answer_provided": false,
+          "explanation": "The text says they can be found in almost every town.",
+          "test_point": "Reading Comprehension; Supporting Details"
+        },
+        {
+          "text": "Eating ice cream is described as fun and relaxing in the passage.",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "T",
+          "is_answer_provided": false,
+          "explanation": "The text directly describes eating ice cream as fun and relaxing.",
+          "test_point": "Reading Comprehension; Fact vs. Opinion"
+        }
+      ]
+    }
+
+# For Cloze-With-Multiple-Choices
+few_shots_cloze_mc:
+  variable: ["example1", "response1", "example2", "response2"]
+  template: |
+    Here are some examples of the input and output pairs:
+    ---
+    input: 
+    {{ example1 }}
+    output:
+    {{ response1 }}
+    ---
+    input:
+    {{ example2 }}
+    output:
+    {{ response2 }}
+  example1: |
+    {
+      "type": "Cloze-With-Multiple-Choices",
+      "context": "\nTim is twenty-six years old, and he <blank text=1> a fire fighter for five years. He <blank text=2> married (结婚) a year ago. His wife Nora worries that he may be hurt or even <blank text=3>. But Tim isn't going to quit (放弃) his <blank text=4>. He's proud of <blank text=5> and his service (贡献). He always says that the job isn't dangerous as long as he can <blank text=6> in good physical condition (身体状况). He does <blank text=7> every day to stay <blank text=8>.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "is",
+            "B": "was",
+            "C": "has been",
+            "D": "had been"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "The present perfect continuous tense 'has been' is used to indicate that he started being a firefighter five years ago and is still a firefighter.",
+          "test_point": "Verb Tenses; Present Perfect Continuous"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "get",
+            "B": "got",
+            "C": "has",
+            "D": "had"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "\"Got\" means became. He became married a year ago.",
+          "test_point": "Verb Tenses; Simple Past"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "die",
+            "B": "dead",
+            "C": "killed",
+            "D": "kill"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "Die is correct because it represents the verb to express the state of death.",
+          "test_point": "Contextual Vocabulary; Word Formation"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "fighter",
+            "B": "idea",
+            "C": "thing",
+            "D": "job"
+          },
+          "answer": "D",
+          "is_answer_provided": false,
+          "explanation": "The best fit is 'job'. The context is about the role of firefighter.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "he",
+            "B": "his",
+            "C": "himself",
+            "D": "herself"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "\"Himself\" is the reflexive pronoun.",
+          "test_point": "Pronouns; Reflexive Pronouns"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "stay",
+            "B": "become",
+            "C": "keep",
+            "D": "stand"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "\"Stay\" matches with the rest of the sentence.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "homework",
+            "B": "housework",
+            "C": "work",
+            "D": "exercises"
+          },
+          "answer": "D",
+          "is_answer_provided": false,
+          "explanation": "To keep in good physical condition, the best answer is 'exercise'.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "big",
+            "B": "strong",
+            "C": "light",
+            "D": "tall"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "The best fit is 'strong', as he has to stay strong.",
+          "test_point": "Contextual Vocabulary"
+        }
+      ]
+    }
+  response1: |
+    {
+      "type": "Cloze-With-Multiple-Choices",
+      "context": "\nLinda is a nurse. She <blank text=1> in a children's hospital for over six years. She <blank text=2> a nurse because she loves helping others. Last week, she <blank text=3> a little girl who had fallen off her bike. Linda cleaned the wound, gave her water, and called the girl's parents. The girl's mother said, \"Thank you so much!\" Linda smiled and said, \"Just doing my <blank text=4>.\" Linda always tells <blank text=5> that every patient deserves the best care. She exercises daily to <blank text=6> healthy and strong. She also reads medical books and does <blank text=7> to keep her skills sharp. Her coworkers all say she is very <blank text=8>.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "works",
+            "B": "worked",
+            "C": "has worked",
+            "D": "was working"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "'Has worked' is the present perfect, used for actions that started in the past and continue to the present.",
+          "test_point": "Verb Tenses; Present Perfect"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "becomes",
+            "B": "became",
+            "C": "has become",
+            "D": "had become"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Became' is the correct past tense form, fitting the narrative tone.",
+          "test_point": "Verb Tenses; Simple Past"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "helps",
+            "B": "helped",
+            "C": "was helping",
+            "D": "helps with"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Helped' is simple past to match 'last week'.",
+          "test_point": "Verb Tenses; Simple Past"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "job",
+            "B": "goal",
+            "C": "habit",
+            "D": "dream"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "'Job' best fits the expression 'just doing my job' in this context.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "herself",
+            "B": "her",
+            "C": "she",
+            "D": "themself"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "'Herself' is the reflexive pronoun referring to Linda.",
+          "test_point": "Pronouns; Reflexive Pronouns"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "be",
+            "B": "stay",
+            "C": "keep",
+            "D": "grow"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Stay healthy' is a common collocation, and fits best here.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "homework",
+            "B": "training",
+            "C": "projects",
+            "D": "reviews"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Training' fits the medical context and refers to skill improvement.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "careful",
+            "B": "helpful",
+            "C": "smart",
+            "D": "brave"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Helpful' fits best, given her coworkers' positive view of her assistance.",
+          "test_point": "Contextual Vocabulary"
+        }
+      ]
+    }
+  example2: |
+    {
+      "type": "Cloze-With-Multiple-Choices",
+      "context": "\nSARS(非典)has brought us much trouble. However, everything has <blank text=1> sides. One side of SARS is <blank text=2> clear. It is serious and over 300 people in China have died of it. But the other side is more important. SARS makes people realize(认识)that life is valuable (有价值的). Once in April , Wang Xinying, a student in Taiyuan, traveled on the same bus with a sick man who might have SARS, <blank text=3> he had to stay at home for <blank text=4> two weeks. \"I'm going to treasure my life every day,\" he said. SARS teaches people to be thankful. Many doctors and nurses <blank text=5> all their time with people who have SARS, and <blank text=6> of them have lost their lives. Another student says he wants to be a <blank text=7> when he grows up. \"Though they know their job is <blank text=8>, doctors and nurses are trying their best to <blank text=9> people's lives. We must <blank text=10> them,\" he said. SARS also <blank text=11> people to understand the trouble of others. The past few months have been <blank text=12> for Chinese people. But there are some other worse things than SARS in the world, such as war and so on. Think of how the <blank text=13> felt on Sept. 11, 2001. Besides, SARS makes people in different countries join together <blank text=14> this special war until they <blank text=15> in the end.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "four",
+            "B": "three",
+            "C": "five",
+            "D": "two"
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "The sentence implies that everything has two sides, a positive and a negative.",
+          "test_point": "Contextual Vocabulary; Logical Connectors"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "ever",
+            "B": "still",
+            "C": "already",
+            "D": "always"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "'Already' emphasizes that one side of SARS is obviously clear.",
+          "test_point": "Adverbs; Emphasis"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "so",
+            "B": "since",
+            "C": "or",
+            "D": "as"
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "'As' indicates the result or consequence of traveling on the bus with a sick man.",
+          "test_point": "Conjunctions; Cause & Effect"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "at first",
+            "B": "at once",
+            "C": "at last",
+            "D": "at least"
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "'At least' means 'a minimum of' and is suitable in the context of a quarantine period.",
+          "test_point": "Fixed Expressions; Quantifiers"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "spend",
+            "B": "cost",
+            "C": "waste",
+            "D": "forget"
+          },
+          "answer": "A",
+          "is_answer_provided": true,
+          "explanation": "'Spend' refers to how doctors and nurses use their time to care for patients.",
+          "test_point": "Vocabulary; Usage"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "none",
+            "B": "all",
+            "C": "some",
+            "D": "few"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "'Some' suggests that a portion of doctors and nurses have unfortunately lost their lives.",
+          "test_point": "Determiners; Quantifiers"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "driver",
+            "B": "teacher",
+            "C": "doctor",
+            "D": "waiter"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "Considering the context, a student wanting to save people's lives would likely aspire to be a doctor.",
+          "test_point": "Contextual Vocabulary; Inference Skills"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "safe",
+            "B": "dangerous",
+            "C": "favorite",
+            "D": "famous"
+          },
+          "answer": "B",
+          "is_answer_provided": true,
+          "explanation": "'Dangerous' is the most fitting adjective to describe the nature of the job in this scenario.",
+          "test_point": "Adjectives; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "pull",
+            "B": "leave",
+            "C": "save",
+            "D": "love"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "The best way to support people's lives is to try to 'save' them.",
+          "test_point": "Vocabulary; Action Verbs"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "learn from",
+            "B": "listen to",
+            "C": "look after",
+            "D": "agree with"
+          },
+          "answer": "A",
+          "is_answer_provided": true,
+          "explanation": "The context emphasizes the respect and acknowledgement they deserve, so we should 'learn from' their actions.",
+          "test_point": "Phrasal Verbs; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "wishes",
+            "B": "teaches",
+            "C": "asks",
+            "D": "wants"
+          },
+          "answer": "B",
+          "is_answer_provided": true,
+          "explanation": "SARS 'teaches' or allows people to understand the hardship of others.",
+          "test_point": "Vocabulary; Figurative Language"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "popular",
+            "B": "healthy",
+            "C": "happy",
+            "D": "terrible"
+          },
+          "answer": "D",
+          "is_answer_provided": true,
+          "explanation": "'Terrible' is appropriate to define how the past few months have been for Chinese people due to SARS.",
+          "test_point": "Adjectives; Tone & Attitude"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "French",
+            "B": "Japanese",
+            "C": "Americans",
+            "D": "Russians"
+          },
+          "answer": "C",
+          "is_answer_provided": true,
+          "explanation": "The context refers to the events of September 11, 2001, which greatly affected the 'Americans'.",
+          "test_point": "Historical Context; Cultural References"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "with",
+            "B": "in",
+            "C": "after",
+            "D": "before"
+          },
+          "answer": "B",
+          "is_answer_provided": true,
+          "explanation": "'In' suggests they joined together 'in' this war.",
+          "test_point": "Prepositions; Collaboration"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "win",
+            "B": "fail",
+            "C": "hurt",
+            "D": "lose"
+          },
+          "answer": "A",
+          "is_answer_provided": true,
+          "explanation": "The sentence hopes for international collaboration until they ultimately 'win'.",
+          "test_point": "Antonyms; Hope"
+        }
+      ]
+    }
+  response2: |
+    {
+      "type": "Cloze-With-Multiple-Choices",
+      "context": "\nLast month, a strong earthquake hit a small town in the west of China. Many houses fell down, and some people were <blank text=1> inside. When the rescue teams arrived, they worked day and night to <blank text=2> survivors from the ruins. Everyone was trying to help — some brought food, others gave <blank text=3> or water.\n\nOne young man named Liu Wei became a local hero. He was a college student who had come home for the holidays. After the earthquake, he volunteered to help because he wanted to do something <blank text=4>. He carried heavy materials, helped set up tents, and talked to children to keep them <blank text=5>.\n\nLiu said, “This experience has made me think about what's really important in life. I used to worry a lot about my grades, but now I want to use my knowledge to <blank text=6> people.”\n\nNatural disasters often bring sadness, but they also remind us to be <blank text=7> for every day we are safe. They show us how people can come together and support each other in times of <blank text=8>. Even though the earthquake caused great <blank text=9>, it also taught the town a lesson about love and <blank text=10>.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "buried",
+            "B": "broken",
+            "C": "trapped",
+            "D": "hurt"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "'Trapped' fits best in the context of people being stuck in collapsed buildings.",
+          "test_point": "Contextual Vocabulary; Disaster Scenarios"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "search",
+            "B": "lift",
+            "C": "guide",
+            "D": "rescue"
+          },
+          "answer": "D",
+          "is_answer_provided": false,
+          "explanation": "'Rescue' is the appropriate verb to describe saving people from danger.",
+          "test_point": "Vocabulary; Action Verbs"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "medicine",
+            "B": "shelter",
+            "C": "blankets",
+            "D": "shoes"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "'Medicine' makes the most sense as one of the essential needs after a disaster.",
+          "test_point": "Contextual Vocabulary; Emergency Supplies"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "useful",
+            "B": "brave",
+            "C": "easy",
+            "D": "special"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "He volunteered because he wanted to be 'useful'.",
+          "test_point": "Adjectives; Inference from Motivation"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "busy",
+            "B": "strong",
+            "C": "safe",
+            "D": "quiet"
+          },
+          "answer": "C",
+          "is_answer_provided": false,
+          "explanation": "He comforted children to help them feel 'safe' after the trauma.",
+          "test_point": "Vocabulary; Emotional Context"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "teach",
+            "B": "help",
+            "C": "protect",
+            "D": "respect"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'Help people' is the clear goal he expresses after his change in mindset.",
+          "test_point": "Action Verbs; Purpose"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "thankful",
+            "B": "hopeful",
+            "C": "careful",
+            "D": "joyful"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "The lesson is about being 'thankful' for safety and life.",
+          "test_point": "Adjectives; Emotional Reflection"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "pain",
+            "B": "need",
+            "C": "surprise",
+            "D": "change"
+          },
+          "answer": "B",
+          "is_answer_provided": false,
+          "explanation": "'In times of need' is a common phrase that fits this supportive situation.",
+          "test_point": "Fixed Expressions; Contextual Usage"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "damage",
+            "B": "trouble",
+            "C": "loss",
+            "D": "conflict"
+          },
+          "answer": "A",
+          "is_answer_provided": false,
+          "explanation": "An earthquake causes 'damage' to buildings and infrastructure.",
+          "test_point": "Vocabulary; Natural Disaster Consequences"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "bravery",
+            "B": "peace",
+            "C": "community",
+            "D": "kindness"
+          },
+          "answer": "D",
+          "is_answer_provided": false,
+          "explanation": "'Kindness' is the key value the story highlights through people’s actions.",
+          "test_point": "Vocabulary; Moral Themes"
+        }
+      ]
+    }
+
+few_shots_cloze_fr:
+  variable: ["example1", "response1", "example2", "response2"]
+  template: |
+    Here are some examples of the input and output pairs:
+    ---
+    input: 
+    {{ example1 }}
+    output:
+    {{ response1 }}
+    ---
+    input:
+    {{ example2 }}
+    output:
+    {{ response2 }}
+  example1: |
+    {
+      "type": "Cloze-With-Free-Responses",
+      "context": "\nThis is a true story. It happened to a friend of <blank text=1> a year ago. While my friend, George, was reading in bed, two thieves (小偷) climbed into his another room. It was very <blank text=2>, so they turned on the light. Suddenly they <blank text=3> a voice behind them. \"What's up?\" \"What's up?\" someone <blank text=4>. The thieves <blank text=5> the light and <blank text=6> as quickly as they could. George heard the <blank text=7> and came downstairs quickly. He turned on the light, <blank text=8> he couldn't see anyone. The <blank text=9> were already gone. But George's parrot (鹦鹉), Henry, was still there.\"What's up, George?\" he called. \"Nothing, <blank text=10>,\" George said and smiled. \"Go back to sleep.\"\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "mine",
+          "is_answer_provided": false,
+          "explanation": "The friend is mine.",
+          "test_point": "Pronouns; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "dark",
+          "is_answer_provided": false,
+          "explanation": "It was dark, so they turned on the light.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "heard",
+          "is_answer_provided": false,
+          "explanation": "Hear a voice.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "called",
+          "is_answer_provided": false,
+          "explanation": "Called is better than other options.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "turned off",
+          "is_answer_provided": false,
+          "explanation": "Turn off the light.",
+          "test_point": "Phrasal Verbs"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "ran away",
+          "is_answer_provided": false,
+          "explanation": "ran away is better than ran.",
+          "test_point": "Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "noise",
+          "is_answer_provided": false,
+          "explanation": "noise is better than sound.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "but",
+          "is_answer_provided": false,
+          "explanation": "but express the contrast.",
+          "test_point": "Logical Connectors"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "thieves",
+          "is_answer_provided": false,
+          "explanation": "Thieves were already gone.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "Henry",
+          "is_answer_provided": false,
+          "explanation": "George is talking to Henry.",
+          "test_point": "Contextual Vocabulary"
+        }
+      ]
+    }
+  response1: |
+    {
+      "type": "Cloze-With-Free-Responses",
+      "context": "This is a story about my cousin Lisa. Last summer, she stayed at <blank text=1> grandparents’ house in the countryside. Every morning, she woke up early because it was very <blank text=2>. One morning, she <blank text=3> a strange sound coming from the kitchen. She quietly went downstairs and saw a squirrel trying to open a jar! \"Oh no!\" she <blank text=4>. She <blank text=5> the door gently and the squirrel <blank text=6> out through the window. Lisa laughed and told her grandparents about the <blank text=7>. They were surprised, <blank text=8> they were also proud of her. Later that day, her grandparents told their neighbors about how Lisa had scared away the <blank text=9>. Lisa said, \"Don’t worry, <blank text=10>. I’ll protect the kitchen next time too!\"\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "her",
+          "is_answer_provided": false,
+          "explanation": "Refers to Lisa’s grandparents; use 'her' as a possessive adjective.",
+          "test_point": "Pronouns; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "bright",
+          "is_answer_provided": false,
+          "explanation": "‘Bright’ morning fits the context of waking up early.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "heard",
+          "is_answer_provided": false,
+          "explanation": "She heard a sound; ‘heard’ is the correct verb here.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "shouted",
+          "is_answer_provided": false,
+          "explanation": "‘Shouted’ expresses surprise, fits the tone better than ‘said’.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "opened",
+          "is_answer_provided": false,
+          "explanation": "She opened the door, matching a logical reaction to the event.",
+          "test_point": "Phrasal Verbs / Contextual Reasoning"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "ran away",
+          "is_answer_provided": false,
+          "explanation": "‘Ran away’ describes the squirrel’s sudden escape.",
+          "test_point": "Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "incident",
+          "is_answer_provided": false,
+          "explanation": "‘Incident’ fits better than words like ‘thing’ or ‘event’.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "but",
+          "is_answer_provided": false,
+          "explanation": "‘But’ shows contrast between surprise and pride.",
+          "test_point": "Logical Connectors"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "squirrel",
+          "is_answer_provided": false,
+          "explanation": "‘Squirrel’ matches the animal mentioned earlier.",
+          "test_point": "Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "Grandpa",
+          "is_answer_provided": false,
+          "explanation": "Lisa is speaking to her grandfather here.",
+          "test_point": "Contextual Vocabulary; Reference Understanding"
+        }
+      ]
+    }
+  example2: |
+    {
+      "type": "Cloze-With-Free-Responses",
+      "context": "\nLast week everyone was trying to <blank text=1> Jimmy the Bike Boy. But this week, Jimmy is happy again. On Monday he told a radio interviewer that he had <blank text=2> money to buy old bikes. He also <blank text=3> some signs asking for old bikes and his friends and told them about the problem. He even <blank text=4> advertisements at a local supermarket. Then he <blank text=5> the teachers at school <blank text=6> his problem and they <blank text=7> a call-in center for parents. The strategies that he <blank text=8> worked out fine. He now has sixteen bikes to <blank text=9> and <blank text=10> to children who don't have bikes.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "cheer up",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "run out of",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "put up",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "handed out",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "told",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Word Choice"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "about",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Prepositions"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "set up",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "came up with",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "fix up",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "give away",
+          "is_answer_provided": true,
+          "explanation": "",
+          "test_point": "Phrasal Verbs; Collocations"
+        }
+      ]
+    }
+  response2: |
+    {
+      "type": "Cloze-With-Free-Responses",
+      "context": "\nLast weekend, Leo decided to <blank text=1> something good for his community. He noticed that the park near his house had become dirty because people had <blank text=2> trash everywhere. So, he <blank text=3> a clean-up plan and <blank text=4> flyers around his neighborhood. He also <blank text=5> his classmates <blank text=6> the problem and invited them to join. On Saturday morning, they <blank text=7> at the park early with gloves and bags. The clean-up they <blank text=8> really made a difference. Now Leo plans to <blank text=9> posters to remind everyone to keep the park clean and <blank text=10> other kids to do the same in their areas.\n",
+      "questions": [
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "do",
+          "is_answer_provided": true,
+          "explanation": "‘Do something good’ is a common collocation.",
+          "test_point": "Collocations; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "thrown away",
+          "is_answer_provided": true,
+          "explanation": "‘Thrown away trash’ fits the context best.",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "came up with",
+          "is_answer_provided": true,
+          "explanation": "‘Came up with a plan’ is a natural phrasal verb usage.",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "put up",
+          "is_answer_provided": true,
+          "explanation": "‘Put up flyers’ is a common expression.",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "told",
+          "is_answer_provided": true,
+          "explanation": "‘Told his classmates’ is the most natural verb choice.",
+          "test_point": "Word Choice"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "about",
+          "is_answer_provided": true,
+          "explanation": "‘Tell someone about’ is a fixed collocation.",
+          "test_point": "Prepositions"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "showed up",
+          "is_answer_provided": true,
+          "explanation": "‘Showed up at the park’ means they arrived.",
+          "test_point": "Phrasal Verbs; Contextual Vocabulary"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "carried out",
+          "is_answer_provided": true,
+          "explanation": "‘Carried out the clean-up’ fits well.",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "put up",
+          "is_answer_provided": true,
+          "explanation": "‘Put up posters’ is commonly used for public notices.",
+          "test_point": "Phrasal Verbs; Collocations"
+        },
+        {
+          "text": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "encourage",
+          "is_answer_provided": true,
+          "explanation": "‘Encourage other kids’ is appropriate here.",
+          "test_point": "Contextual Vocabulary; Word Choice"
+        }
+      ]
+    }

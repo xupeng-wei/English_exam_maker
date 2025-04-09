@@ -48,6 +48,13 @@ def GeminiRequestWrapper(prompt: str, schema: Type[BaseModel], *args, **kwargs) 
         ret = None
     return ret
 
+_type_to_few_shots_map = {
+    QuestionType.MC_READING: "few_shots_rc_mcq",
+    QuestionType.TF_READING: "few_shots_rc_tf",
+    QuestionType.MC_CLOZE: "few_shots_cloze_mc",
+    QuestionType.FR_CLOZE: "few_shots_cloze_fr",
+}
+
 def GenerateRelatedQuestionByLLM(query: QuestionSet, num_question_sets: int = 1, num_questions: int = 1) -> Optional[Exam]:
     prompt_builder = PromptBuilder()
     if query.type == QuestionType.MCQ:
@@ -60,8 +67,8 @@ def GenerateRelatedQuestionByLLM(query: QuestionSet, num_question_sets: int = 1,
     
     system_prompt = prompt_builder.build("system")
     question_sets = []
-    if query.type == QuestionType.MC_READING:
-        few_shot_prompt = prompt_builder.build("few_shots_rc_mcq")
+    if query.type in _type_to_few_shots_map:
+        few_shot_prompt = prompt_builder.build(_type_to_few_shots_map[query.type])
         query_head = prompt_builder.build("query_head_stable", question_set=query.model_dump_json(indent=2))
         prompt = None
         for question_index in range(num_questions):

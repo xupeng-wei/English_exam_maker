@@ -54,6 +54,7 @@ class PromptBuilder:
         return value
 
     def refresh_prompt_templates(self):
+        updated_this_time = set()
         for file in os.listdir(self._prompt_path):
             if file.endswith(".yaml"):
                 with open(os.path.join(self._prompt_path, file), "r", encoding="utf-8") as f:
@@ -64,9 +65,10 @@ class PromptBuilder:
                     for key, value in prompt_configs.items():
                         original_key = key
                         suffix = 1
-                        while key in self._recipe:
+                        while key in updated_this_time:
                             logging.warning(f"Duplicate prompt name '{key}' found. Appending suffix to make it unique.")
                             key = f"{original_key}_{suffix}"
                             suffix += 1
-                        self._recipe[key] = self._fill_in_template_vars(value)   
+                        self._recipe[key] = self._fill_in_template_vars(value)
+                        updated_this_time.add(key)
         return self
