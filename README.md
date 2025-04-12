@@ -63,6 +63,20 @@ Split by question type:
 dataset = load_dataset("dry-melon/Chinese-middle-school-English-exam-questions", name="question_type")
 ```
 
+### Data Summary
+
+- 35,211 question sets in total.
+- By grade:
+  - Grade 7: 10,692
+  - Grade 8: 9,795
+  - Grade 9: 14,724
+- By question type:
+  - Multiple-Choice-Question: 30,478
+  - Reading-Comprehension-With-Multiple-Choices: 2,734
+  - Reading-Comprehension-With-True-or-False: 561
+  - Cloze-With-Multiple-Choices: 1,216
+  - Cloze-With-Free-Responses: 222
+
 ### Data Source
 
 http://shijuan.zww.cn 
@@ -80,23 +94,7 @@ https://www.trjlseng.com
   - PDF/doc/docx file formats  
   - Unstructured text content  
 
-### Data Processing
-
-#### Data Summary
-
-- 35,211 question sets in total.
-- By grade:
-  - Grade 7: 10,692
-  - Grade 8: 9,795
-  - Grade 9: 14,724
-- By question type:
-  - Multiple-Choice-Question: 30,478
-  - Reading-Comprehension-With-Multiple-Choices: 2,734
-  - Reading-Comprehension-With-True-or-False: 561
-  - Cloze-With-Multiple-Choices: 1,216
-  - Cloze-With-Free-Responses: 222
-
-#### Data Collection
+### Data Collection
 See sample code in `crawl` folder:
 
 1. **Blog Data Crawling**  
@@ -127,9 +125,9 @@ All the data up to this point are highly unstructured:
 - Some data contain materials irrelavent to our crawling target:
   - The main targeting question types include multiple choice questions, reading comprehension with multiple choices / True-or-False, cloze with multiple choices / free responses. However, raw materials may include questions of other types, such as listening comprehension, writing, and other novel types of questions that are rarely used in formal exams. Some articles mainly introduce strategies of solving problems and only with few examples.  
 
-#### Data Processing
+### Data Processing
 
-##### Objective Data Schema
+#### Objective Data Schema
 
 The objective of data processing is to extract all the questions of our interest types from raw materials, and parse them into a structured format, defined in `exam_schema/exam.py`.
 
@@ -148,7 +146,7 @@ A question consists of the following components:
 - explanation: string, the few-sentence reasoning steps of the answer
 - test_point: string, a few short phrases that explain the tested knowledge domain of the question
 
-#####  Convert the unstructured data to structured ones
+####  Convert the unstructured data to structured ones
 
 Both rule-based methods and LLM-based methods were used to extract questions of interest from raw materials
 
@@ -198,7 +196,7 @@ By grade:
 - Grade 8: 14,728 question sets
 - Grade 9:  20,715 question sets
 
-#####  Post-processing: filter the invalid data
+####  Post-processing: filter the invalid data
 
 What constitutes invalid data?
 
@@ -245,11 +243,11 @@ Method: rule-based post-processing
 
 ## ⚙️ [WIP] Question Maker
 
-### Offline Question Selector
+### Heuristic Question Selector
 
-`question_maker/offline.py`: randomly pick one or more question sets upon user's requests
+`question_maker/offline.py`: pick one or more question sets upon user's requests
 
-### Similar Question Maker
+### LLM Question Maker
 
 #### PromptBuilder
 
@@ -271,6 +269,8 @@ Currently `template` does not support nested variables.
 
 The prompt templates can be parsed by `PromptBuilder` implemented in `prompts/prompt_builder.py`, using jinja2 to build actual prompts.
 
-#### Prototype
+`question_maker/gemini.py` is an LLM question maker implemented by Python using gemini flash 2.0 API.
 
-`question_maker/gemini.py` is a prototype version of question maker, using gemini flash 2.0 API. Currently this part works pretty well for Multiple-Choice-Questions. Still working on other types of questions, and extracting prompt templates. 
+The prompt templates for LLM question maker can be found in `prompts/question_maker.yaml`. For Multiple-Choice-Question, the template uses a zero-shot prompt. For Reading-Comprehension-With-Multiple-Choices, Reading-Comprehension-With-True-or-False, Cloze-With-Multiple-Choices and Cloze-With-Free-Responses, the templates uses few-shot prompts, each with two examples. 
+
+To deduplicate the response, currently the template supports including previously generated questions in the prompt, while we would like to mention that this is not the only way to deduplicate questions. Tuning model temperature to generate more random questions, sampling among top K, etc., are all potentially feasible ways to achieve the goal, and we are keep exploring these possible strategies.
